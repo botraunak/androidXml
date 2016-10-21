@@ -1,0 +1,174 @@
+@Bind(R.id.musclePain) 
+protected CheckBox musclePain; 
+ 
+@Bind(R.id.bonePain) 
+protected CheckBox bonePain; 
+ 
+@Bind(R.id.backPain) 
+protected CheckBox backPain; 
+ 
+@Bind(R.id.paucity) 
+protected CheckBox paucity; 
+ 
+@Bind(R.id.painOnMovement) 
+protected CheckBox painOnMovement; 
+ 
+@Bind(R.id.jointPain) 
+protected CheckBox jointPain; 
+ 
+@Bind(R.id.jointSwelling) 
+protected CheckBox jointSwelling; 
+ 
+@Bind(R.id.jointInflam) 
+protected CheckBox jointInflam; 
+ 
+@Bind(R.id.poorMobility) 
+protected CheckBox poorMobility; 
+ 
+@Bind(R.id.jointDeformity) 
+protected CheckBox jointDeformity; 
+ 
+@Bind(R.id.jointDysfunction) 
+protected CheckBox jointDysfunction; 
+ 
+@Bind(R.id.curvedSpine) 
+protected CheckBox curvedSpine; 
+ 
+@Bind(R.id.diffWalking) 
+protected CheckBox diffWalking; 
+ 
+@Bind(R.id.arthritis) 
+protected CheckBox arthritis; 
+ 
+@Bind(R.id.osteoarthritis) 
+protected CheckBox osteoarthritis; 
+ 
+@Bind(R.id.openFracture) 
+protected CheckBox openFracture; 
+ 
+@Bind(R.id.closedFracture) 
+protected CheckBox closedFracture; 
+ 
+@Bind(R.id.greenStickFracture) 
+protected CheckBox greenStickFracture; 
+ 
+@Bind(R.id.kyphosis) 
+protected CheckBox kyphosis; 
+ 
+@Bind(R.id.vertebralCompression) 
+protected CheckBox vertebralCompression; 
+ 
+@Bind(R.id.boneCancer) 
+protected CheckBox boneCancer; 
+ 
+@Bind(R.id.bursitis) 
+protected CheckBox bursitis; 
+ 
+@Bind(R.id.cts) 
+protected CheckBox cts; 
+ 
+@Bind(R.id.lateralEpicondylitis) 
+protected CheckBox lateralEpicondylitis; 
+ 
+@Bind(R.id.osteoporosis) 
+protected CheckBox osteoporosis; 
+ 
+@Bind(R.id.sti) 
+protected CheckBox sti; 
+ 
+@Bind(R.id.tendonitis) 
+protected CheckBox tendonitis; 
+ 
+@Bind(R.id.ligamentTear) 
+protected CheckBox ligamentTear; 
+ 
+@Bind(R.id.rct) 
+protected CheckBox rct; 
+ 
+@Bind(R.id.frozenShoulder) 
+protected CheckBox frozenShoulder; 
+ 
+@Bind(R.id.pdotb) 
+protected CheckBox pdotb; 
+ 
+@Bind(R.id.dislocation) 
+protected CheckBox dislocation; 
+ 
+
+public void get_commonSymptoms() { 
+	 	 ArrayList<String> checkedboxes = new ArrayList<>(); 
+	 	if (musclePain.isChecked()) 
+	 	checkedboxes.add("Muscle Pain");
+	 	if (bonePain.isChecked()) 
+	 	checkedboxes.add("Bone Pain");
+	 	if (backPain.isChecked()) 
+	 	checkedboxes.add("Back Pain");
+	 	if (paucity.isChecked()) 
+	 	checkedboxes.add("Paucity of movement");
+	 	if (painOnMovement.isChecked()) 
+	 	checkedboxes.add("Pain On Movement");
+	 	if (jointPain.isChecked()) 
+	 	checkedboxes.add("Joint Pain");
+	 	if (jointSwelling.isChecked()) 
+	 	checkedboxes.add("Joint Swelling");
+	 	if (jointInflam.isChecked()) 
+	 	checkedboxes.add("Joint Inflammation");
+	 	if (poorMobility.isChecked()) 
+	 	checkedboxes.add("Poor Mobility");
+	 	if (jointDeformity.isChecked()) 
+	 	checkedboxes.add("Joint Deformity");
+	 	if (jointDysfunction.isChecked()) 
+	 	checkedboxes.add("Joint Dysfunction");
+	 	if (curvedSpine.isChecked()) 
+	 	checkedboxes.add("Curved Spine");
+	 	if (diffWalking.isChecked()) 
+	 	checkedboxes.add("Difficulty in Walking");
+	 	 model.setCommonSymptoms(checkedboxes.toString()); 
+}public void get_commonDiagnosis() { 
+	 	 ArrayList<String> checkedboxes = new ArrayList<>(); 
+	 	if (arthritis.isChecked()) 
+	 	checkedboxes.add("Rheumatoid Arthritis");
+	 	if (osteoarthritis.isChecked()) 
+	 	checkedboxes.add("Osteoarthritis");
+	 	if (openFracture.isChecked()) 
+	 	checkedboxes.add("Open Fracture");
+	 	if (closedFracture.isChecked()) 
+	 	checkedboxes.add("Closed Fracture");
+	 	if (greenStickFracture.isChecked()) 
+	 	checkedboxes.add("Green Stick Fracture");
+	 	if (kyphosis.isChecked()) 
+	 	checkedboxes.add("Kyphosis / Scoliosis");
+	 	if (vertebralCompression.isChecked()) 
+	 	checkedboxes.add("Vertebral Compression / Degeneration");
+	 	if (boneCancer.isChecked()) 
+	 	checkedboxes.add("Bone Cancer");
+	 	if (bursitis.isChecked()) 
+	 	checkedboxes.add("Bursitis");
+	 	if (cts.isChecked()) 
+	 	checkedboxes.add("Carpal Tunnel Syndrome");
+	 	if (lateralEpicondylitis.isChecked()) 
+	 	checkedboxes.add("Lateral Epicondylitis (Tennis Elbow)");
+	 	if (osteoporosis.isChecked()) 
+	 	checkedboxes.add("Osteoporosis");
+	 	if (sti.isChecked()) 
+	 	checkedboxes.add("Soft Tissue Injuries");
+	 	if (tendonitis.isChecked()) 
+	 	checkedboxes.add("Tendonitis");
+	 	if (ligamentTear.isChecked()) 
+	 	checkedboxes.add("Ligament tear / Cartilage tear");
+	 	if (rct.isChecked()) 
+	 	checkedboxes.add("Rotator Cuff Tear");
+	 	if (frozenShoulder.isChecked()) 
+	 	checkedboxes.add("Adhesive Capsulitis (Frozen Shoulder)");
+	 	if (pdotb.isChecked()) 
+	 	checkedboxes.add("Paget’s Disease of the Bone");
+	 	if (dislocation.isChecked()) 
+	 	checkedboxes.add("Dislocation");
+	 	 model.setCommonDiagnosis(checkedboxes.toString()); 
+}
+
+
+
+get_commonSymptoms(); 
+get_commonDiagnosis(); 
+

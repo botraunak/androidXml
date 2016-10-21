@@ -1,0 +1,240 @@
+{
+	"fields":[
+		{
+			"key": "settingOfCamp",
+			"type": "radio",
+			"hint": "Type of setting where the camp is being conducted?",
+			"options": [
+				{
+					"key": "slum",
+					"text": "Slum"
+				},
+				{
+					"key": "village",
+					"text": "Village"
+				},
+				{
+					"key": "resComp",
+					"text": "Residential complex"
+				},
+				{
+					"key": "offComp",
+					"text": "Office Complex"
+				}
+			]
+		},
+		{
+			"key": "whenCamp",
+			"type": "radio",
+			"hint": "When is the camp?",
+			"options": [
+				{
+					"key": "weekday",
+					"text": "Weekday"
+				},
+				{
+					"key": "weekend",
+					"text": "Weekend"
+				}
+			]
+		},
+		{
+			"key": "climateHow",
+			"type": "radio",
+			"hint": "How is the climate today?",
+			"options": [
+				{
+					"key": "veryHot",
+					"text": "Very Hot"
+				},
+				{
+					"key": "hot",
+					"text": "Hot"
+				},
+				{
+					"key": "rainy",
+					"text": "Rainy"
+				},
+				{
+					"key": "pleasant",
+					"text": "Pleasant"
+				},
+				{
+					"key": "cold",
+					"text": "Cold"
+				},
+				{
+					"key": "veryCold",
+					"text": "Very Cold"
+				}
+
+			]
+		},
+		{
+			"key": "marketingDOne",
+			"type": "radio",
+			"hint": "Was Proper marketing done for camp?",
+			"options": [
+				{
+					"key": "marketingYes",
+					"text": "Yes"
+				},
+				{
+					"key": "marketingNo",
+					"text": "No"
+				}
+			]
+		},
+		{
+			"key": "localMarket",
+			"type": "radio",
+			"hint": "Local Market Day",
+			"options": [
+				{
+					"key": "localMarketYes",
+					"text": "Yes"
+				},
+				{
+					"key": "localMarketNo",
+					"text": "No"
+				}
+			]
+		},
+		{
+			"key": "festiveSeason",
+			"type": "radio",
+			"hint": "Is it a festival Season",
+			"options": [
+				{
+					"key": "festiveYes",
+					"text": "Yes"
+				},
+				{
+					"key": "festiveNo",
+					"text": "No"
+				}
+			]
+		},
+		{
+			"key": "festiveDay",
+			"type": "radio",
+			"hint": "Is it a festival Day?",
+			"options": [
+				{
+					"key": "festiveDayYes",
+					"text": "Yes"
+				},
+				{
+					"key": "festiveDayNo",
+					"text": "No"
+				}
+			]
+		},
+		{
+			"key": "votingDay",
+			"type": "radio",
+			"hint": "Is it a Voting Day?",
+			"options": [
+				{
+					"key": "votingYes",
+					"text": "Yes"
+				},
+				{
+					"key": "votingNo",
+					"text": "No"
+				}
+			]
+		},
+		{
+			"key": "recentCrime",
+			"type": "radio",
+			"hint": "Has the are witnessed any recent crime?",
+			"options": [
+				{
+					"key": "recentCrimeYes",
+					"text": "Yes"
+				},
+				{
+					"key": "recentCrimeNo",
+					"text": "No"
+				}
+			]
+		},
+		{
+			"key": "epidemic",
+			"type": "radio",
+			"hint": "Is there any epidemic condition prevailing?",
+			"options": [
+				{
+					"key": "epidemicYes",
+					"text": "Yes"
+				},
+				{
+					"key": "epidemicNo",
+					"text": "No"
+				}
+			]
+		},
+		{
+			"key": "haversting",
+			"type": "radio",
+			"hint": "Is it harvesting season?",
+			"options": [
+				{
+					"key": "harvestingYes",
+					"text": "Yes"
+				},
+				{
+					"key": "harvestingNo",
+					"text": "No"
+				}
+			]
+		},
+		{
+			"key": "seasonalMigrating",
+			"type": "radio",
+			"hint": "Is it a season migrating season?",
+			"options": [
+				{
+					"key": "seasonalMigratingYes",
+					"text": "Yes"
+				},
+				{
+					"key": "seasonalMigratingNo",
+					"text": "No"
+				}
+			]
+		},
+		{
+			"key": "localLeader",
+			"type": "radio",
+			"hint": "Are the local opinion leaders involved in the camp?",
+			"options": [
+				{
+					"key": "localLeaderYes",
+					"text": "Yes"
+				},
+				{
+					"key": "localLeaderNo",
+					"text": "No"
+				}
+			]
+		},
+		{
+			"key": "firstOrRep",
+			"type": "radio",
+			"hint": "Is this camp being organized the first time or repetitive?",
+			"options": [
+				{
+					"key": "firstOrRepYes",
+					"text": "Yes"
+				},
+				{
+					"key": "firstOrRepNo",
+					"text": "No"
+				}
+			]
+		}
+
+	]
+}

@@ -1,0 +1,15 @@
+String settingOfCamp;
+String whenCamp;
+String climateHow;
+String marketingDOne;
+String localMarket;
+String festiveSeason;
+String festiveDay;
+String votingDay;
+String recentCrime;
+String epidemic;
+String haversting;
+String seasonalMigrating;
+String localLeader;
+String firstOrRep;
+

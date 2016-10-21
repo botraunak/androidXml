@@ -1,0 +1,9 @@
+String coupon = "" ;
+String eyeProblems = "" ;
+String sugar = "" ;
+String bp = "" ;
+String referredToHospital = "" ;
+String prescribedMed = "" ;
+String givenMed = "" ;
+String prescribedSpec = "" ;
+

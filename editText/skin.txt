@@ -1,0 +1,6 @@
+@Bind(R.id.coupon) 
+protected EditText coupon; 
+ 
+
+model.setCoupon(coupon.getText().toString()); 
+

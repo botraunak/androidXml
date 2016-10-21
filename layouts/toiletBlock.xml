@@ -1,0 +1,1054 @@
+<LinearLayout 
+             android:layout_width="match_parent" 
+             android:layout_height="match_parent" 
+             android:orientation="vertical"> 
+  
+             <TextView 
+                 android:layout_width="match_parent" 
+                 android:layout_height="wrap_content" 
+                 android:layout_marginBottom="5dp" 
+                 android:layout_marginLeft="@dimen/input_margin_hor" 
+                 android:layout_marginRight="@dimen/input_margin_hor" 
+                 android:layout_marginTop="@dimen/input_margin_hor" 
+                 android:hint="Location" 
+                 android:textSize="@dimen/hint_hin_size" /> 
+  
+             <EditText 
+                 android:id="@+id/loc" 
+                 android:layout_width="match_parent" 
+                 android:layout_height="wrap_content" 
+                 android:layout_marginLeft="@dimen/input_margin_hor" 
+                 android:layout_marginRight="@dimen/input_margin_hor" 
+                 android:layout_marginTop="5dp" 
+                 android:background="@color/white" 
+                 android:inputType="text" 
+                 android:padding="@dimen/input_padding" 
+                 android:textSize="@dimen/hint_hin_size" /> 
+  
+             <View 
+                 android:layout_width="match_parent" 
+                 android:layout_height="3dp" 
+                 android:layout_marginLeft="@dimen/input_margin_hor" 
+                 android:layout_marginRight="@dimen/input_margin_hor" 
+                 android:background="@color/colorPrimary" />                
+</LinearLayout>
+<LinearLayout 
+             android:layout_width="match_parent" 
+             android:layout_height="match_parent" 
+             android:orientation="vertical"> 
+  
+             <TextView 
+                 android:layout_width="match_parent" 
+                 android:layout_height="wrap_content" 
+                 android:layout_marginBottom="5dp" 
+                 android:layout_marginLeft="@dimen/input_margin_hor" 
+                 android:layout_marginRight="@dimen/input_margin_hor" 
+                 android:layout_marginTop="@dimen/input_margin_hor" 
+                 android:hint="Amount of phenyl present" 
+                 android:textSize="@dimen/hint_hin_size" /> 
+  
+             <EditText 
+                 android:id="@+id/phenyl" 
+                 android:layout_width="match_parent" 
+                 android:layout_height="wrap_content" 
+                 android:layout_marginLeft="@dimen/input_margin_hor" 
+                 android:layout_marginRight="@dimen/input_margin_hor" 
+                 android:layout_marginTop="5dp" 
+                 android:background="@color/white" 
+                 android:inputType="number" 
+                 android:padding="@dimen/input_padding" 
+                 android:textSize="@dimen/hint_hin_size" /> 
+  
+             <View 
+                 android:layout_width="match_parent" 
+                 android:layout_height="3dp" 
+                 android:layout_marginLeft="@dimen/input_margin_hor" 
+                 android:layout_marginRight="@dimen/input_margin_hor" 
+                 android:background="@color/colorPrimary" />                
+</LinearLayout>
+<LinearLayout 
+             android:layout_width="match_parent" 
+             android:layout_height="match_parent" 
+             android:orientation="vertical"> 
+  
+             <TextView 
+                 android:layout_width="match_parent" 
+                 android:layout_height="wrap_content" 
+                 android:layout_marginBottom="5dp" 
+                 android:layout_marginLeft="@dimen/input_margin_hor" 
+                 android:layout_marginRight="@dimen/input_margin_hor" 
+                 android:layout_marginTop="@dimen/input_margin_hor" 
+                 android:hint="Amount of liquid present" 
+                 android:textSize="@dimen/hint_hin_size" /> 
+  
+             <EditText 
+                 android:id="@+id/liquid" 
+                 android:layout_width="match_parent" 
+                 android:layout_height="wrap_content" 
+                 android:layout_marginLeft="@dimen/input_margin_hor" 
+                 android:layout_marginRight="@dimen/input_margin_hor" 
+                 android:layout_marginTop="5dp" 
+                 android:background="@color/white" 
+                 android:inputType="number" 
+                 android:padding="@dimen/input_padding" 
+                 android:textSize="@dimen/hint_hin_size" /> 
+  
+             <View 
+                 android:layout_width="match_parent" 
+                 android:layout_height="3dp" 
+                 android:layout_marginLeft="@dimen/input_margin_hor" 
+                 android:layout_marginRight="@dimen/input_margin_hor" 
+                 android:background="@color/colorPrimary" />                
+</LinearLayout>
+<LinearLayout 
+             android:layout_width="match_parent" 
+             android:layout_height="match_parent" 
+             android:orientation="vertical"> 
+  
+             <TextView 
+                 android:layout_width="match_parent" 
+                 android:layout_height="wrap_content" 
+                 android:layout_marginBottom="5dp" 
+                 android:layout_marginLeft="@dimen/input_margin_hor" 
+                 android:layout_marginRight="@dimen/input_margin_hor" 
+                 android:layout_marginTop="@dimen/input_margin_hor" 
+                 android:hint="Amount of sharoclean present" 
+                 android:textSize="@dimen/hint_hin_size" /> 
+  
+             <EditText 
+                 android:id="@+id/sharoclean" 
+                 android:layout_width="match_parent" 
+                 android:layout_height="wrap_content" 
+                 android:layout_marginLeft="@dimen/input_margin_hor" 
+                 android:layout_marginRight="@dimen/input_margin_hor" 
+                 android:layout_marginTop="5dp" 
+                 android:background="@color/white" 
+                 android:inputType="number" 
+                 android:padding="@dimen/input_padding" 
+                 android:textSize="@dimen/hint_hin_size" /> 
+  
+             <View 
+                 android:layout_width="match_parent" 
+                 android:layout_height="3dp" 
+                 android:layout_marginLeft="@dimen/input_margin_hor" 
+                 android:layout_marginRight="@dimen/input_margin_hor" 
+                 android:background="@color/colorPrimary" />                
+</LinearLayout>
+<LinearLayout 
+             android:layout_width="match_parent" 
+             android:layout_height="match_parent" 
+             android:orientation="vertical"> 
+  
+             <TextView 
+                 android:layout_width="match_parent" 
+                 android:layout_height="wrap_content" 
+                 android:layout_marginBottom="5dp" 
+                 android:layout_marginLeft="@dimen/input_margin_hor" 
+                 android:layout_marginRight="@dimen/input_margin_hor" 
+                 android:layout_marginTop="@dimen/input_margin_hor" 
+                 android:hint="Amount of acid present" 
+                 android:textSize="@dimen/hint_hin_size" /> 
+  
+             <EditText 
+                 android:id="@+id/acid" 
+                 android:layout_width="match_parent" 
+                 android:layout_height="wrap_content" 
+                 android:layout_marginLeft="@dimen/input_margin_hor" 
+                 android:layout_marginRight="@dimen/input_margin_hor" 
+                 android:layout_marginTop="5dp" 
+                 android:background="@color/white" 
+                 android:inputType="number" 
+                 android:padding="@dimen/input_padding" 
+                 android:textSize="@dimen/hint_hin_size" /> 
+  
+             <View 
+                 android:layout_width="match_parent" 
+                 android:layout_height="3dp" 
+                 android:layout_marginLeft="@dimen/input_margin_hor" 
+                 android:layout_marginRight="@dimen/input_margin_hor" 
+                 android:background="@color/colorPrimary" />                
+</LinearLayout>
+<LinearLayout 
+             android:layout_width="match_parent" 
+             android:layout_height="match_parent" 
+             android:orientation="vertical"> 
+  
+             <TextView 
+                 android:layout_width="match_parent" 
+                 android:layout_height="wrap_content" 
+                 android:layout_marginBottom="5dp" 
+                 android:layout_marginLeft="@dimen/input_margin_hor" 
+                 android:layout_marginRight="@dimen/input_margin_hor" 
+                 android:layout_marginTop="@dimen/input_margin_hor" 
+                 android:hint="Amount of brooms present" 
+                 android:textSize="@dimen/hint_hin_size" /> 
+  
+             <EditText 
+                 android:id="@+id/brooms" 
+                 android:layout_width="match_parent" 
+                 android:layout_height="wrap_content" 
+                 android:layout_marginLeft="@dimen/input_margin_hor" 
+                 android:layout_marginRight="@dimen/input_margin_hor" 
+                 android:layout_marginTop="5dp" 
+                 android:background="@color/white" 
+                 android:inputType="number" 
+                 android:padding="@dimen/input_padding" 
+                 android:textSize="@dimen/hint_hin_size" /> 
+  
+             <View 
+                 android:layout_width="match_parent" 
+                 android:layout_height="3dp" 
+                 android:layout_marginLeft="@dimen/input_margin_hor" 
+                 android:layout_marginRight="@dimen/input_margin_hor" 
+                 android:background="@color/colorPrimary" />                
+</LinearLayout>
+<LinearLayout 
+             android:layout_width="match_parent" 
+             android:layout_height="match_parent" 
+             android:orientation="vertical"> 
+  
+             <TextView 
+                 android:layout_width="match_parent" 
+                 android:layout_height="wrap_content" 
+                 android:layout_marginBottom="5dp" 
+                 android:layout_marginLeft="@dimen/input_margin_hor" 
+                 android:layout_marginRight="@dimen/input_margin_hor" 
+                 android:layout_marginTop="@dimen/input_margin_hor" 
+                 android:hint="Amount of bamboo brooms present" 
+                 android:textSize="@dimen/hint_hin_size" /> 
+  
+             <EditText 
+                 android:id="@+id/bambooBrooms" 
+                 android:layout_width="match_parent" 
+                 android:layout_height="wrap_content" 
+                 android:layout_marginLeft="@dimen/input_margin_hor" 
+                 android:layout_marginRight="@dimen/input_margin_hor" 
+                 android:layout_marginTop="5dp" 
+                 android:background="@color/white" 
+                 android:inputType="number" 
+                 android:padding="@dimen/input_padding" 
+                 android:textSize="@dimen/hint_hin_size" /> 
+  
+             <View 
+                 android:layout_width="match_parent" 
+                 android:layout_height="3dp" 
+                 android:layout_marginLeft="@dimen/input_margin_hor" 
+                 android:layout_marginRight="@dimen/input_margin_hor" 
+                 android:background="@color/colorPrimary" />                
+</LinearLayout>
+<LinearLayout 
+             android:layout_width="match_parent" 
+             android:layout_height="match_parent" 
+             android:orientation="vertical"> 
+  
+             <TextView 
+                 android:layout_width="match_parent" 
+                 android:layout_height="wrap_content" 
+                 android:layout_marginBottom="5dp" 
+                 android:layout_marginLeft="@dimen/input_margin_hor" 
+                 android:layout_marginRight="@dimen/input_margin_hor" 
+                 android:layout_marginTop="@dimen/input_margin_hor" 
+                 android:hint="Amount of scruber present" 
+                 android:textSize="@dimen/hint_hin_size" /> 
+  
+             <EditText 
+                 android:id="@+id/scruber" 
+                 android:layout_width="match_parent" 
+                 android:layout_height="wrap_content" 
+                 android:layout_marginLeft="@dimen/input_margin_hor" 
+                 android:layout_marginRight="@dimen/input_margin_hor" 
+                 android:layout_marginTop="5dp" 
+                 android:background="@color/white" 
+                 android:inputType="number" 
+                 android:padding="@dimen/input_padding" 
+                 android:textSize="@dimen/hint_hin_size" /> 
+  
+             <View 
+                 android:layout_width="match_parent" 
+                 android:layout_height="3dp" 
+                 android:layout_marginLeft="@dimen/input_margin_hor" 
+                 android:layout_marginRight="@dimen/input_margin_hor" 
+                 android:background="@color/colorPrimary" />                
+</LinearLayout>
+<LinearLayout 
+             android:layout_width="match_parent" 
+             android:layout_height="match_parent" 
+             android:orientation="vertical"> 
+  
+             <TextView 
+                 android:layout_width="match_parent" 
+                 android:layout_height="wrap_content" 
+                 android:layout_marginBottom="5dp" 
+                 android:layout_marginLeft="@dimen/input_margin_hor" 
+                 android:layout_marginRight="@dimen/input_margin_hor" 
+                 android:layout_marginTop="@dimen/input_margin_hor" 
+                 android:hint="Amount of toilet brush present" 
+                 android:textSize="@dimen/hint_hin_size" /> 
+  
+             <EditText 
+                 android:id="@+id/toiletBrush" 
+                 android:layout_width="match_parent" 
+                 android:layout_height="wrap_content" 
+                 android:layout_marginLeft="@dimen/input_margin_hor" 
+                 android:layout_marginRight="@dimen/input_margin_hor" 
+                 android:layout_marginTop="5dp" 
+                 android:background="@color/white" 
+                 android:inputType="number" 
+                 android:padding="@dimen/input_padding" 
+                 android:textSize="@dimen/hint_hin_size" /> 
+  
+             <View 
+                 android:layout_width="match_parent" 
+                 android:layout_height="3dp" 
+                 android:layout_marginLeft="@dimen/input_margin_hor" 
+                 android:layout_marginRight="@dimen/input_margin_hor" 
+                 android:background="@color/colorPrimary" />                
+</LinearLayout>
+<LinearLayout 
+             android:layout_width="match_parent" 
+             android:layout_height="match_parent" 
+             android:orientation="vertical"> 
+  
+             <TextView 
+                 android:layout_width="match_parent" 
+                 android:layout_height="wrap_content" 
+                 android:layout_marginBottom="5dp" 
+                 android:layout_marginLeft="@dimen/input_margin_hor" 
+                 android:layout_marginRight="@dimen/input_margin_hor" 
+                 android:layout_marginTop="@dimen/input_margin_hor" 
+                 android:hint="Amount of spider web remover present" 
+                 android:textSize="@dimen/hint_hin_size" /> 
+  
+             <EditText 
+                 android:id="@+id/spiderWebRemover" 
+                 android:layout_width="match_parent" 
+                 android:layout_height="wrap_content" 
+                 android:layout_marginLeft="@dimen/input_margin_hor" 
+                 android:layout_marginRight="@dimen/input_margin_hor" 
+                 android:layout_marginTop="5dp" 
+                 android:background="@color/white" 
+                 android:inputType="number" 
+                 android:padding="@dimen/input_padding" 
+                 android:textSize="@dimen/hint_hin_size" /> 
+  
+             <View 
+                 android:layout_width="match_parent" 
+                 android:layout_height="3dp" 
+                 android:layout_marginLeft="@dimen/input_margin_hor" 
+                 android:layout_marginRight="@dimen/input_margin_hor" 
+                 android:background="@color/colorPrimary" />                
+</LinearLayout>
+<LinearLayout 
+             android:layout_width="match_parent" 
+             android:layout_height="match_parent" 
+             android:orientation="vertical"> 
+  
+             <TextView 
+                 android:layout_width="match_parent" 
+                 android:layout_height="wrap_content" 
+                 android:layout_marginBottom="5dp" 
+                 android:layout_marginLeft="@dimen/input_margin_hor" 
+                 android:layout_marginRight="@dimen/input_margin_hor" 
+                 android:layout_marginTop="@dimen/input_margin_hor" 
+                 android:hint="Amount of wiper present" 
+                 android:textSize="@dimen/hint_hin_size" /> 
+  
+             <EditText 
+                 android:id="@+id/wiper" 
+                 android:layout_width="match_parent" 
+                 android:layout_height="wrap_content" 
+                 android:layout_marginLeft="@dimen/input_margin_hor" 
+                 android:layout_marginRight="@dimen/input_margin_hor" 
+                 android:layout_marginTop="5dp" 
+                 android:background="@color/white" 
+                 android:inputType="number" 
+                 android:padding="@dimen/input_padding" 
+                 android:textSize="@dimen/hint_hin_size" /> 
+  
+             <View 
+                 android:layout_width="match_parent" 
+                 android:layout_height="3dp" 
+                 android:layout_marginLeft="@dimen/input_margin_hor" 
+                 android:layout_marginRight="@dimen/input_margin_hor" 
+                 android:background="@color/colorPrimary" />                
+</LinearLayout>
+<LinearLayout 
+             android:layout_width="match_parent" 
+             android:layout_height="match_parent" 
+             android:orientation="vertical"> 
+  
+             <TextView 
+                 android:layout_width="match_parent" 
+                 android:layout_height="wrap_content" 
+                 android:layout_marginBottom="5dp" 
+                 android:layout_marginLeft="@dimen/input_margin_hor" 
+                 android:layout_marginRight="@dimen/input_margin_hor" 
+                 android:layout_marginTop="@dimen/input_margin_hor" 
+                 android:hint="Amount of wiper refil present" 
+                 android:textSize="@dimen/hint_hin_size" /> 
+  
+             <EditText 
+                 android:id="@+id/wiperRefil" 
+                 android:layout_width="match_parent" 
+                 android:layout_height="wrap_content" 
+                 android:layout_marginLeft="@dimen/input_margin_hor" 
+                 android:layout_marginRight="@dimen/input_margin_hor" 
+                 android:layout_marginTop="5dp" 
+                 android:background="@color/white" 
+                 android:inputType="number" 
+                 android:padding="@dimen/input_padding" 
+                 android:textSize="@dimen/hint_hin_size" /> 
+  
+             <View 
+                 android:layout_width="match_parent" 
+                 android:layout_height="3dp" 
+                 android:layout_marginLeft="@dimen/input_margin_hor" 
+                 android:layout_marginRight="@dimen/input_margin_hor" 
+                 android:background="@color/colorPrimary" />                
+</LinearLayout>
+<LinearLayout 
+             android:layout_width="match_parent" 
+             android:layout_height="match_parent" 
+             android:orientation="vertical"> 
+  
+             <TextView 
+                 android:layout_width="match_parent" 
+                 android:layout_height="wrap_content" 
+                 android:layout_marginBottom="5dp" 
+                 android:layout_marginLeft="@dimen/input_margin_hor" 
+                 android:layout_marginRight="@dimen/input_margin_hor" 
+                 android:layout_marginTop="@dimen/input_margin_hor" 
+                 android:hint="Amount of acid mop present" 
+                 android:textSize="@dimen/hint_hin_size" /> 
+  
+             <EditText 
+                 android:id="@+id/acidMop" 
+                 android:layout_width="match_parent" 
+                 android:layout_height="wrap_content" 
+                 android:layout_marginLeft="@dimen/input_margin_hor" 
+                 android:layout_marginRight="@dimen/input_margin_hor" 
+                 android:layout_marginTop="5dp" 
+                 android:background="@color/white" 
+                 android:inputType="number" 
+                 android:padding="@dimen/input_padding" 
+                 android:textSize="@dimen/hint_hin_size" /> 
+  
+             <View 
+                 android:layout_width="match_parent" 
+                 android:layout_height="3dp" 
+                 android:layout_marginLeft="@dimen/input_margin_hor" 
+                 android:layout_marginRight="@dimen/input_margin_hor" 
+                 android:background="@color/colorPrimary" />                
+</LinearLayout>
+<LinearLayout 
+             android:layout_width="match_parent" 
+             android:layout_height="match_parent" 
+             android:orientation="vertical"> 
+  
+             <TextView 
+                 android:layout_width="match_parent" 
+                 android:layout_height="wrap_content" 
+                 android:layout_marginBottom="5dp" 
+                 android:layout_marginLeft="@dimen/input_margin_hor" 
+                 android:layout_marginRight="@dimen/input_margin_hor" 
+                 android:layout_marginTop="@dimen/input_margin_hor" 
+                 android:hint="Amount of acid mop refil present" 
+                 android:textSize="@dimen/hint_hin_size" /> 
+  
+             <EditText 
+                 android:id="@+id/acidMopRefil" 
+                 android:layout_width="match_parent" 
+                 android:layout_height="wrap_content" 
+                 android:layout_marginLeft="@dimen/input_margin_hor" 
+                 android:layout_marginRight="@dimen/input_margin_hor" 
+                 android:layout_marginTop="5dp" 
+                 android:background="@color/white" 
+                 android:inputType="number" 
+                 android:padding="@dimen/input_padding" 
+                 android:textSize="@dimen/hint_hin_size" /> 
+  
+             <View 
+                 android:layout_width="match_parent" 
+                 android:layout_height="3dp" 
+                 android:layout_marginLeft="@dimen/input_margin_hor" 
+                 android:layout_marginRight="@dimen/input_margin_hor" 
+                 android:background="@color/colorPrimary" />                
+</LinearLayout>
+<LinearLayout 
+             android:layout_width="match_parent" 
+             android:layout_height="match_parent" 
+             android:orientation="vertical"> 
+  
+             <TextView 
+                 android:layout_width="match_parent" 
+                 android:layout_height="wrap_content" 
+                 android:layout_marginBottom="5dp" 
+                 android:layout_marginLeft="@dimen/input_margin_hor" 
+                 android:layout_marginRight="@dimen/input_margin_hor" 
+                 android:layout_marginTop="@dimen/input_margin_hor" 
+                 android:hint="Amount of khurpi present" 
+                 android:textSize="@dimen/hint_hin_size" /> 
+  
+             <EditText 
+                 android:id="@+id/khurpi" 
+                 android:layout_width="match_parent" 
+                 android:layout_height="wrap_content" 
+                 android:layout_marginLeft="@dimen/input_margin_hor" 
+                 android:layout_marginRight="@dimen/input_margin_hor" 
+                 android:layout_marginTop="5dp" 
+                 android:background="@color/white" 
+                 android:inputType="number" 
+                 android:padding="@dimen/input_padding" 
+                 android:textSize="@dimen/hint_hin_size" /> 
+  
+             <View 
+                 android:layout_width="match_parent" 
+                 android:layout_height="3dp" 
+                 android:layout_marginLeft="@dimen/input_margin_hor" 
+                 android:layout_marginRight="@dimen/input_margin_hor" 
+                 android:background="@color/colorPrimary" />                
+</LinearLayout>
+<LinearLayout 
+             android:layout_width="match_parent" 
+             android:layout_height="match_parent" 
+             android:orientation="vertical"> 
+  
+             <TextView 
+                 android:layout_width="match_parent" 
+                 android:layout_height="wrap_content" 
+                 android:layout_marginBottom="5dp" 
+                 android:layout_marginLeft="@dimen/input_margin_hor" 
+                 android:layout_marginRight="@dimen/input_margin_hor" 
+                 android:layout_marginTop="@dimen/input_margin_hor" 
+                 android:hint="Amount of chokeup pump present" 
+                 android:textSize="@dimen/hint_hin_size" /> 
+  
+             <EditText 
+                 android:id="@+id/chokeupPump" 
+                 android:layout_width="match_parent" 
+                 android:layout_height="wrap_content" 
+                 android:layout_marginLeft="@dimen/input_margin_hor" 
+                 android:layout_marginRight="@dimen/input_margin_hor" 
+                 android:layout_marginTop="5dp" 
+                 android:background="@color/white" 
+                 android:inputType="number" 
+                 android:padding="@dimen/input_padding" 
+                 android:textSize="@dimen/hint_hin_size" /> 
+  
+             <View 
+                 android:layout_width="match_parent" 
+                 android:layout_height="3dp" 
+                 android:layout_marginLeft="@dimen/input_margin_hor" 
+                 android:layout_marginRight="@dimen/input_margin_hor" 
+                 android:background="@color/colorPrimary" />                
+</LinearLayout>
+<LinearLayout 
+             android:layout_width="match_parent" 
+             android:layout_height="match_parent" 
+             android:orientation="vertical"> 
+  
+             <TextView 
+                 android:layout_width="match_parent" 
+                 android:layout_height="wrap_content" 
+                 android:layout_marginBottom="5dp" 
+                 android:layout_marginLeft="@dimen/input_margin_hor" 
+                 android:layout_marginRight="@dimen/input_margin_hor" 
+                 android:layout_marginTop="@dimen/input_margin_hor" 
+                 android:hint="Amount of chokeup rod present" 
+                 android:textSize="@dimen/hint_hin_size" /> 
+  
+             <EditText 
+                 android:id="@+id/chokeupRod" 
+                 android:layout_width="match_parent" 
+                 android:layout_height="wrap_content" 
+                 android:layout_marginLeft="@dimen/input_margin_hor" 
+                 android:layout_marginRight="@dimen/input_margin_hor" 
+                 android:layout_marginTop="5dp" 
+                 android:background="@color/white" 
+                 android:inputType="number" 
+                 android:padding="@dimen/input_padding" 
+                 android:textSize="@dimen/hint_hin_size" /> 
+  
+             <View 
+                 android:layout_width="match_parent" 
+                 android:layout_height="3dp" 
+                 android:layout_marginLeft="@dimen/input_margin_hor" 
+                 android:layout_marginRight="@dimen/input_margin_hor" 
+                 android:background="@color/colorPrimary" />                
+</LinearLayout>
+<LinearLayout 
+             android:layout_width="match_parent" 
+             android:layout_height="match_parent" 
+             android:orientation="vertical"> 
+  
+             <TextView 
+                 android:layout_width="match_parent" 
+                 android:layout_height="wrap_content" 
+                 android:layout_marginBottom="5dp" 
+                 android:layout_marginLeft="@dimen/input_margin_hor" 
+                 android:layout_marginRight="@dimen/input_margin_hor" 
+                 android:layout_marginTop="@dimen/input_margin_hor" 
+                 android:hint="Amount of dust pan present" 
+                 android:textSize="@dimen/hint_hin_size" /> 
+  
+             <EditText 
+                 android:id="@+id/dustPan" 
+                 android:layout_width="match_parent" 
+                 android:layout_height="wrap_content" 
+                 android:layout_marginLeft="@dimen/input_margin_hor" 
+                 android:layout_marginRight="@dimen/input_margin_hor" 
+                 android:layout_marginTop="5dp" 
+                 android:background="@color/white" 
+                 android:inputType="number" 
+                 android:padding="@dimen/input_padding" 
+                 android:textSize="@dimen/hint_hin_size" /> 
+  
+             <View 
+                 android:layout_width="match_parent" 
+                 android:layout_height="3dp" 
+                 android:layout_marginLeft="@dimen/input_margin_hor" 
+                 android:layout_marginRight="@dimen/input_margin_hor" 
+                 android:background="@color/colorPrimary" />                
+</LinearLayout>
+<LinearLayout 
+             android:layout_width="match_parent" 
+             android:layout_height="match_parent" 
+             android:orientation="vertical"> 
+  
+             <TextView 
+                 android:layout_width="match_parent" 
+                 android:layout_height="wrap_content" 
+                 android:layout_marginBottom="5dp" 
+                 android:layout_marginLeft="@dimen/input_margin_hor" 
+                 android:layout_marginRight="@dimen/input_margin_hor" 
+                 android:layout_marginTop="@dimen/input_margin_hor" 
+                 android:hint="Amount of garbage bag big  present" 
+                 android:textSize="@dimen/hint_hin_size" /> 
+  
+             <EditText 
+                 android:id="@+id/garbageBagBig" 
+                 android:layout_width="match_parent" 
+                 android:layout_height="wrap_content" 
+                 android:layout_marginLeft="@dimen/input_margin_hor" 
+                 android:layout_marginRight="@dimen/input_margin_hor" 
+                 android:layout_marginTop="5dp" 
+                 android:background="@color/white" 
+                 android:inputType="number" 
+                 android:padding="@dimen/input_padding" 
+                 android:textSize="@dimen/hint_hin_size" /> 
+  
+             <View 
+                 android:layout_width="match_parent" 
+                 android:layout_height="3dp" 
+                 android:layout_marginLeft="@dimen/input_margin_hor" 
+                 android:layout_marginRight="@dimen/input_margin_hor" 
+                 android:background="@color/colorPrimary" />                
+</LinearLayout>
+<LinearLayout 
+             android:layout_width="match_parent" 
+             android:layout_height="match_parent" 
+             android:orientation="vertical"> 
+  
+             <TextView 
+                 android:layout_width="match_parent" 
+                 android:layout_height="wrap_content" 
+                 android:layout_marginBottom="5dp" 
+                 android:layout_marginLeft="@dimen/input_margin_hor" 
+                 android:layout_marginRight="@dimen/input_margin_hor" 
+                 android:layout_marginTop="@dimen/input_margin_hor" 
+                 android:hint="Amount of garbage bag small present" 
+                 android:textSize="@dimen/hint_hin_size" /> 
+  
+             <EditText 
+                 android:id="@+id/garbageBagSmall" 
+                 android:layout_width="match_parent" 
+                 android:layout_height="wrap_content" 
+                 android:layout_marginLeft="@dimen/input_margin_hor" 
+                 android:layout_marginRight="@dimen/input_margin_hor" 
+                 android:layout_marginTop="5dp" 
+                 android:background="@color/white" 
+                 android:inputType="number" 
+                 android:padding="@dimen/input_padding" 
+                 android:textSize="@dimen/hint_hin_size" /> 
+  
+             <View 
+                 android:layout_width="match_parent" 
+                 android:layout_height="3dp" 
+                 android:layout_marginLeft="@dimen/input_margin_hor" 
+                 android:layout_marginRight="@dimen/input_margin_hor" 
+                 android:background="@color/colorPrimary" />                
+</LinearLayout>
+<LinearLayout 
+             android:layout_width="match_parent" 
+             android:layout_height="match_parent" 
+             android:orientation="vertical"> 
+  
+             <TextView 
+                 android:layout_width="match_parent" 
+                 android:layout_height="wrap_content" 
+                 android:layout_marginBottom="5dp" 
+                 android:layout_marginLeft="@dimen/input_margin_hor" 
+                 android:layout_marginRight="@dimen/input_margin_hor" 
+                 android:layout_marginTop="@dimen/input_margin_hor" 
+                 android:hint="Amount of sprayer present" 
+                 android:textSize="@dimen/hint_hin_size" /> 
+  
+             <EditText 
+                 android:id="@+id/sprayer" 
+                 android:layout_width="match_parent" 
+                 android:layout_height="wrap_content" 
+                 android:layout_marginLeft="@dimen/input_margin_hor" 
+                 android:layout_marginRight="@dimen/input_margin_hor" 
+                 android:layout_marginTop="5dp" 
+                 android:background="@color/white" 
+                 android:inputType="number" 
+                 android:padding="@dimen/input_padding" 
+                 android:textSize="@dimen/hint_hin_size" /> 
+  
+             <View 
+                 android:layout_width="match_parent" 
+                 android:layout_height="3dp" 
+                 android:layout_marginLeft="@dimen/input_margin_hor" 
+                 android:layout_marginRight="@dimen/input_margin_hor" 
+                 android:background="@color/colorPrimary" />                
+</LinearLayout>
+<LinearLayout 
+             android:layout_width="match_parent" 
+             android:layout_height="match_parent" 
+             android:orientation="vertical"> 
+  
+             <TextView 
+                 android:layout_width="match_parent" 
+                 android:layout_height="wrap_content" 
+                 android:layout_marginBottom="5dp" 
+                 android:layout_marginLeft="@dimen/input_margin_hor" 
+                 android:layout_marginRight="@dimen/input_margin_hor" 
+                 android:layout_marginTop="@dimen/input_margin_hor" 
+                 android:hint="Amount of mug present" 
+                 android:textSize="@dimen/hint_hin_size" /> 
+  
+             <EditText 
+                 android:id="@+id/mug" 
+                 android:layout_width="match_parent" 
+                 android:layout_height="wrap_content" 
+                 android:layout_marginLeft="@dimen/input_margin_hor" 
+                 android:layout_marginRight="@dimen/input_margin_hor" 
+                 android:layout_marginTop="5dp" 
+                 android:background="@color/white" 
+                 android:inputType="number" 
+                 android:padding="@dimen/input_padding" 
+                 android:textSize="@dimen/hint_hin_size" /> 
+  
+             <View 
+                 android:layout_width="match_parent" 
+                 android:layout_height="3dp" 
+                 android:layout_marginLeft="@dimen/input_margin_hor" 
+                 android:layout_marginRight="@dimen/input_margin_hor" 
+                 android:background="@color/colorPrimary" />                
+</LinearLayout>
+<LinearLayout 
+             android:layout_width="match_parent" 
+             android:layout_height="match_parent" 
+             android:orientation="vertical"> 
+  
+             <TextView 
+                 android:layout_width="match_parent" 
+                 android:layout_height="wrap_content" 
+                 android:layout_marginBottom="5dp" 
+                 android:layout_marginLeft="@dimen/input_margin_hor" 
+                 android:layout_marginRight="@dimen/input_margin_hor" 
+                 android:layout_marginTop="@dimen/input_margin_hor" 
+                 android:hint="Amount of measuring mug present" 
+                 android:textSize="@dimen/hint_hin_size" /> 
+  
+             <EditText 
+                 android:id="@+id/measuringMug" 
+                 android:layout_width="match_parent" 
+                 android:layout_height="wrap_content" 
+                 android:layout_marginLeft="@dimen/input_margin_hor" 
+                 android:layout_marginRight="@dimen/input_margin_hor" 
+                 android:layout_marginTop="5dp" 
+                 android:background="@color/white" 
+                 android:inputType="number" 
+                 android:padding="@dimen/input_padding" 
+                 android:textSize="@dimen/hint_hin_size" /> 
+  
+             <View 
+                 android:layout_width="match_parent" 
+                 android:layout_height="3dp" 
+                 android:layout_marginLeft="@dimen/input_margin_hor" 
+                 android:layout_marginRight="@dimen/input_margin_hor" 
+                 android:background="@color/colorPrimary" />                
+</LinearLayout>
+<LinearLayout 
+             android:layout_width="match_parent" 
+             android:layout_height="match_parent" 
+             android:orientation="vertical"> 
+  
+             <TextView 
+                 android:layout_width="match_parent" 
+                 android:layout_height="wrap_content" 
+                 android:layout_marginBottom="5dp" 
+                 android:layout_marginLeft="@dimen/input_margin_hor" 
+                 android:layout_marginRight="@dimen/input_margin_hor" 
+                 android:layout_marginTop="@dimen/input_margin_hor" 
+                 android:hint="Amount of water pipe cleaning pipe present" 
+                 android:textSize="@dimen/hint_hin_size" /> 
+  
+             <EditText 
+                 android:id="@+id/waterPipeCleaning" 
+                 android:layout_width="match_parent" 
+                 android:layout_height="wrap_content" 
+                 android:layout_marginLeft="@dimen/input_margin_hor" 
+                 android:layout_marginRight="@dimen/input_margin_hor" 
+                 android:layout_marginTop="5dp" 
+                 android:background="@color/white" 
+                 android:inputType="number" 
+                 android:padding="@dimen/input_padding" 
+                 android:textSize="@dimen/hint_hin_size" /> 
+  
+             <View 
+                 android:layout_width="match_parent" 
+                 android:layout_height="3dp" 
+                 android:layout_marginLeft="@dimen/input_margin_hor" 
+                 android:layout_marginRight="@dimen/input_margin_hor" 
+                 android:background="@color/colorPrimary" />                
+</LinearLayout>
+<LinearLayout 
+             android:layout_width="match_parent" 
+             android:layout_height="match_parent" 
+             android:orientation="vertical"> 
+  
+             <TextView 
+                 android:layout_width="match_parent" 
+                 android:layout_height="wrap_content" 
+                 android:layout_marginBottom="5dp" 
+                 android:layout_marginLeft="@dimen/input_margin_hor" 
+                 android:layout_marginRight="@dimen/input_margin_hor" 
+                 android:layout_marginTop="@dimen/input_margin_hor" 
+                 android:hint="Amount of jointer present" 
+                 android:textSize="@dimen/hint_hin_size" /> 
+  
+             <EditText 
+                 android:id="@+id/jointer" 
+                 android:layout_width="match_parent" 
+                 android:layout_height="wrap_content" 
+                 android:layout_marginLeft="@dimen/input_margin_hor" 
+                 android:layout_marginRight="@dimen/input_margin_hor" 
+                 android:layout_marginTop="5dp" 
+                 android:background="@color/white" 
+                 android:inputType="number" 
+                 android:padding="@dimen/input_padding" 
+                 android:textSize="@dimen/hint_hin_size" /> 
+  
+             <View 
+                 android:layout_width="match_parent" 
+                 android:layout_height="3dp" 
+                 android:layout_marginLeft="@dimen/input_margin_hor" 
+                 android:layout_marginRight="@dimen/input_margin_hor" 
+                 android:background="@color/colorPrimary" />                
+</LinearLayout>
+<LinearLayout 
+             android:layout_width="match_parent" 
+             android:layout_height="match_parent" 
+             android:orientation="vertical"> 
+  
+             <TextView 
+                 android:layout_width="match_parent" 
+                 android:layout_height="wrap_content" 
+                 android:layout_marginBottom="5dp" 
+                 android:layout_marginLeft="@dimen/input_margin_hor" 
+                 android:layout_marginRight="@dimen/input_margin_hor" 
+                 android:layout_marginTop="@dimen/input_margin_hor" 
+                 android:hint="Amount of stopper present" 
+                 android:textSize="@dimen/hint_hin_size" /> 
+  
+             <EditText 
+                 android:id="@+id/stopper" 
+                 android:layout_width="match_parent" 
+                 android:layout_height="wrap_content" 
+                 android:layout_marginLeft="@dimen/input_margin_hor" 
+                 android:layout_marginRight="@dimen/input_margin_hor" 
+                 android:layout_marginTop="5dp" 
+                 android:background="@color/white" 
+                 android:inputType="number" 
+                 android:padding="@dimen/input_padding" 
+                 android:textSize="@dimen/hint_hin_size" /> 
+  
+             <View 
+                 android:layout_width="match_parent" 
+                 android:layout_height="3dp" 
+                 android:layout_marginLeft="@dimen/input_margin_hor" 
+                 android:layout_marginRight="@dimen/input_margin_hor" 
+                 android:background="@color/colorPrimary" />                
+</LinearLayout>
+<LinearLayout 
+             android:layout_width="match_parent" 
+             android:layout_height="match_parent" 
+             android:orientation="vertical"> 
+  
+             <TextView 
+                 android:layout_width="match_parent" 
+                 android:layout_height="wrap_content" 
+                 android:layout_marginBottom="5dp" 
+                 android:layout_marginLeft="@dimen/input_margin_hor" 
+                 android:layout_marginRight="@dimen/input_margin_hor" 
+                 android:layout_marginTop="@dimen/input_margin_hor" 
+                 android:hint="Amount of kurpi scrapper present" 
+                 android:textSize="@dimen/hint_hin_size" /> 
+  
+             <EditText 
+                 android:id="@+id/kurpiScrapper" 
+                 android:layout_width="match_parent" 
+                 android:layout_height="wrap_content" 
+                 android:layout_marginLeft="@dimen/input_margin_hor" 
+                 android:layout_marginRight="@dimen/input_margin_hor" 
+                 android:layout_marginTop="5dp" 
+                 android:background="@color/white" 
+                 android:inputType="number" 
+                 android:padding="@dimen/input_padding" 
+                 android:textSize="@dimen/hint_hin_size" /> 
+  
+             <View 
+                 android:layout_width="match_parent" 
+                 android:layout_height="3dp" 
+                 android:layout_marginLeft="@dimen/input_margin_hor" 
+                 android:layout_marginRight="@dimen/input_margin_hor" 
+                 android:background="@color/colorPrimary" />                
+</LinearLayout>
+<LinearLayout 
+             android:layout_width="match_parent" 
+             android:layout_height="match_parent" 
+             android:orientation="vertical"> 
+  
+             <TextView 
+                 android:layout_width="match_parent" 
+                 android:layout_height="wrap_content" 
+                 android:layout_marginBottom="5dp" 
+                 android:layout_marginLeft="@dimen/input_margin_hor" 
+                 android:layout_marginRight="@dimen/input_margin_hor" 
+                 android:layout_marginTop="@dimen/input_margin_hor" 
+                 android:hint="Amount of mask present" 
+                 android:textSize="@dimen/hint_hin_size" /> 
+  
+             <EditText 
+                 android:id="@+id/mask" 
+                 android:layout_width="match_parent" 
+                 android:layout_height="wrap_content" 
+                 android:layout_marginLeft="@dimen/input_margin_hor" 
+                 android:layout_marginRight="@dimen/input_margin_hor" 
+                 android:layout_marginTop="5dp" 
+                 android:background="@color/white" 
+                 android:inputType="number" 
+                 android:padding="@dimen/input_padding" 
+                 android:textSize="@dimen/hint_hin_size" /> 
+  
+             <View 
+                 android:layout_width="match_parent" 
+                 android:layout_height="3dp" 
+                 android:layout_marginLeft="@dimen/input_margin_hor" 
+                 android:layout_marginRight="@dimen/input_margin_hor" 
+                 android:background="@color/colorPrimary" />                
+</LinearLayout>
+<LinearLayout 
+             android:layout_width="match_parent" 
+             android:layout_height="match_parent" 
+             android:orientation="vertical"> 
+  
+             <TextView 
+                 android:layout_width="match_parent" 
+                 android:layout_height="wrap_content" 
+                 android:layout_marginBottom="5dp" 
+                 android:layout_marginLeft="@dimen/input_margin_hor" 
+                 android:layout_marginRight="@dimen/input_margin_hor" 
+                 android:layout_marginTop="@dimen/input_margin_hor" 
+                 android:hint="Amount of gumboot present" 
+                 android:textSize="@dimen/hint_hin_size" /> 
+  
+             <EditText 
+                 android:id="@+id/gumboot" 
+                 android:layout_width="match_parent" 
+                 android:layout_height="wrap_content" 
+                 android:layout_marginLeft="@dimen/input_margin_hor" 
+                 android:layout_marginRight="@dimen/input_margin_hor" 
+                 android:layout_marginTop="5dp" 
+                 android:background="@color/white" 
+                 android:inputType="number" 
+                 android:padding="@dimen/input_padding" 
+                 android:textSize="@dimen/hint_hin_size" /> 
+  
+             <View 
+                 android:layout_width="match_parent" 
+                 android:layout_height="3dp" 
+                 android:layout_marginLeft="@dimen/input_margin_hor" 
+                 android:layout_marginRight="@dimen/input_margin_hor" 
+                 android:background="@color/colorPrimary" />                
+</LinearLayout>
+<LinearLayout 
+             android:layout_width="match_parent" 
+             android:layout_height="match_parent" 
+             android:orientation="vertical"> 
+  
+             <TextView 
+                 android:layout_width="match_parent" 
+                 android:layout_height="wrap_content" 
+                 android:layout_marginBottom="5dp" 
+                 android:layout_marginLeft="@dimen/input_margin_hor" 
+                 android:layout_marginRight="@dimen/input_margin_hor" 
+                 android:layout_marginTop="@dimen/input_margin_hor" 
+                 android:hint="Amount of bucket present" 
+                 android:textSize="@dimen/hint_hin_size" /> 
+  
+             <EditText 
+                 android:id="@+id/bucket" 
+                 android:layout_width="match_parent" 
+                 android:layout_height="wrap_content" 
+                 android:layout_marginLeft="@dimen/input_margin_hor" 
+                 android:layout_marginRight="@dimen/input_margin_hor" 
+                 android:layout_marginTop="5dp" 
+                 android:background="@color/white" 
+                 android:inputType="number" 
+                 android:padding="@dimen/input_padding" 
+                 android:textSize="@dimen/hint_hin_size" /> 
+  
+             <View 
+                 android:layout_width="match_parent" 
+                 android:layout_height="3dp" 
+                 android:layout_marginLeft="@dimen/input_margin_hor" 
+                 android:layout_marginRight="@dimen/input_margin_hor" 
+                 android:background="@color/colorPrimary" />                
+</LinearLayout>
+<LinearLayout 
+             android:layout_width="match_parent" 
+             android:layout_height="match_parent" 
+             android:orientation="vertical"> 
+  
+             <TextView 
+                 android:layout_width="match_parent" 
+                 android:layout_height="wrap_content" 
+                 android:layout_marginBottom="5dp" 
+                 android:layout_marginLeft="@dimen/input_margin_hor" 
+                 android:layout_marginRight="@dimen/input_margin_hor" 
+                 android:layout_marginTop="@dimen/input_margin_hor" 
+                 android:hint="Amount of hand gloves present" 
+                 android:textSize="@dimen/hint_hin_size" /> 
+  
+             <EditText 
+                 android:id="@+id/handGlove" 
+                 android:layout_width="match_parent" 
+                 android:layout_height="wrap_content" 
+                 android:layout_marginLeft="@dimen/input_margin_hor" 
+                 android:layout_marginRight="@dimen/input_margin_hor" 
+                 android:layout_marginTop="5dp" 
+                 android:background="@color/white" 
+                 android:inputType="number" 
+                 android:padding="@dimen/input_padding" 
+                 android:textSize="@dimen/hint_hin_size" /> 
+  
+             <View 
+                 android:layout_width="match_parent" 
+                 android:layout_height="3dp" 
+                 android:layout_marginLeft="@dimen/input_margin_hor" 
+                 android:layout_marginRight="@dimen/input_margin_hor" 
+                 android:background="@color/colorPrimary" />                
+</LinearLayout>

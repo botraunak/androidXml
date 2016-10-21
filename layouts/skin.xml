@@ -1,0 +1,687 @@
+<LinearLayout 
+             android:layout_width="match_parent" 
+             android:layout_height="match_parent" 
+             android:orientation="vertical"> 
+  
+             <TextView 
+                 android:layout_width="match_parent" 
+                 android:layout_height="wrap_content" 
+                 android:layout_marginBottom="5dp" 
+                 android:layout_marginLeft="@dimen/input_margin_hor" 
+                 android:layout_marginRight="@dimen/input_margin_hor" 
+                 android:layout_marginTop="@dimen/input_margin_hor" 
+                 android:hint="Coupon Number" 
+                 android:textSize="@dimen/hint_hin_size" /> 
+  
+             <EditText 
+                 android:id="@+id/coupon" 
+                 android:layout_width="match_parent" 
+                 android:layout_height="wrap_content" 
+                 android:layout_marginLeft="@dimen/input_margin_hor" 
+                 android:layout_marginRight="@dimen/input_margin_hor" 
+                 android:layout_marginTop="5dp" 
+                 android:background="@color/white" 
+                 android:inputType="textCapCharacters" 
+                 android:padding="@dimen/input_padding" 
+                 android:textSize="@dimen/hint_hin_size" /> 
+  
+             <View 
+                 android:layout_width="match_parent" 
+                 android:layout_height="3dp" 
+                 android:layout_marginLeft="@dimen/input_margin_hor" 
+                 android:layout_marginRight="@dimen/input_margin_hor" 
+                 android:background="@color/colorPrimary" />                
+</LinearLayout>
+<LinearLayout 
+             android:layout_width="match_parent" 
+             android:layout_height="match_parent" 
+             android:layout_marginLeft="@dimen/input_margin_hor" 
+             android:layout_marginRight="@dimen/input_margin_hor" 
+             android:layout_marginTop="@dimen/input_margin_hor" 
+             android:orientation="vertical"> 
+                         <TextView 
+                 android:layout_width="match_parent" 
+                 android:layout_height="wrap_content" 
+                 android:layout_marginBottom="5dp" 
+                 android:hint="symptoms" 
+                 android:textSize="@dimen/hint_hin_size" /> 
+  
+  
+                 <CheckBox 
+                     android:id="@+id/rashes" 
+                     android:layout_width="match_parent" 
+                     android:layout_height="wrap_content" 
+                     android:background="@color/white" 
+                     android:padding="15dp" 
+                     android:text="Rashes" 
+                     android:textSize="@dimen/hint_hin_size" /> 
+  
+                 <View 
+                     android:layout_width="match_parent" 
+                     android:layout_height="1dp" 
+                     android:background="@android:color/darker_gray" /> 
+  
+                 <CheckBox 
+                     android:id="@+id/lumps" 
+                     android:layout_width="match_parent" 
+                     android:layout_height="wrap_content" 
+                     android:background="@color/white" 
+                     android:padding="15dp" 
+                     android:text="Lumps" 
+                     android:textSize="@dimen/hint_hin_size" /> 
+  
+                 <View 
+                     android:layout_width="match_parent" 
+                     android:layout_height="1dp" 
+                     android:background="@android:color/darker_gray" /> 
+  
+                 <CheckBox 
+                     android:id="@+id/bumps" 
+                     android:layout_width="match_parent" 
+                     android:layout_height="wrap_content" 
+                     android:background="@color/white" 
+                     android:padding="15dp" 
+                     android:text="Bumps" 
+                     android:textSize="@dimen/hint_hin_size" /> 
+  
+                 <View 
+                     android:layout_width="match_parent" 
+                     android:layout_height="1dp" 
+                     android:background="@android:color/darker_gray" /> 
+  
+                 <CheckBox 
+                     android:id="@+id/drySkin" 
+                     android:layout_width="match_parent" 
+                     android:layout_height="wrap_content" 
+                     android:background="@color/white" 
+                     android:padding="15dp" 
+                     android:text="Dry skin" 
+                     android:textSize="@dimen/hint_hin_size" /> 
+  
+                 <View 
+                     android:layout_width="match_parent" 
+                     android:layout_height="1dp" 
+                     android:background="@android:color/darker_gray" /> 
+  
+                 <CheckBox 
+                     android:id="@+id/itchySkin" 
+                     android:layout_width="match_parent" 
+                     android:layout_height="wrap_content" 
+                     android:background="@color/white" 
+                     android:padding="15dp" 
+                     android:text="Itchy Skin" 
+                     android:textSize="@dimen/hint_hin_size" /> 
+  
+                 <View 
+                     android:layout_width="match_parent" 
+                     android:layout_height="1dp" 
+                     android:background="@android:color/darker_gray" /> 
+  
+                 <CheckBox 
+                     android:id="@+id/blisters" 
+                     android:layout_width="match_parent" 
+                     android:layout_height="wrap_content" 
+                     android:background="@color/white" 
+                     android:padding="15dp" 
+                     android:text="Blisters" 
+                     android:textSize="@dimen/hint_hin_size" /> 
+  
+                 <View 
+                     android:layout_width="match_parent" 
+                     android:layout_height="1dp" 
+                     android:background="@android:color/darker_gray" /> 
+  
+                 <CheckBox 
+                     android:id="@+id/sunBurn" 
+                     android:layout_width="match_parent" 
+                     android:layout_height="wrap_content" 
+                     android:background="@color/white" 
+                     android:padding="15dp" 
+                     android:text="Sun burn" 
+                     android:textSize="@dimen/hint_hin_size" /> 
+  
+                 <View 
+                     android:layout_width="match_parent" 
+                     android:layout_height="1dp" 
+                     android:background="@android:color/darker_gray" /> 
+  
+                 <CheckBox 
+                     android:id="@+id/excessiveSweating" 
+                     android:layout_width="match_parent" 
+                     android:layout_height="wrap_content" 
+                     android:background="@color/white" 
+                     android:padding="15dp" 
+                     android:text="Excessive sweating" 
+                     android:textSize="@dimen/hint_hin_size" /> 
+  
+                 <View 
+                     android:layout_width="match_parent" 
+                     android:layout_height="1dp" 
+                     android:background="@android:color/darker_gray" /> 
+  
+                 <CheckBox 
+                     android:id="@+id/swollenLips" 
+                     android:layout_width="match_parent" 
+                     android:layout_height="wrap_content" 
+                     android:background="@color/white" 
+                     android:padding="15dp" 
+                     android:text="Swollen Lips" 
+                     android:textSize="@dimen/hint_hin_size" /> 
+  
+                 <View 
+                     android:layout_width="match_parent" 
+                     android:layout_height="1dp" 
+                     android:background="@android:color/darker_gray" /> 
+  
+                 <CheckBox 
+                     android:id="@+id/peelingSkin" 
+                     android:layout_width="match_parent" 
+                     android:layout_height="wrap_content" 
+                     android:background="@color/white" 
+                     android:padding="15dp" 
+                     android:text="Peeling Skin" 
+                     android:textSize="@dimen/hint_hin_size" /> 
+  
+                 <View 
+                     android:layout_width="match_parent" 
+                     android:layout_height="1dp" 
+                     android:background="@android:color/darker_gray" /> 
+  
+                 <CheckBox 
+                     android:id="@+id/rednessonFace" 
+                     android:layout_width="match_parent" 
+                     android:layout_height="wrap_content" 
+                     android:background="@color/white" 
+                     android:padding="15dp" 
+                     android:text="Redness on Face" 
+                     android:textSize="@dimen/hint_hin_size" /> 
+  
+                 <View 
+                     android:layout_width="match_parent" 
+                     android:layout_height="1dp" 
+                     android:background="@android:color/darker_gray" /> 
+  
+                 <CheckBox 
+                     android:id="@+id/birthmarks" 
+                     android:layout_width="match_parent" 
+                     android:layout_height="wrap_content" 
+                     android:background="@color/white" 
+                     android:padding="15dp" 
+                     android:text="Birthmarks" 
+                     android:textSize="@dimen/hint_hin_size" /> 
+  
+                 <View 
+                     android:layout_width="match_parent" 
+                     android:layout_height="1dp" 
+                     android:background="@android:color/darker_gray" /> 
+  
+</LinearLayout>
+
+<LinearLayout 
+             android:layout_width="match_parent" 
+             android:layout_height="match_parent" 
+             android:layout_marginLeft="@dimen/input_margin_hor" 
+             android:layout_marginRight="@dimen/input_margin_hor" 
+             android:layout_marginTop="@dimen/input_margin_hor" 
+             android:orientation="vertical"> 
+                         <TextView 
+                 android:layout_width="match_parent" 
+                 android:layout_height="wrap_content" 
+                 android:layout_marginBottom="5dp" 
+                 android:hint="Common Diagnosis / Provisional Diagnosis:" 
+                 android:textSize="@dimen/hint_hin_size" /> 
+  
+  
+                 <CheckBox 
+                     android:id="@+id/acneVulgaris" 
+                     android:layout_width="match_parent" 
+                     android:layout_height="wrap_content" 
+                     android:background="@color/white" 
+                     android:padding="15dp" 
+                     android:text="Acne Vulgaris" 
+                     android:textSize="@dimen/hint_hin_size" /> 
+  
+                 <View 
+                     android:layout_width="match_parent" 
+                     android:layout_height="1dp" 
+                     android:background="@android:color/darker_gray" /> 
+  
+                 <CheckBox 
+                     android:id="@+id/rosacea" 
+                     android:layout_width="match_parent" 
+                     android:layout_height="wrap_content" 
+                     android:background="@color/white" 
+                     android:padding="15dp" 
+                     android:text="Rosacea" 
+                     android:textSize="@dimen/hint_hin_size" /> 
+  
+                 <View 
+                     android:layout_width="match_parent" 
+                     android:layout_height="1dp" 
+                     android:background="@android:color/darker_gray" /> 
+  
+                 <CheckBox 
+                     android:id="@+id/atopicDermatitis" 
+                     android:layout_width="match_parent" 
+                     android:layout_height="wrap_content" 
+                     android:background="@color/white" 
+                     android:padding="15dp" 
+                     android:text="Atopic Dermatitis" 
+                     android:textSize="@dimen/hint_hin_size" /> 
+  
+                 <View 
+                     android:layout_width="match_parent" 
+                     android:layout_height="1dp" 
+                     android:background="@android:color/darker_gray" /> 
+  
+                 <CheckBox 
+                     android:id="@+id/allergicContactDermatitis" 
+                     android:layout_width="match_parent" 
+                     android:layout_height="wrap_content" 
+                     android:background="@color/white" 
+                     android:padding="15dp" 
+                     android:text="Allergic Contact Dermatitis" 
+                     android:textSize="@dimen/hint_hin_size" /> 
+  
+                 <View 
+                     android:layout_width="match_parent" 
+                     android:layout_height="1dp" 
+                     android:background="@android:color/darker_gray" /> 
+  
+                 <CheckBox 
+                     android:id="@+id/eczema" 
+                     android:layout_width="match_parent" 
+                     android:layout_height="wrap_content" 
+                     android:background="@color/white" 
+                     android:padding="15dp" 
+                     android:text="Eczema" 
+                     android:textSize="@dimen/hint_hin_size" /> 
+  
+                 <View 
+                     android:layout_width="match_parent" 
+                     android:layout_height="1dp" 
+                     android:background="@android:color/darker_gray" /> 
+  
+                 <CheckBox 
+                     android:id="@+id/psoriasis" 
+                     android:layout_width="match_parent" 
+                     android:layout_height="wrap_content" 
+                     android:background="@color/white" 
+                     android:padding="15dp" 
+                     android:text="Psoriasis" 
+                     android:textSize="@dimen/hint_hin_size" /> 
+  
+                 <View 
+                     android:layout_width="match_parent" 
+                     android:layout_height="1dp" 
+                     android:background="@android:color/darker_gray" /> 
+  
+                 <CheckBox 
+                     android:id="@+id/vitiligo" 
+                     android:layout_width="match_parent" 
+                     android:layout_height="wrap_content" 
+                     android:background="@color/white" 
+                     android:padding="15dp" 
+                     android:text="Vitiligo" 
+                     android:textSize="@dimen/hint_hin_size" /> 
+  
+                 <View 
+                     android:layout_width="match_parent" 
+                     android:layout_height="1dp" 
+                     android:background="@android:color/darker_gray" /> 
+  
+                 <CheckBox 
+                     android:id="@+id/actinicKeratosis" 
+                     android:layout_width="match_parent" 
+                     android:layout_height="wrap_content" 
+                     android:background="@color/white" 
+                     android:padding="15dp" 
+                     android:text="Actinic Keratosis" 
+                     android:textSize="@dimen/hint_hin_size" /> 
+  
+                 <View 
+                     android:layout_width="match_parent" 
+                     android:layout_height="1dp" 
+                     android:background="@android:color/darker_gray" /> 
+  
+                 <CheckBox 
+                     android:id="@+id/carbuncle" 
+                     android:layout_width="match_parent" 
+                     android:layout_height="wrap_content" 
+                     android:background="@color/white" 
+                     android:padding="15dp" 
+                     android:text="Carbuncle" 
+                     android:textSize="@dimen/hint_hin_size" /> 
+  
+                 <View 
+                     android:layout_width="match_parent" 
+                     android:layout_height="1dp" 
+                     android:background="@android:color/darker_gray" /> 
+  
+                 <CheckBox 
+                     android:id="@+id/cellulitis" 
+                     android:layout_width="match_parent" 
+                     android:layout_height="wrap_content" 
+                     android:background="@color/white" 
+                     android:padding="15dp" 
+                     android:text="Cellulitis" 
+                     android:textSize="@dimen/hint_hin_size" /> 
+  
+                 <View 
+                     android:layout_width="match_parent" 
+                     android:layout_height="1dp" 
+                     android:background="@android:color/darker_gray" /> 
+  
+                 <CheckBox 
+                     android:id="@+id/impetigo" 
+                     android:layout_width="match_parent" 
+                     android:layout_height="wrap_content" 
+                     android:background="@color/white" 
+                     android:padding="15dp" 
+                     android:text="Impetigo" 
+                     android:textSize="@dimen/hint_hin_size" /> 
+  
+                 <View 
+                     android:layout_width="match_parent" 
+                     android:layout_height="1dp" 
+                     android:background="@android:color/darker_gray" /> 
+  
+                 <CheckBox 
+                     android:id="@+id/cornAndCalluses" 
+                     android:layout_width="match_parent" 
+                     android:layout_height="wrap_content" 
+                     android:background="@color/white" 
+                     android:padding="15dp" 
+                     android:text="Corn & Calluses" 
+                     android:textSize="@dimen/hint_hin_size" /> 
+  
+                 <View 
+                     android:layout_width="match_parent" 
+                     android:layout_height="1dp" 
+                     android:background="@android:color/darker_gray" /> 
+  
+                 <CheckBox 
+                     android:id="@+id/folliculitis" 
+                     android:layout_width="match_parent" 
+                     android:layout_height="wrap_content" 
+                     android:background="@color/white" 
+                     android:padding="15dp" 
+                     android:text="Folliculitis" 
+                     android:textSize="@dimen/hint_hin_size" /> 
+  
+                 <View 
+                     android:layout_width="match_parent" 
+                     android:layout_height="1dp" 
+                     android:background="@android:color/darker_gray" /> 
+  
+                 <CheckBox 
+                     android:id="@+id/seborrheicKeratosis" 
+                     android:layout_width="match_parent" 
+                     android:layout_height="wrap_content" 
+                     android:background="@color/white" 
+                     android:padding="15dp" 
+                     android:text="Seborrheic Keratosis" 
+                     android:textSize="@dimen/hint_hin_size" /> 
+  
+                 <View 
+                     android:layout_width="match_parent" 
+                     android:layout_height="1dp" 
+                     android:background="@android:color/darker_gray" /> 
+  
+                 <CheckBox 
+                     android:id="@+id/candidiasis" 
+                     android:layout_width="match_parent" 
+                     android:layout_height="wrap_content" 
+                     android:background="@color/white" 
+                     android:padding="15dp" 
+                     android:text="Candidiasis" 
+                     android:textSize="@dimen/hint_hin_size" /> 
+  
+                 <View 
+                     android:layout_width="match_parent" 
+                     android:layout_height="1dp" 
+                     android:background="@android:color/darker_gray" /> 
+  
+                 <CheckBox 
+                     android:id="@+id/scabies" 
+                     android:layout_width="match_parent" 
+                     android:layout_height="wrap_content" 
+                     android:background="@color/white" 
+                     android:padding="15dp" 
+                     android:text="Scabies" 
+                     android:textSize="@dimen/hint_hin_size" /> 
+  
+                 <View 
+                     android:layout_width="match_parent" 
+                     android:layout_height="1dp" 
+                     android:background="@android:color/darker_gray" /> 
+  
+                 <CheckBox 
+                     android:id="@+id/insectBite" 
+                     android:layout_width="match_parent" 
+                     android:layout_height="wrap_content" 
+                     android:background="@color/white" 
+                     android:padding="15dp" 
+                     android:text="Insect Bite" 
+                     android:textSize="@dimen/hint_hin_size" /> 
+  
+                 <View 
+                     android:layout_width="match_parent" 
+                     android:layout_height="1dp" 
+                     android:background="@android:color/darker_gray" /> 
+  
+                 <CheckBox 
+                     android:id="@+id/urticaria" 
+                     android:layout_width="match_parent" 
+                     android:layout_height="wrap_content" 
+                     android:background="@color/white" 
+                     android:padding="15dp" 
+                     android:text="Urticaria" 
+                     android:textSize="@dimen/hint_hin_size" /> 
+  
+                 <View 
+                     android:layout_width="match_parent" 
+                     android:layout_height="1dp" 
+                     android:background="@android:color/darker_gray" /> 
+  
+                 <CheckBox 
+                     android:id="@+id/basalSquamousCell" 
+                     android:layout_width="match_parent" 
+                     android:layout_height="wrap_content" 
+                     android:background="@color/white" 
+                     android:padding="15dp" 
+                     android:text="Basal Cell / Squamous Cell Carcinoma" 
+                     android:textSize="@dimen/hint_hin_size" /> 
+  
+                 <View 
+                     android:layout_width="match_parent" 
+                     android:layout_height="1dp" 
+                     android:background="@android:color/darker_gray" /> 
+  
+                 <CheckBox 
+                     android:id="@+id/warts" 
+                     android:layout_width="match_parent" 
+                     android:layout_height="wrap_content" 
+                     android:background="@color/white" 
+                     android:padding="15dp" 
+                     android:text="Warts" 
+                     android:textSize="@dimen/hint_hin_size" /> 
+  
+                 <View 
+                     android:layout_width="match_parent" 
+                     android:layout_height="1dp" 
+                     android:background="@android:color/darker_gray" /> 
+  
+</LinearLayout>
+
+<LinearLayout 
+             android:layout_width="match_parent" 
+             android:layout_height="match_parent" 
+             android:orientation="vertical"> 
+ 						<TextView 
+                 android:layout_width="match_parent" 
+                 android:layout_height="wrap_content" 
+                 android:layout_marginBottom="5dp" 
+                 android:layout_marginLeft="@dimen/input_margin_hor" 
+                 android:layout_marginRight="@dimen/input_margin_hor" 
+                 android:layout_marginTop="@dimen/input_margin_hor" 
+                 android:hint="Referred to Hospital for further consultation?" 
+                 android:textSize="@dimen/hint_hin_size" /> 
+  
+             <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android" 
+                 android:layout_width="fill_parent" 
+                 android:layout_height="wrap_content" 
+                 android:layout_marginLeft="@dimen/input_margin_hor" 
+                 android:layout_marginRight="@dimen/input_margin_hor" 
+                 android:layout_marginTop="5dp" 
+                 android:background="@color/white" 
+                 android:orientation="vertical"> 
+  
+                 <RadioButton 
+                     android:id="@+id/referredYes" 
+                     android:layout_width="match_parent" 
+                     android:layout_height="wrap_content" 
+                     android:onClick="onRadioButtonClicked" 
+                     android:padding="15dp" 
+                     android:text="Yes" 
+                     android:textSize="@dimen/hint_hin_size" /> 
+  
+                 <View 
+                     android:layout_width="match_parent" 
+                     android:layout_height="1dp" 
+                     android:background="@android:color/darker_gray" /> 
+  
+                 <RadioButton 
+                     android:id="@+id/referredNo" 
+                     android:layout_width="match_parent" 
+                     android:layout_height="wrap_content" 
+                     android:onClick="onRadioButtonClicked" 
+                     android:padding="15dp" 
+                     android:text="No" 
+                     android:textSize="@dimen/hint_hin_size" /> 
+  
+                 <View 
+                     android:layout_width="match_parent" 
+                     android:layout_height="1dp" 
+                     android:background="@android:color/darker_gray" /> 
+  </RadioGroup> 
+ 			            
+</LinearLayout>
+<LinearLayout 
+             android:layout_width="match_parent" 
+             android:layout_height="match_parent" 
+             android:orientation="vertical"> 
+ 						<TextView 
+                 android:layout_width="match_parent" 
+                 android:layout_height="wrap_content" 
+                 android:layout_marginBottom="5dp" 
+                 android:layout_marginLeft="@dimen/input_margin_hor" 
+                 android:layout_marginRight="@dimen/input_margin_hor" 
+                 android:layout_marginTop="@dimen/input_margin_hor" 
+                 android:hint="Patient has been prescribed medicine/lab investigations?" 
+                 android:textSize="@dimen/hint_hin_size" /> 
+  
+             <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android" 
+                 android:layout_width="fill_parent" 
+                 android:layout_height="wrap_content" 
+                 android:layout_marginLeft="@dimen/input_margin_hor" 
+                 android:layout_marginRight="@dimen/input_margin_hor" 
+                 android:layout_marginTop="5dp" 
+                 android:background="@color/white" 
+                 android:orientation="vertical"> 
+  
+                 <RadioButton 
+                     android:id="@+id/prescribedYes" 
+                     android:layout_width="match_parent" 
+                     android:layout_height="wrap_content" 
+                     android:onClick="onRadioButtonClicked" 
+                     android:padding="15dp" 
+                     android:text="Yes" 
+                     android:textSize="@dimen/hint_hin_size" /> 
+  
+                 <View 
+                     android:layout_width="match_parent" 
+                     android:layout_height="1dp" 
+                     android:background="@android:color/darker_gray" /> 
+  
+                 <RadioButton 
+                     android:id="@+id/prescribedNo" 
+                     android:layout_width="match_parent" 
+                     android:layout_height="wrap_content" 
+                     android:onClick="onRadioButtonClicked" 
+                     android:padding="15dp" 
+                     android:text="No" 
+                     android:textSize="@dimen/hint_hin_size" /> 
+  
+                 <View 
+                     android:layout_width="match_parent" 
+                     android:layout_height="1dp" 
+                     android:background="@android:color/darker_gray" /> 
+  </RadioGroup> 
+ 			            
+</LinearLayout>
+<LinearLayout 
+             android:layout_width="match_parent" 
+             android:layout_height="match_parent" 
+             android:orientation="vertical"> 
+ 						<TextView 
+                 android:layout_width="match_parent" 
+                 android:layout_height="wrap_content" 
+                 android:layout_marginBottom="5dp" 
+                 android:layout_marginLeft="@dimen/input_margin_hor" 
+                 android:layout_marginRight="@dimen/input_margin_hor" 
+                 android:layout_marginTop="@dimen/input_margin_hor" 
+                 android:hint="Patient has been given medicine?" 
+                 android:textSize="@dimen/hint_hin_size" /> 
+  
+             <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android" 
+                 android:layout_width="fill_parent" 
+                 android:layout_height="wrap_content" 
+                 android:layout_marginLeft="@dimen/input_margin_hor" 
+                 android:layout_marginRight="@dimen/input_margin_hor" 
+                 android:layout_marginTop="5dp" 
+                 android:background="@color/white" 
+                 android:orientation="vertical"> 
+  
+                 <RadioButton 
+                     android:id="@+id/givenMedicineYes" 
+                     android:layout_width="match_parent" 
+                     android:layout_height="wrap_content" 
+                     android:onClick="onRadioButtonClicked" 
+                     android:padding="15dp" 
+                     android:text="Yes" 
+                     android:textSize="@dimen/hint_hin_size" /> 
+  
+                 <View 
+                     android:layout_width="match_parent" 
+                     android:layout_height="1dp" 
+                     android:background="@android:color/darker_gray" /> 
+  
+                 <RadioButton 
+                     android:id="@+id/givenMedicineNo" 
+                     android:layout_width="match_parent" 
+                     android:layout_height="wrap_content" 
+                     android:onClick="onRadioButtonClicked" 
+                     android:padding="15dp" 
+                     android:text="No" 
+                     android:textSize="@dimen/hint_hin_size" /> 
+  
+                 <View 
+                     android:layout_width="match_parent" 
+                     android:layout_height="1dp" 
+                     android:background="@android:color/darker_gray" /> 
+  </RadioGroup> 
+ 			            
+</LinearLayout>
+<Button 
+             android:id="@+id/submitbtn" 
+             android:layout_width="match_parent" 
+             android:layout_height="wrap_content"
+             android:layout_marginBottom="20dp"
+             android:layout_marginLeft="20dp"
+             android:layout_marginRight="20dp"
+             android:layout_marginTop="30dp"
+             android:background="@color/colorAccent"
+             android:onClick="onSubmit"
+             android:text="Save"
+             android:textColor="@color/white" />

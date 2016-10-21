@@ -1,0 +1,105 @@
+@Bind(R.id.cataract) 
+protected CheckBox cataract; 
+ 
+@Bind(R.id.hyperopia) 
+protected CheckBox hyperopia; 
+ 
+@Bind(R.id.myopia) 
+protected CheckBox myopia; 
+ 
+@Bind(R.id.glaucoma) 
+protected CheckBox glaucoma; 
+ 
+@Bind(R.id.abnormalPupils) 
+protected CheckBox abnormalPupils; 
+ 
+@Bind(R.id.discharge) 
+protected CheckBox discharge; 
+ 
+@Bind(R.id.infection) 
+protected CheckBox infection; 
+ 
+@Bind(R.id.erythema) 
+protected CheckBox erythema; 
+ 
+@Bind(R.id.nightB) 
+protected CheckBox nightB; 
+ 
+@Bind(R.id.colorB) 
+protected CheckBox colorB; 
+ 
+@Bind(R.id.pain) 
+protected CheckBox pain; 
+ 
+@Bind(R.id.squintCross) 
+protected CheckBox squintCross; 
+ 
+@Bind(R.id.unevenFocus) 
+protected CheckBox unevenFocus; 
+ 
+@Bind(R.id.presbyopia) 
+protected CheckBox presbyopia; 
+ 
+@Bind(R.id.astigmatism) 
+protected CheckBox astigmatism; 
+ 
+@Bind(R.id.ptosis) 
+protected CheckBox ptosis; 
+ 
+@Bind(R.id.binocullarVision) 
+protected CheckBox binocullarVision; 
+ 
+@Bind(R.id.pterygium) 
+protected CheckBox pterygium; 
+ 
+@Bind(R.id.conjuctivitis) 
+protected CheckBox conjuctivitis; 
+ 
+
+public void get_eyeProblems() { 
+	 	 ArrayList<String> checkedboxes = new ArrayList<>(); 
+	 	if (cataract.isChecked()) 
+	 	checkedboxes.add("Cataract");
+	 	if (hyperopia.isChecked()) 
+	 	checkedboxes.add("Hyperopia");
+	 	if (myopia.isChecked()) 
+	 	checkedboxes.add("Myopia");
+	 	if (glaucoma.isChecked()) 
+	 	checkedboxes.add("Glaucoma");
+	 	if (abnormalPupils.isChecked()) 
+	 	checkedboxes.add("Abnormal Pupils");
+	 	if (discharge.isChecked()) 
+	 	checkedboxes.add("Discharge");
+	 	if (infection.isChecked()) 
+	 	checkedboxes.add("Infection");
+	 	if (erythema.isChecked()) 
+	 	checkedboxes.add("Erythema");
+	 	if (nightB.isChecked()) 
+	 	checkedboxes.add("Night Blindness");
+	 	if (colorB.isChecked()) 
+	 	checkedboxes.add("Color Blindness");
+	 	if (pain.isChecked()) 
+	 	checkedboxes.add("Pain");
+	 	if (squintCross.isChecked()) 
+	 	checkedboxes.add("Squint or Crossed Eyes");
+	 	if (unevenFocus.isChecked()) 
+	 	checkedboxes.add("Uneven Focus");
+	 	if (presbyopia.isChecked()) 
+	 	checkedboxes.add("Presbyopia");
+	 	if (astigmatism.isChecked()) 
+	 	checkedboxes.add("Astigmatism");
+	 	if (ptosis.isChecked()) 
+	 	checkedboxes.add("Ptosis");
+	 	if (binocullarVision.isChecked()) 
+	 	checkedboxes.add("Binocullar Vision");
+	 	if (pterygium.isChecked()) 
+	 	checkedboxes.add("Pterygium");
+	 	if (conjuctivitis.isChecked()) 
+	 	checkedboxes.add("Conjuctivitis");
+	 	 model.setEyeProblems(checkedboxes.toString()); 
+}
+
+
+
+get_eyeProblems(); 
+

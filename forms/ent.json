@@ -1,0 +1,114 @@
+{
+	"fields": [{
+		"key": "coupon",
+		"type": "edit_text",
+		"hint": "Coupon Number",
+		"input_type": "textCapCharacters"
+	}, {
+		"key": "earProblems",
+		"hint": "Ear Problems",
+		"type": "checkbox",
+		"options": [{
+			"key": "discharge",
+			"text": "Discharge"
+		}, {
+			"key": "erythema",
+			"text": "Erythema"
+		}, {
+			"key": "infection",
+			"text": "Infection"
+		}]
+	}, {
+		"key": "noseProb",
+		"type": "checkbox",
+		"hint": "Nose Problems",
+		"options": [{
+			"key": "sinus",
+			"text": "Sinus"
+		}, {
+			"key": "dischargeNp",
+			"text": "Discharge"
+		}, {
+			"key": "cold",
+			"text": "Cold"
+		}, {
+			"key": "cough",
+			"text": "Cough"
+		}]
+	}, {
+		"key": "throatProb",
+		"type": "checkbox",
+		"hint": "Throat Problems",
+		"options": [{
+			"key": "goiter",
+			"text": "Goiter"
+		}, {
+			"key": "fistula",
+			"text": "Fistula"
+		}, {
+			"key": "infectionTP",
+			"text": "Infection"
+		}, {
+			"key": "cancer",
+			"text": "Cancer"
+		}, {
+			"key": "pain",
+			"text": "Pain"
+		}]
+	}, {
+		"key": "referredtoHospital",
+		"type": "radio",
+		"hint": "Reffered to Hospital",
+		"options": [{
+			"key": "referredtoHospitalYes",
+			"text": "Yes"
+		}, {
+			"key": "referredtoHospitalNo",
+			"text": "No"
+		}]
+	}, {
+		"key": "prescribeMedcine",
+		"type": "radio",
+		"hint": "Patient has been prescribe medicine",
+		"options": [{
+			"key": "prescribeMedcineYes",
+			"text": "Yes"
+		}, {
+			"key": "prescribeMedcineNo",
+			"text": "No"
+		}]
+	}, {
+		"key": "givenMedicine",
+		"type": "radio",
+		"hint": "Patient has been given Medicine",
+		"options": [{
+			"key": "givenMedicineYes",
+			"text": "Yes"
+		}, {
+			"key": "givenMedicineNo",
+			"text": "No"
+		}]
+	}, {
+		"key": "prescribedHearingAid",
+		"type": "radio",
+		"hint": "Patient has been prescribed Hearing Aid",
+		"options": [{
+			"key": "prescribedHearingAidYes",
+			"text": "Yes"
+		}, {
+			"key": "prescribedHearingAidNo",
+			"text": "No"
+		}]
+	}, {
+		"key": "givenHearingAid",
+		"type": "radio",
+		"hint": "Patient has been prescribed Hearing Aid",
+		"options": [{
+			"key": "givenHearingAidYes",
+			"text": "Yes"
+		}, {
+			"key": "givenHearingAidNo",
+			"text": "No"
+		}]
+	}]
+}

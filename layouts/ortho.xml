@@ -1,0 +1,687 @@
+<LinearLayout 
+             android:layout_width="match_parent" 
+             android:layout_height="match_parent" 
+             android:orientation="vertical"> 
+  
+             <TextView 
+                 android:layout_width="match_parent" 
+                 android:layout_height="wrap_content" 
+                 android:layout_marginBottom="5dp" 
+                 android:layout_marginLeft="@dimen/input_margin_hor" 
+                 android:layout_marginRight="@dimen/input_margin_hor" 
+                 android:layout_marginTop="@dimen/input_margin_hor" 
+                 android:hint="Coupon Number" 
+                 android:textSize="@dimen/hint_hin_size" /> 
+  
+             <EditText 
+                 android:id="@+id/coupon" 
+                 android:layout_width="match_parent" 
+                 android:layout_height="wrap_content" 
+                 android:layout_marginLeft="@dimen/input_margin_hor" 
+                 android:layout_marginRight="@dimen/input_margin_hor" 
+                 android:layout_marginTop="5dp" 
+                 android:background="@color/white" 
+                 android:inputType="textCapCharacters" 
+                 android:padding="@dimen/input_padding" 
+                 android:textSize="@dimen/hint_hin_size" /> 
+  
+             <View 
+                 android:layout_width="match_parent" 
+                 android:layout_height="3dp" 
+                 android:layout_marginLeft="@dimen/input_margin_hor" 
+                 android:layout_marginRight="@dimen/input_margin_hor" 
+                 android:background="@color/colorPrimary" />                
+</LinearLayout>
+<LinearLayout 
+             android:layout_width="match_parent" 
+             android:layout_height="match_parent" 
+             android:layout_marginLeft="@dimen/input_margin_hor" 
+             android:layout_marginRight="@dimen/input_margin_hor" 
+             android:layout_marginTop="@dimen/input_margin_hor" 
+             android:orientation="vertical"> 
+                         <TextView 
+                 android:layout_width="match_parent" 
+                 android:layout_height="wrap_content" 
+                 android:layout_marginBottom="5dp" 
+                 android:hint="Common Symtomps" 
+                 android:textSize="@dimen/hint_hin_size" /> 
+  
+  
+                 <CheckBox 
+                     android:id="@+id/musclePain" 
+                     android:layout_width="match_parent" 
+                     android:layout_height="wrap_content" 
+                     android:background="@color/white" 
+                     android:padding="15dp" 
+                     android:text="Muscle Pain" 
+                     android:textSize="@dimen/hint_hin_size" /> 
+  
+                 <View 
+                     android:layout_width="match_parent" 
+                     android:layout_height="1dp" 
+                     android:background="@android:color/darker_gray" /> 
+  
+                 <CheckBox 
+                     android:id="@+id/bonePain" 
+                     android:layout_width="match_parent" 
+                     android:layout_height="wrap_content" 
+                     android:background="@color/white" 
+                     android:padding="15dp" 
+                     android:text="Bone Pain" 
+                     android:textSize="@dimen/hint_hin_size" /> 
+  
+                 <View 
+                     android:layout_width="match_parent" 
+                     android:layout_height="1dp" 
+                     android:background="@android:color/darker_gray" /> 
+  
+                 <CheckBox 
+                     android:id="@+id/backPain" 
+                     android:layout_width="match_parent" 
+                     android:layout_height="wrap_content" 
+                     android:background="@color/white" 
+                     android:padding="15dp" 
+                     android:text="Back Pain" 
+                     android:textSize="@dimen/hint_hin_size" /> 
+  
+                 <View 
+                     android:layout_width="match_parent" 
+                     android:layout_height="1dp" 
+                     android:background="@android:color/darker_gray" /> 
+  
+                 <CheckBox 
+                     android:id="@+id/paucity" 
+                     android:layout_width="match_parent" 
+                     android:layout_height="wrap_content" 
+                     android:background="@color/white" 
+                     android:padding="15dp" 
+                     android:text="Paucity of movement" 
+                     android:textSize="@dimen/hint_hin_size" /> 
+  
+                 <View 
+                     android:layout_width="match_parent" 
+                     android:layout_height="1dp" 
+                     android:background="@android:color/darker_gray" /> 
+  
+                 <CheckBox 
+                     android:id="@+id/painOnMovement" 
+                     android:layout_width="match_parent" 
+                     android:layout_height="wrap_content" 
+                     android:background="@color/white" 
+                     android:padding="15dp" 
+                     android:text="Pain On Movement" 
+                     android:textSize="@dimen/hint_hin_size" /> 
+  
+                 <View 
+                     android:layout_width="match_parent" 
+                     android:layout_height="1dp" 
+                     android:background="@android:color/darker_gray" /> 
+  
+                 <CheckBox 
+                     android:id="@+id/jointPain" 
+                     android:layout_width="match_parent" 
+                     android:layout_height="wrap_content" 
+                     android:background="@color/white" 
+                     android:padding="15dp" 
+                     android:text="Joint Pain" 
+                     android:textSize="@dimen/hint_hin_size" /> 
+  
+                 <View 
+                     android:layout_width="match_parent" 
+                     android:layout_height="1dp" 
+                     android:background="@android:color/darker_gray" /> 
+  
+                 <CheckBox 
+                     android:id="@+id/jointSwelling" 
+                     android:layout_width="match_parent" 
+                     android:layout_height="wrap_content" 
+                     android:background="@color/white" 
+                     android:padding="15dp" 
+                     android:text="Joint Swelling" 
+                     android:textSize="@dimen/hint_hin_size" /> 
+  
+                 <View 
+                     android:layout_width="match_parent" 
+                     android:layout_height="1dp" 
+                     android:background="@android:color/darker_gray" /> 
+  
+                 <CheckBox 
+                     android:id="@+id/jointInflam" 
+                     android:layout_width="match_parent" 
+                     android:layout_height="wrap_content" 
+                     android:background="@color/white" 
+                     android:padding="15dp" 
+                     android:text="Joint Inflammation" 
+                     android:textSize="@dimen/hint_hin_size" /> 
+  
+                 <View 
+                     android:layout_width="match_parent" 
+                     android:layout_height="1dp" 
+                     android:background="@android:color/darker_gray" /> 
+  
+                 <CheckBox 
+                     android:id="@+id/poorMobility" 
+                     android:layout_width="match_parent" 
+                     android:layout_height="wrap_content" 
+                     android:background="@color/white" 
+                     android:padding="15dp" 
+                     android:text="Poor Mobility" 
+                     android:textSize="@dimen/hint_hin_size" /> 
+  
+                 <View 
+                     android:layout_width="match_parent" 
+                     android:layout_height="1dp" 
+                     android:background="@android:color/darker_gray" /> 
+  
+                 <CheckBox 
+                     android:id="@+id/jointDeformity" 
+                     android:layout_width="match_parent" 
+                     android:layout_height="wrap_content" 
+                     android:background="@color/white" 
+                     android:padding="15dp" 
+                     android:text="Joint Deformity" 
+                     android:textSize="@dimen/hint_hin_size" /> 
+  
+                 <View 
+                     android:layout_width="match_parent" 
+                     android:layout_height="1dp" 
+                     android:background="@android:color/darker_gray" /> 
+  
+                 <CheckBox 
+                     android:id="@+id/jointDysfunction" 
+                     android:layout_width="match_parent" 
+                     android:layout_height="wrap_content" 
+                     android:background="@color/white" 
+                     android:padding="15dp" 
+                     android:text="Joint Dysfunction" 
+                     android:textSize="@dimen/hint_hin_size" /> 
+  
+                 <View 
+                     android:layout_width="match_parent" 
+                     android:layout_height="1dp" 
+                     android:background="@android:color/darker_gray" /> 
+  
+                 <CheckBox 
+                     android:id="@+id/curvedSpine" 
+                     android:layout_width="match_parent" 
+                     android:layout_height="wrap_content" 
+                     android:background="@color/white" 
+                     android:padding="15dp" 
+                     android:text="Curved Spine" 
+                     android:textSize="@dimen/hint_hin_size" /> 
+  
+                 <View 
+                     android:layout_width="match_parent" 
+                     android:layout_height="1dp" 
+                     android:background="@android:color/darker_gray" /> 
+  
+                 <CheckBox 
+                     android:id="@+id/diffWalking" 
+                     android:layout_width="match_parent" 
+                     android:layout_height="wrap_content" 
+                     android:background="@color/white" 
+                     android:padding="15dp" 
+                     android:text="Difficulty in Walking" 
+                     android:textSize="@dimen/hint_hin_size" /> 
+  
+                 <View 
+                     android:layout_width="match_parent" 
+                     android:layout_height="1dp" 
+                     android:background="@android:color/darker_gray" /> 
+  
+</LinearLayout>
+
+<LinearLayout 
+             android:layout_width="match_parent" 
+             android:layout_height="match_parent" 
+             android:layout_marginLeft="@dimen/input_margin_hor" 
+             android:layout_marginRight="@dimen/input_margin_hor" 
+             android:layout_marginTop="@dimen/input_margin_hor" 
+             android:orientation="vertical"> 
+                         <TextView 
+                 android:layout_width="match_parent" 
+                 android:layout_height="wrap_content" 
+                 android:layout_marginBottom="5dp" 
+                 android:hint="Common Diagnosis" 
+                 android:textSize="@dimen/hint_hin_size" /> 
+  
+  
+                 <CheckBox 
+                     android:id="@+id/arthritis" 
+                     android:layout_width="match_parent" 
+                     android:layout_height="wrap_content" 
+                     android:background="@color/white" 
+                     android:padding="15dp" 
+                     android:text="Rheumatoid Arthritis" 
+                     android:textSize="@dimen/hint_hin_size" /> 
+  
+                 <View 
+                     android:layout_width="match_parent" 
+                     android:layout_height="1dp" 
+                     android:background="@android:color/darker_gray" /> 
+  
+                 <CheckBox 
+                     android:id="@+id/osteoarthritis" 
+                     android:layout_width="match_parent" 
+                     android:layout_height="wrap_content" 
+                     android:background="@color/white" 
+                     android:padding="15dp" 
+                     android:text="Osteoarthritis" 
+                     android:textSize="@dimen/hint_hin_size" /> 
+  
+                 <View 
+                     android:layout_width="match_parent" 
+                     android:layout_height="1dp" 
+                     android:background="@android:color/darker_gray" /> 
+  
+                 <CheckBox 
+                     android:id="@+id/openFracture" 
+                     android:layout_width="match_parent" 
+                     android:layout_height="wrap_content" 
+                     android:background="@color/white" 
+                     android:padding="15dp" 
+                     android:text="Open Fracture" 
+                     android:textSize="@dimen/hint_hin_size" /> 
+  
+                 <View 
+                     android:layout_width="match_parent" 
+                     android:layout_height="1dp" 
+                     android:background="@android:color/darker_gray" /> 
+  
+                 <CheckBox 
+                     android:id="@+id/closedFracture" 
+                     android:layout_width="match_parent" 
+                     android:layout_height="wrap_content" 
+                     android:background="@color/white" 
+                     android:padding="15dp" 
+                     android:text="Closed Fracture" 
+                     android:textSize="@dimen/hint_hin_size" /> 
+  
+                 <View 
+                     android:layout_width="match_parent" 
+                     android:layout_height="1dp" 
+                     android:background="@android:color/darker_gray" /> 
+  
+                 <CheckBox 
+                     android:id="@+id/greenStickFracture" 
+                     android:layout_width="match_parent" 
+                     android:layout_height="wrap_content" 
+                     android:background="@color/white" 
+                     android:padding="15dp" 
+                     android:text="Green Stick Fracture" 
+                     android:textSize="@dimen/hint_hin_size" /> 
+  
+                 <View 
+                     android:layout_width="match_parent" 
+                     android:layout_height="1dp" 
+                     android:background="@android:color/darker_gray" /> 
+  
+                 <CheckBox 
+                     android:id="@+id/kyphosis" 
+                     android:layout_width="match_parent" 
+                     android:layout_height="wrap_content" 
+                     android:background="@color/white" 
+                     android:padding="15dp" 
+                     android:text="Kyphosis / Scoliosis" 
+                     android:textSize="@dimen/hint_hin_size" /> 
+  
+                 <View 
+                     android:layout_width="match_parent" 
+                     android:layout_height="1dp" 
+                     android:background="@android:color/darker_gray" /> 
+  
+                 <CheckBox 
+                     android:id="@+id/vertebralCompression" 
+                     android:layout_width="match_parent" 
+                     android:layout_height="wrap_content" 
+                     android:background="@color/white" 
+                     android:padding="15dp" 
+                     android:text="Vertebral Compression / Degeneration" 
+                     android:textSize="@dimen/hint_hin_size" /> 
+  
+                 <View 
+                     android:layout_width="match_parent" 
+                     android:layout_height="1dp" 
+                     android:background="@android:color/darker_gray" /> 
+  
+                 <CheckBox 
+                     android:id="@+id/boneCancer" 
+                     android:layout_width="match_parent" 
+                     android:layout_height="wrap_content" 
+                     android:background="@color/white" 
+                     android:padding="15dp" 
+                     android:text="Bone Cancer" 
+                     android:textSize="@dimen/hint_hin_size" /> 
+  
+                 <View 
+                     android:layout_width="match_parent" 
+                     android:layout_height="1dp" 
+                     android:background="@android:color/darker_gray" /> 
+  
+                 <CheckBox 
+                     android:id="@+id/bursitis" 
+                     android:layout_width="match_parent" 
+                     android:layout_height="wrap_content" 
+                     android:background="@color/white" 
+                     android:padding="15dp" 
+                     android:text="Bursitis" 
+                     android:textSize="@dimen/hint_hin_size" /> 
+  
+                 <View 
+                     android:layout_width="match_parent" 
+                     android:layout_height="1dp" 
+                     android:background="@android:color/darker_gray" /> 
+  
+                 <CheckBox 
+                     android:id="@+id/cts" 
+                     android:layout_width="match_parent" 
+                     android:layout_height="wrap_content" 
+                     android:background="@color/white" 
+                     android:padding="15dp" 
+                     android:text="Carpal Tunnel Syndrome" 
+                     android:textSize="@dimen/hint_hin_size" /> 
+  
+                 <View 
+                     android:layout_width="match_parent" 
+                     android:layout_height="1dp" 
+                     android:background="@android:color/darker_gray" /> 
+  
+                 <CheckBox 
+                     android:id="@+id/lateralEpicondylitis" 
+                     android:layout_width="match_parent" 
+                     android:layout_height="wrap_content" 
+                     android:background="@color/white" 
+                     android:padding="15dp" 
+                     android:text="Lateral Epicondylitis (Tennis Elbow)" 
+                     android:textSize="@dimen/hint_hin_size" /> 
+  
+                 <View 
+                     android:layout_width="match_parent" 
+                     android:layout_height="1dp" 
+                     android:background="@android:color/darker_gray" /> 
+  
+                 <CheckBox 
+                     android:id="@+id/osteoporosis" 
+                     android:layout_width="match_parent" 
+                     android:layout_height="wrap_content" 
+                     android:background="@color/white" 
+                     android:padding="15dp" 
+                     android:text="Osteoporosis" 
+                     android:textSize="@dimen/hint_hin_size" /> 
+  
+                 <View 
+                     android:layout_width="match_parent" 
+                     android:layout_height="1dp" 
+                     android:background="@android:color/darker_gray" /> 
+  
+                 <CheckBox 
+                     android:id="@+id/sti" 
+                     android:layout_width="match_parent" 
+                     android:layout_height="wrap_content" 
+                     android:background="@color/white" 
+                     android:padding="15dp" 
+                     android:text="Soft Tissue Injuries" 
+                     android:textSize="@dimen/hint_hin_size" /> 
+  
+                 <View 
+                     android:layout_width="match_parent" 
+                     android:layout_height="1dp" 
+                     android:background="@android:color/darker_gray" /> 
+  
+                 <CheckBox 
+                     android:id="@+id/tendonitis" 
+                     android:layout_width="match_parent" 
+                     android:layout_height="wrap_content" 
+                     android:background="@color/white" 
+                     android:padding="15dp" 
+                     android:text="Tendonitis" 
+                     android:textSize="@dimen/hint_hin_size" /> 
+  
+                 <View 
+                     android:layout_width="match_parent" 
+                     android:layout_height="1dp" 
+                     android:background="@android:color/darker_gray" /> 
+  
+                 <CheckBox 
+                     android:id="@+id/ligamentTear" 
+                     android:layout_width="match_parent" 
+                     android:layout_height="wrap_content" 
+                     android:background="@color/white" 
+                     android:padding="15dp" 
+                     android:text="Ligament tear / Cartilage tear" 
+                     android:textSize="@dimen/hint_hin_size" /> 
+  
+                 <View 
+                     android:layout_width="match_parent" 
+                     android:layout_height="1dp" 
+                     android:background="@android:color/darker_gray" /> 
+  
+                 <CheckBox 
+                     android:id="@+id/rct" 
+                     android:layout_width="match_parent" 
+                     android:layout_height="wrap_content" 
+                     android:background="@color/white" 
+                     android:padding="15dp" 
+                     android:text="Rotator Cuff Tear" 
+                     android:textSize="@dimen/hint_hin_size" /> 
+  
+                 <View 
+                     android:layout_width="match_parent" 
+                     android:layout_height="1dp" 
+                     android:background="@android:color/darker_gray" /> 
+  
+                 <CheckBox 
+                     android:id="@+id/frozenShoulder" 
+                     android:layout_width="match_parent" 
+                     android:layout_height="wrap_content" 
+                     android:background="@color/white" 
+                     android:padding="15dp" 
+                     android:text="Adhesive Capsulitis (Frozen Shoulder)" 
+                     android:textSize="@dimen/hint_hin_size" /> 
+  
+                 <View 
+                     android:layout_width="match_parent" 
+                     android:layout_height="1dp" 
+                     android:background="@android:color/darker_gray" /> 
+  
+                 <CheckBox 
+                     android:id="@+id/pdotb" 
+                     android:layout_width="match_parent" 
+                     android:layout_height="wrap_content" 
+                     android:background="@color/white" 
+                     android:padding="15dp" 
+                     android:text="Paget’s Disease of the Bone" 
+                     android:textSize="@dimen/hint_hin_size" /> 
+  
+                 <View 
+                     android:layout_width="match_parent" 
+                     android:layout_height="1dp" 
+                     android:background="@android:color/darker_gray" /> 
+  
+                 <CheckBox 
+                     android:id="@+id/dislocation" 
+                     android:layout_width="match_parent" 
+                     android:layout_height="wrap_content" 
+                     android:background="@color/white" 
+                     android:padding="15dp" 
+                     android:text="Dislocation" 
+                     android:textSize="@dimen/hint_hin_size" /> 
+  
+                 <View 
+                     android:layout_width="match_parent" 
+                     android:layout_height="1dp" 
+                     android:background="@android:color/darker_gray" /> 
+  
+</LinearLayout>
+
+<LinearLayout 
+             android:layout_width="match_parent" 
+             android:layout_height="match_parent" 
+             android:orientation="vertical"> 
+ 						<TextView 
+                 android:layout_width="match_parent" 
+                 android:layout_height="wrap_content" 
+                 android:layout_marginBottom="5dp" 
+                 android:layout_marginLeft="@dimen/input_margin_hor" 
+                 android:layout_marginRight="@dimen/input_margin_hor" 
+                 android:layout_marginTop="@dimen/input_margin_hor" 
+                 android:hint="Reffered to Hospital" 
+                 android:textSize="@dimen/hint_hin_size" /> 
+  
+             <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android" 
+                 android:layout_width="fill_parent" 
+                 android:layout_height="wrap_content" 
+                 android:layout_marginLeft="@dimen/input_margin_hor" 
+                 android:layout_marginRight="@dimen/input_margin_hor" 
+                 android:layout_marginTop="5dp" 
+                 android:background="@color/white" 
+                 android:orientation="vertical"> 
+  
+                 <RadioButton 
+                     android:id="@+id/referredtoHospitalYes" 
+                     android:layout_width="match_parent" 
+                     android:layout_height="wrap_content" 
+                     android:onClick="onRadioButtonClicked" 
+                     android:padding="15dp" 
+                     android:text="Yes" 
+                     android:textSize="@dimen/hint_hin_size" /> 
+  
+                 <View 
+                     android:layout_width="match_parent" 
+                     android:layout_height="1dp" 
+                     android:background="@android:color/darker_gray" /> 
+  
+                 <RadioButton 
+                     android:id="@+id/referredtoHospitalNo" 
+                     android:layout_width="match_parent" 
+                     android:layout_height="wrap_content" 
+                     android:onClick="onRadioButtonClicked" 
+                     android:padding="15dp" 
+                     android:text="No" 
+                     android:textSize="@dimen/hint_hin_size" /> 
+  
+                 <View 
+                     android:layout_width="match_parent" 
+                     android:layout_height="1dp" 
+                     android:background="@android:color/darker_gray" /> 
+  </RadioGroup> 
+ 			            
+</LinearLayout>
+<LinearLayout 
+             android:layout_width="match_parent" 
+             android:layout_height="match_parent" 
+             android:orientation="vertical"> 
+ 						<TextView 
+                 android:layout_width="match_parent" 
+                 android:layout_height="wrap_content" 
+                 android:layout_marginBottom="5dp" 
+                 android:layout_marginLeft="@dimen/input_margin_hor" 
+                 android:layout_marginRight="@dimen/input_margin_hor" 
+                 android:layout_marginTop="@dimen/input_margin_hor" 
+                 android:hint="Patient has been prescribe medicine" 
+                 android:textSize="@dimen/hint_hin_size" /> 
+  
+             <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android" 
+                 android:layout_width="fill_parent" 
+                 android:layout_height="wrap_content" 
+                 android:layout_marginLeft="@dimen/input_margin_hor" 
+                 android:layout_marginRight="@dimen/input_margin_hor" 
+                 android:layout_marginTop="5dp" 
+                 android:background="@color/white" 
+                 android:orientation="vertical"> 
+  
+                 <RadioButton 
+                     android:id="@+id/prescribeMedcineYes" 
+                     android:layout_width="match_parent" 
+                     android:layout_height="wrap_content" 
+                     android:onClick="onRadioButtonClicked" 
+                     android:padding="15dp" 
+                     android:text="Yes" 
+                     android:textSize="@dimen/hint_hin_size" /> 
+  
+                 <View 
+                     android:layout_width="match_parent" 
+                     android:layout_height="1dp" 
+                     android:background="@android:color/darker_gray" /> 
+  
+                 <RadioButton 
+                     android:id="@+id/prescribeMedcineNo" 
+                     android:layout_width="match_parent" 
+                     android:layout_height="wrap_content" 
+                     android:onClick="onRadioButtonClicked" 
+                     android:padding="15dp" 
+                     android:text="No" 
+                     android:textSize="@dimen/hint_hin_size" /> 
+  
+                 <View 
+                     android:layout_width="match_parent" 
+                     android:layout_height="1dp" 
+                     android:background="@android:color/darker_gray" /> 
+  </RadioGroup> 
+ 			            
+</LinearLayout>
+<LinearLayout 
+             android:layout_width="match_parent" 
+             android:layout_height="match_parent" 
+             android:orientation="vertical"> 
+ 						<TextView 
+                 android:layout_width="match_parent" 
+                 android:layout_height="wrap_content" 
+                 android:layout_marginBottom="5dp" 
+                 android:layout_marginLeft="@dimen/input_margin_hor" 
+                 android:layout_marginRight="@dimen/input_margin_hor" 
+                 android:layout_marginTop="@dimen/input_margin_hor" 
+                 android:hint="Patient has been given Medicine" 
+                 android:textSize="@dimen/hint_hin_size" /> 
+  
+             <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android" 
+                 android:layout_width="fill_parent" 
+                 android:layout_height="wrap_content" 
+                 android:layout_marginLeft="@dimen/input_margin_hor" 
+                 android:layout_marginRight="@dimen/input_margin_hor" 
+                 android:layout_marginTop="5dp" 
+                 android:background="@color/white" 
+                 android:orientation="vertical"> 
+  
+                 <RadioButton 
+                     android:id="@+id/givenMedicineYes" 
+                     android:layout_width="match_parent" 
+                     android:layout_height="wrap_content" 
+                     android:onClick="onRadioButtonClicked" 
+                     android:padding="15dp" 
+                     android:text="Yes" 
+                     android:textSize="@dimen/hint_hin_size" /> 
+  
+                 <View 
+                     android:layout_width="match_parent" 
+                     android:layout_height="1dp" 
+                     android:background="@android:color/darker_gray" /> 
+  
+                 <RadioButton 
+                     android:id="@+id/givenMedicineNo" 
+                     android:layout_width="match_parent" 
+                     android:layout_height="wrap_content" 
+                     android:onClick="onRadioButtonClicked" 
+                     android:padding="15dp" 
+                     android:text="No" 
+                     android:textSize="@dimen/hint_hin_size" /> 
+  
+                 <View 
+                     android:layout_width="match_parent" 
+                     android:layout_height="1dp" 
+                     android:background="@android:color/darker_gray" /> 
+  </RadioGroup> 
+ 			            
+</LinearLayout>
+<Button 
+             android:id="@+id/submitbtn" 
+             android:layout_width="match_parent" 
+             android:layout_height="wrap_content"
+             android:layout_marginBottom="20dp"
+             android:layout_marginLeft="20dp"
+             android:layout_marginRight="20dp"
+             android:layout_marginTop="30dp"
+             android:background="@color/colorAccent"
+             android:onClick="onSubmit"
+             android:text="Save"
+             android:textColor="@color/white" />

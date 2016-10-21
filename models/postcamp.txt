@@ -1,0 +1,9 @@
+String howCamp;
+String campStart;
+String docHappy;
+String peopleSatisfied;
+String howMany;
+String managementIssues;
+String properProcedure;
+String anyFight;
+

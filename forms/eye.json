@@ -1,0 +1,165 @@
+{
+	"fields":[
+		{
+			"key": "coupon",
+			"type": "edit_text",
+			"hint": "Coupon No: ",
+			"input_type": "textCapCharacters"
+		},
+		{
+			"key": "eyeProblems",
+			"type": "checkbox",
+			"hint": "Eye Problems",
+			"options": [
+				{
+					"key": "cataract",
+					"text": "Cataract"
+				},
+				{
+					"key": "hyperopia",
+					"text": "Hyperopia"
+				},
+				{
+					"key": "myopia",
+					"text": "Myopia"
+				},
+				{
+					"key": "glaucoma",
+					"text": "Glaucoma"
+				},
+				{
+					"key": "abnormalPupils",
+					"text": "Abnormal Pupils"
+				},
+				{
+					"key": "discharge",
+					"text": "Discharge"
+				},
+				{
+					"key": "infection",
+					"text": "Infection"
+				},
+				{
+					"key": "erythema",
+					"text": "Erythema"
+				},
+				{
+					"key": "nightB",
+					"text": "Night Blindness"
+				},
+				{
+					"key": "colorB",
+					"text": "Color Blindness"
+				},
+				{
+					"key": "pain",
+					"text": "Pain"
+				},
+				{
+					"key": "squintCross",
+					"text": "Squint or Crossed Eyes"
+				},
+				{
+					"key": "unevenFocus",
+					"text": "Uneven Focus"
+				},
+				{
+					"key": "presbyopia",
+					"text": "Presbyopia"
+				},
+				{
+					"key": "astigmatism",
+					"text": "Astigmatism"
+				},
+				{
+					"key": "ptosis",
+					"text": "Ptosis"
+				},
+				{
+					"key": "binocullarVision",
+					"text": "Binocullar Vision"
+				},
+				{
+					"key": "pterygium",
+					"text": "Pterygium"
+				},
+				{
+					"key": "conjuctivitis",
+					"text": "Conjuctivitis"
+				}			
+			]
+		},
+		{
+			"key": "sugar",
+			"type": "edit_text",
+			"hint": "Sugar",
+			"input_type": "number"
+		},
+		{
+			"key": "bp",
+			"type": "edit_text",
+			"hint": "Blood Pressure",
+			"input_type": "number"
+		},
+		{
+			"key": "referredToHospital",
+			"type": "radio",
+			"hint": "Referred to Hospital for further consultation",
+			"options": [
+				{
+					"key": "referredToHospitalYes",
+					"text": "Yes"
+				},
+				{
+					"key": "referredToHospitalNo",
+					"text": "No"
+				}
+			]
+		},
+		{
+			"key": "prescribedMed",
+			"type": "radio",
+			"hint": "Patiend has been prescribed medicine / eye drops",
+			"options": [
+				{
+					"key": "prescribedMedYes",
+					"text": "Yes"
+				},
+				{
+					"key": "prescribedMedNo",
+					"text": "No"
+				}
+			]
+		},
+		{
+			"key": "givenMed",
+			"type": "radio",
+			"hint": "Patient Has been given medicine / eye drops",
+			"options": [
+				{
+					"key": "givenMedYes",
+					"text": "Yes"
+				},
+				{
+					"key": "givenMedNo",
+					"text": "No"
+				}
+			]
+		},
+		{
+			"key": "prescribedSpec",
+			"type": "radio",
+			"hint": "Patient has been prescribed Spectacles",
+			"options": [
+				{
+					"key": "prescribedSpecYes",
+					"text": "Yes"
+				},
+				{
+					"key": "prescribedSpecNo",
+					"text": "No"
+				}
+			]
+		}
+	]
+}

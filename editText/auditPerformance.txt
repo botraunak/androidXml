@@ -1,0 +1,42 @@
+@Bind(R.id.SupervisorName) 
+protected EditText SupervisorName; 
+ 
+@Bind(R.id.bachatSakhiName) 
+protected EditText bachatSakhiName; 
+ 
+@Bind(R.id.loc) 
+protected EditText loc; 
+ 
+@Bind(R.id.noOfDaysInKiosk) 
+protected EditText noOfDaysInKiosk; 
+ 
+@Bind(R.id.noOfDaysInUniform) 
+protected EditText noOfDaysInUniform; 
+ 
+@Bind(R.id.noOfPlannedTrainingsAtten) 
+protected EditText noOfPlannedTrainingsAtten; 
+ 
+@Bind(R.id.noOfKeyIniatives) 
+protected EditText noOfKeyIniatives; 
+ 
+@Bind(R.id.pointsSecuredInPTT) 
+protected EditText pointsSecuredInPTT; 
+ 
+@Bind(R.id.noOfTimesNominated) 
+protected EditText noOfTimesNominated; 
+ 
+@Bind(R.id.noOfTimesLeaveInformed) 
+protected EditText noOfTimesLeaveInformed; 
+ 
+
+model.setSupervisorName(SupervisorName.getText().toString()); 
+model.setBachatSakhiName(bachatSakhiName.getText().toString()); 
+model.setLoc(loc.getText().toString()); 
+model.setNoOfDaysInKiosk(noOfDaysInKiosk.getText().toString()); 
+model.setNoOfDaysInUniform(noOfDaysInUniform.getText().toString()); 
+model.setNoOfPlannedTrainingsAtten(noOfPlannedTrainingsAtten.getText().toString()); 
+model.setNoOfKeyIniatives(noOfKeyIniatives.getText().toString()); 
+model.setPointsSecuredInPTT(pointsSecuredInPTT.getText().toString()); 
+model.setNoOfTimesNominated(noOfTimesNominated.getText().toString()); 
+model.setNoOfTimesLeaveInformed(noOfTimesLeaveInformed.getText().toString()); 
+

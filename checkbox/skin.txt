@@ -1,0 +1,174 @@
+@Bind(R.id.rashes) 
+protected CheckBox rashes; 
+ 
+@Bind(R.id.lumps) 
+protected CheckBox lumps; 
+ 
+@Bind(R.id.bumps) 
+protected CheckBox bumps; 
+ 
+@Bind(R.id.drySkin) 
+protected CheckBox drySkin; 
+ 
+@Bind(R.id.itchySkin) 
+protected CheckBox itchySkin; 
+ 
+@Bind(R.id.blisters) 
+protected CheckBox blisters; 
+ 
+@Bind(R.id.sunBurn) 
+protected CheckBox sunBurn; 
+ 
+@Bind(R.id.excessiveSweating) 
+protected CheckBox excessiveSweating; 
+ 
+@Bind(R.id.swollenLips) 
+protected CheckBox swollenLips; 
+ 
+@Bind(R.id.peelingSkin) 
+protected CheckBox peelingSkin; 
+ 
+@Bind(R.id.rednessonFace) 
+protected CheckBox rednessonFace; 
+ 
+@Bind(R.id.birthmarks) 
+protected CheckBox birthmarks; 
+ 
+@Bind(R.id.acneVulgaris) 
+protected CheckBox acneVulgaris; 
+ 
+@Bind(R.id.rosacea) 
+protected CheckBox rosacea; 
+ 
+@Bind(R.id.atopicDermatitis) 
+protected CheckBox atopicDermatitis; 
+ 
+@Bind(R.id.allergicContactDermatitis) 
+protected CheckBox allergicContactDermatitis; 
+ 
+@Bind(R.id.eczema) 
+protected CheckBox eczema; 
+ 
+@Bind(R.id.psoriasis) 
+protected CheckBox psoriasis; 
+ 
+@Bind(R.id.vitiligo) 
+protected CheckBox vitiligo; 
+ 
+@Bind(R.id.actinicKeratosis) 
+protected CheckBox actinicKeratosis; 
+ 
+@Bind(R.id.carbuncle) 
+protected CheckBox carbuncle; 
+ 
+@Bind(R.id.cellulitis) 
+protected CheckBox cellulitis; 
+ 
+@Bind(R.id.impetigo) 
+protected CheckBox impetigo; 
+ 
+@Bind(R.id.cornAndCalluses) 
+protected CheckBox cornAndCalluses; 
+ 
+@Bind(R.id.folliculitis) 
+protected CheckBox folliculitis; 
+ 
+@Bind(R.id.seborrheicKeratosis) 
+protected CheckBox seborrheicKeratosis; 
+ 
+@Bind(R.id.candidiasis) 
+protected CheckBox candidiasis; 
+ 
+@Bind(R.id.scabies) 
+protected CheckBox scabies; 
+ 
+@Bind(R.id.insectBite) 
+protected CheckBox insectBite; 
+ 
+@Bind(R.id.urticaria) 
+protected CheckBox urticaria; 
+ 
+@Bind(R.id.basalSquamousCell) 
+protected CheckBox basalSquamousCell; 
+ 
+@Bind(R.id.warts) 
+protected CheckBox warts; 
+ 
+
+public void get_symptoms() { 
+	 	 ArrayList<String> checkedboxes = new ArrayList<>(); 
+	 	if (rashes.isChecked()) 
+	 	checkedboxes.add("Rashes");
+	 	if (lumps.isChecked()) 
+	 	checkedboxes.add("Lumps");
+	 	if (bumps.isChecked()) 
+	 	checkedboxes.add("Bumps");
+	 	if (drySkin.isChecked()) 
+	 	checkedboxes.add("Dry skin");
+	 	if (itchySkin.isChecked()) 
+	 	checkedboxes.add("Itchy Skin");
+	 	if (blisters.isChecked()) 
+	 	checkedboxes.add("Blisters");
+	 	if (sunBurn.isChecked()) 
+	 	checkedboxes.add("Sun burn");
+	 	if (excessiveSweating.isChecked()) 
+	 	checkedboxes.add("Excessive sweating");
+	 	if (swollenLips.isChecked()) 
+	 	checkedboxes.add("Swollen Lips");
+	 	if (peelingSkin.isChecked()) 
+	 	checkedboxes.add("Peeling Skin");
+	 	if (rednessonFace.isChecked()) 
+	 	checkedboxes.add("Redness on Face");
+	 	if (birthmarks.isChecked()) 
+	 	checkedboxes.add("Birthmarks");
+	 	 model.setSymptoms(checkedboxes.toString()); 
+}public void get_commonProvisionalDiagnosis() { 
+	 	 ArrayList<String> checkedboxes = new ArrayList<>(); 
+	 	if (acneVulgaris.isChecked()) 
+	 	checkedboxes.add("Acne Vulgaris");
+	 	if (rosacea.isChecked()) 
+	 	checkedboxes.add("Rosacea");
+	 	if (atopicDermatitis.isChecked()) 
+	 	checkedboxes.add("Atopic Dermatitis");
+	 	if (allergicContactDermatitis.isChecked()) 
+	 	checkedboxes.add("Allergic Contact Dermatitis");
+	 	if (eczema.isChecked()) 
+	 	checkedboxes.add("Eczema");
+	 	if (psoriasis.isChecked()) 
+	 	checkedboxes.add("Psoriasis");
+	 	if (vitiligo.isChecked()) 
+	 	checkedboxes.add("Vitiligo");
+	 	if (actinicKeratosis.isChecked()) 
+	 	checkedboxes.add("Actinic Keratosis");
+	 	if (carbuncle.isChecked()) 
+	 	checkedboxes.add("Carbuncle");
+	 	if (cellulitis.isChecked()) 
+	 	checkedboxes.add("Cellulitis");
+	 	if (impetigo.isChecked()) 
+	 	checkedboxes.add("Impetigo");
+	 	if (cornAndCalluses.isChecked()) 
+	 	checkedboxes.add("Corn and Calluses");
+	 	if (folliculitis.isChecked()) 
+	 	checkedboxes.add("Folliculitis");
+	 	if (seborrheicKeratosis.isChecked()) 
+	 	checkedboxes.add("Seborrheic Keratosis");
+	 	if (candidiasis.isChecked()) 
+	 	checkedboxes.add("Candidiasis");
+	 	if (scabies.isChecked()) 
+	 	checkedboxes.add("Scabies");
+	 	if (insectBite.isChecked()) 
+	 	checkedboxes.add("Insect Bite");
+	 	if (urticaria.isChecked()) 
+	 	checkedboxes.add("Urticaria");
+	 	if (basalSquamousCell.isChecked()) 
+	 	checkedboxes.add("Basal Cell / Squamous Cell Carcinoma");
+	 	if (warts.isChecked()) 
+	 	checkedboxes.add("Warts");
+	 	 model.setCommonProvisionalDiagnosis(checkedboxes.toString()); 
+}
+
+
+
+get_symptoms(); 
+get_commonProvisionalDiagnosis(); 
+

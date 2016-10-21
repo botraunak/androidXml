@@ -1,0 +1,6 @@
+@Bind(R.id.couponNumber) 
+protected EditText couponNumber; 
+ 
+
+model.setCouponNumber(couponNumber.getText().toString()); 
+

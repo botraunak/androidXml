@@ -1,0 +1,494 @@
+<LinearLayout 
+             android:layout_width="match_parent" 
+             android:layout_height="match_parent" 
+             android:orientation="vertical"> 
+  
+             <TextView 
+                 android:layout_width="match_parent" 
+                 android:layout_height="wrap_content" 
+                 android:layout_marginBottom="5dp" 
+                 android:layout_marginLeft="@dimen/input_margin_hor" 
+                 android:layout_marginRight="@dimen/input_margin_hor" 
+                 android:layout_marginTop="@dimen/input_margin_hor" 
+                 android:hint="Coupon Number: " 
+                 android:textSize="@dimen/hint_hin_size" /> 
+  
+             <EditText 
+                 android:id="@+id/coupon" 
+                 android:layout_width="match_parent" 
+                 android:layout_height="wrap_content" 
+                 android:layout_marginLeft="@dimen/input_margin_hor" 
+                 android:layout_marginRight="@dimen/input_margin_hor" 
+                 android:layout_marginTop="5dp" 
+                 android:background="@color/white" 
+                 android:inputType="textCapCharacters" 
+                 android:padding="@dimen/input_padding" 
+                 android:textSize="@dimen/hint_hin_size" /> 
+  
+             <View 
+                 android:layout_width="match_parent" 
+                 android:layout_height="3dp" 
+                 android:layout_marginLeft="@dimen/input_margin_hor" 
+                 android:layout_marginRight="@dimen/input_margin_hor" 
+                 android:background="@color/colorPrimary" />                
+</LinearLayout>
+<LinearLayout 
+             android:layout_width="match_parent" 
+             android:layout_height="match_parent" 
+             android:layout_marginLeft="@dimen/input_margin_hor" 
+             android:layout_marginRight="@dimen/input_margin_hor" 
+             android:layout_marginTop="@dimen/input_margin_hor" 
+             android:orientation="vertical"> 
+                         <TextView 
+                 android:layout_width="match_parent" 
+                 android:layout_height="wrap_content" 
+                 android:layout_marginBottom="5dp" 
+                 android:hint="Dental Problems" 
+                 android:textSize="@dimen/hint_hin_size" /> 
+  
+  
+                 <CheckBox 
+                     android:id="@+id/cavities" 
+                     android:layout_width="match_parent" 
+                     android:layout_height="wrap_content" 
+                     android:background="@color/white" 
+                     android:padding="15dp" 
+                     android:text="Cavities" 
+                     android:textSize="@dimen/hint_hin_size" /> 
+  
+                 <View 
+                     android:layout_width="match_parent" 
+                     android:layout_height="1dp" 
+                     android:background="@android:color/darker_gray" /> 
+  
+                 <CheckBox 
+                     android:id="@+id/gums" 
+                     android:layout_width="match_parent" 
+                     android:layout_height="wrap_content" 
+                     android:background="@color/white" 
+                     android:padding="15dp" 
+                     android:text="Gums" 
+                     android:textSize="@dimen/hint_hin_size" /> 
+  
+                 <View 
+                     android:layout_width="match_parent" 
+                     android:layout_height="1dp" 
+                     android:background="@android:color/darker_gray" /> 
+  
+                 <CheckBox 
+                     android:id="@+id/smell" 
+                     android:layout_width="match_parent" 
+                     android:layout_height="wrap_content" 
+                     android:background="@color/white" 
+                     android:padding="15dp" 
+                     android:text="Smell" 
+                     android:textSize="@dimen/hint_hin_size" /> 
+  
+                 <View 
+                     android:layout_width="match_parent" 
+                     android:layout_height="1dp" 
+                     android:background="@android:color/darker_gray" /> 
+  
+                 <CheckBox 
+                     android:id="@+id/mucositis" 
+                     android:layout_width="match_parent" 
+                     android:layout_height="wrap_content" 
+                     android:background="@color/white" 
+                     android:padding="15dp" 
+                     android:text="Mucositis" 
+                     android:textSize="@dimen/hint_hin_size" /> 
+  
+                 <View 
+                     android:layout_width="match_parent" 
+                     android:layout_height="1dp" 
+                     android:background="@android:color/darker_gray" /> 
+  
+                 <CheckBox 
+                     android:id="@+id/dry" 
+                     android:layout_width="match_parent" 
+                     android:layout_height="wrap_content" 
+                     android:background="@color/white" 
+                     android:padding="15dp" 
+                     android:text="Dry" 
+                     android:textSize="@dimen/hint_hin_size" /> 
+  
+                 <View 
+                     android:layout_width="match_parent" 
+                     android:layout_height="1dp" 
+                     android:background="@android:color/darker_gray" /> 
+  
+                 <CheckBox 
+                     android:id="@+id/pain" 
+                     android:layout_width="match_parent" 
+                     android:layout_height="wrap_content" 
+                     android:background="@color/white" 
+                     android:padding="15dp" 
+                     android:text="Pain" 
+                     android:textSize="@dimen/hint_hin_size" /> 
+  
+                 <View 
+                     android:layout_width="match_parent" 
+                     android:layout_height="1dp" 
+                     android:background="@android:color/darker_gray" /> 
+  
+                 <CheckBox 
+                     android:id="@+id/rootStump" 
+                     android:layout_width="match_parent" 
+                     android:layout_height="wrap_content" 
+                     android:background="@color/white" 
+                     android:padding="15dp" 
+                     android:text="Root Stump" 
+                     android:textSize="@dimen/hint_hin_size" /> 
+  
+                 <View 
+                     android:layout_width="match_parent" 
+                     android:layout_height="1dp" 
+                     android:background="@android:color/darker_gray" /> 
+  
+                 <CheckBox 
+                     android:id="@+id/stain" 
+                     android:layout_width="match_parent" 
+                     android:layout_height="wrap_content" 
+                     android:background="@color/white" 
+                     android:padding="15dp" 
+                     android:text="Stain" 
+                     android:textSize="@dimen/hint_hin_size" /> 
+  
+                 <View 
+                     android:layout_width="match_parent" 
+                     android:layout_height="1dp" 
+                     android:background="@android:color/darker_gray" /> 
+  
+                 <CheckBox 
+                     android:id="@+id/calculus" 
+                     android:layout_width="match_parent" 
+                     android:layout_height="wrap_content" 
+                     android:background="@color/white" 
+                     android:padding="15dp" 
+                     android:text="Calculus" 
+                     android:textSize="@dimen/hint_hin_size" /> 
+  
+                 <View 
+                     android:layout_width="match_parent" 
+                     android:layout_height="1dp" 
+                     android:background="@android:color/darker_gray" /> 
+  
+</LinearLayout>
+<LinearLayout 
+             android:layout_width="match_parent" 
+             android:layout_height="match_parent" 
+             android:orientation="vertical"> 
+ 						<TextView 
+                 android:layout_width="match_parent" 
+                 android:layout_height="wrap_content" 
+                 android:layout_marginBottom="5dp" 
+                 android:layout_marginLeft="@dimen/input_margin_hor" 
+                 android:layout_marginRight="@dimen/input_margin_hor" 
+                 android:layout_marginTop="@dimen/input_margin_hor" 
+                 android:hint="Patients both tooth has been extracted" 
+                 android:textSize="@dimen/hint_hin_size" /> 
+  
+             <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android" 
+                 android:layout_width="fill_parent" 
+                 android:layout_height="wrap_content" 
+                 android:layout_marginLeft="@dimen/input_margin_hor" 
+                 android:layout_marginRight="@dimen/input_margin_hor" 
+                 android:layout_marginTop="5dp" 
+                 android:background="@color/white" 
+                 android:orientation="vertical"> 
+  
+                 <RadioButton 
+                     android:id="@+id/bothToothExtractedYes" 
+                     android:layout_width="match_parent" 
+                     android:layout_height="wrap_content" 
+                     android:onClick="onRadioButtonClicked" 
+                     android:padding="15dp" 
+                     android:text="Yes" 
+                     android:textSize="@dimen/hint_hin_size" /> 
+  
+                 <View 
+                     android:layout_width="match_parent" 
+                     android:layout_height="1dp" 
+                     android:background="@android:color/darker_gray" /> 
+  
+                 <RadioButton 
+                     android:id="@+id/bothToothExtractedNo" 
+                     android:layout_width="match_parent" 
+                     android:layout_height="wrap_content" 
+                     android:onClick="onRadioButtonClicked" 
+                     android:padding="15dp" 
+                     android:text="No" 
+                     android:textSize="@dimen/hint_hin_size" /> 
+  
+                 <View 
+                     android:layout_width="match_parent" 
+                     android:layout_height="1dp" 
+                     android:background="@android:color/darker_gray" /> 
+  </RadioGroup> 
+ 			            
+</LinearLayout>
+<LinearLayout 
+             android:layout_width="match_parent" 
+             android:layout_height="match_parent" 
+             android:orientation="vertical"> 
+ 						<TextView 
+                 android:layout_width="match_parent" 
+                 android:layout_height="wrap_content" 
+                 android:layout_marginBottom="5dp" 
+                 android:layout_marginLeft="@dimen/input_margin_hor" 
+                 android:layout_marginRight="@dimen/input_margin_hor" 
+                 android:layout_marginTop="@dimen/input_margin_hor" 
+                 android:hint="Patient's tooth filling has been done" 
+                 android:textSize="@dimen/hint_hin_size" /> 
+  
+             <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android" 
+                 android:layout_width="fill_parent" 
+                 android:layout_height="wrap_content" 
+                 android:layout_marginLeft="@dimen/input_margin_hor" 
+                 android:layout_marginRight="@dimen/input_margin_hor" 
+                 android:layout_marginTop="5dp" 
+                 android:background="@color/white" 
+                 android:orientation="vertical"> 
+  
+                 <RadioButton 
+                     android:id="@+id/toothFillingYes" 
+                     android:layout_width="match_parent" 
+                     android:layout_height="wrap_content" 
+                     android:onClick="onRadioButtonClicked" 
+                     android:padding="15dp" 
+                     android:text="Yes" 
+                     android:textSize="@dimen/hint_hin_size" /> 
+  
+                 <View 
+                     android:layout_width="match_parent" 
+                     android:layout_height="1dp" 
+                     android:background="@android:color/darker_gray" /> 
+  
+                 <RadioButton 
+                     android:id="@+id/toothFillingNo" 
+                     android:layout_width="match_parent" 
+                     android:layout_height="wrap_content" 
+                     android:onClick="onRadioButtonClicked" 
+                     android:padding="15dp" 
+                     android:text="No" 
+                     android:textSize="@dimen/hint_hin_size" /> 
+  
+                 <View 
+                     android:layout_width="match_parent" 
+                     android:layout_height="1dp" 
+                     android:background="@android:color/darker_gray" /> 
+  </RadioGroup> 
+ 			            
+</LinearLayout>
+<LinearLayout 
+             android:layout_width="match_parent" 
+             android:layout_height="match_parent" 
+             android:orientation="vertical"> 
+ 						<TextView 
+                 android:layout_width="match_parent" 
+                 android:layout_height="wrap_content" 
+                 android:layout_marginBottom="5dp" 
+                 android:layout_marginLeft="@dimen/input_margin_hor" 
+                 android:layout_marginRight="@dimen/input_margin_hor" 
+                 android:layout_marginTop="@dimen/input_margin_hor" 
+                 android:hint="Patient's tooth cleaning has been done" 
+                 android:textSize="@dimen/hint_hin_size" /> 
+  
+             <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android" 
+                 android:layout_width="fill_parent" 
+                 android:layout_height="wrap_content" 
+                 android:layout_marginLeft="@dimen/input_margin_hor" 
+                 android:layout_marginRight="@dimen/input_margin_hor" 
+                 android:layout_marginTop="5dp" 
+                 android:background="@color/white" 
+                 android:orientation="vertical"> 
+  
+                 <RadioButton 
+                     android:id="@+id/toothCleaningYes" 
+                     android:layout_width="match_parent" 
+                     android:layout_height="wrap_content" 
+                     android:onClick="onRadioButtonClicked" 
+                     android:padding="15dp" 
+                     android:text="Yes" 
+                     android:textSize="@dimen/hint_hin_size" /> 
+  
+                 <View 
+                     android:layout_width="match_parent" 
+                     android:layout_height="1dp" 
+                     android:background="@android:color/darker_gray" /> 
+  
+                 <RadioButton 
+                     android:id="@+id/toothCleaningNo" 
+                     android:layout_width="match_parent" 
+                     android:layout_height="wrap_content" 
+                     android:onClick="onRadioButtonClicked" 
+                     android:padding="15dp" 
+                     android:text="No" 
+                     android:textSize="@dimen/hint_hin_size" /> 
+  
+                 <View 
+                     android:layout_width="match_parent" 
+                     android:layout_height="1dp" 
+                     android:background="@android:color/darker_gray" /> 
+  </RadioGroup> 
+ 			            
+</LinearLayout>
+<LinearLayout 
+             android:layout_width="match_parent" 
+             android:layout_height="match_parent" 
+             android:orientation="vertical"> 
+ 						<TextView 
+                 android:layout_width="match_parent" 
+                 android:layout_height="wrap_content" 
+                 android:layout_marginBottom="5dp" 
+                 android:layout_marginLeft="@dimen/input_margin_hor" 
+                 android:layout_marginRight="@dimen/input_margin_hor" 
+                 android:layout_marginTop="@dimen/input_margin_hor" 
+                 android:hint="Referred to hospital for further consultation" 
+                 android:textSize="@dimen/hint_hin_size" /> 
+  
+             <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android" 
+                 android:layout_width="fill_parent" 
+                 android:layout_height="wrap_content" 
+                 android:layout_marginLeft="@dimen/input_margin_hor" 
+                 android:layout_marginRight="@dimen/input_margin_hor" 
+                 android:layout_marginTop="5dp" 
+                 android:background="@color/white" 
+                 android:orientation="vertical"> 
+  
+                 <RadioButton 
+                     android:id="@+id/referredHospitalYes" 
+                     android:layout_width="match_parent" 
+                     android:layout_height="wrap_content" 
+                     android:onClick="onRadioButtonClicked" 
+                     android:padding="15dp" 
+                     android:text="Yes" 
+                     android:textSize="@dimen/hint_hin_size" /> 
+  
+                 <View 
+                     android:layout_width="match_parent" 
+                     android:layout_height="1dp" 
+                     android:background="@android:color/darker_gray" /> 
+  
+                 <RadioButton 
+                     android:id="@+id/referredHospitalNo" 
+                     android:layout_width="match_parent" 
+                     android:layout_height="wrap_content" 
+                     android:onClick="onRadioButtonClicked" 
+                     android:padding="15dp" 
+                     android:text="No" 
+                     android:textSize="@dimen/hint_hin_size" /> 
+  
+                 <View 
+                     android:layout_width="match_parent" 
+                     android:layout_height="1dp" 
+                     android:background="@android:color/darker_gray" /> 
+  </RadioGroup> 
+ 			            
+</LinearLayout>
+<LinearLayout 
+             android:layout_width="match_parent" 
+             android:layout_height="match_parent" 
+             android:orientation="vertical"> 
+ 						<TextView 
+                 android:layout_width="match_parent" 
+                 android:layout_height="wrap_content" 
+                 android:layout_marginBottom="5dp" 
+                 android:layout_marginLeft="@dimen/input_margin_hor" 
+                 android:layout_marginRight="@dimen/input_margin_hor" 
+                 android:layout_marginTop="@dimen/input_margin_hor" 
+                 android:hint="Patient has been prescribed medicine" 
+                 android:textSize="@dimen/hint_hin_size" /> 
+  
+             <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android" 
+                 android:layout_width="fill_parent" 
+                 android:layout_height="wrap_content" 
+                 android:layout_marginLeft="@dimen/input_margin_hor" 
+                 android:layout_marginRight="@dimen/input_margin_hor" 
+                 android:layout_marginTop="5dp" 
+                 android:background="@color/white" 
+                 android:orientation="vertical"> 
+  
+                 <RadioButton 
+                     android:id="@+id/medicinePrescribedYes" 
+                     android:layout_width="match_parent" 
+                     android:layout_height="wrap_content" 
+                     android:onClick="onRadioButtonClicked" 
+                     android:padding="15dp" 
+                     android:text="Yes" 
+                     android:textSize="@dimen/hint_hin_size" /> 
+  
+                 <View 
+                     android:layout_width="match_parent" 
+                     android:layout_height="1dp" 
+                     android:background="@android:color/darker_gray" /> 
+  
+                 <RadioButton 
+                     android:id="@+id/medicinePrescribedNo" 
+                     android:layout_width="match_parent" 
+                     android:layout_height="wrap_content" 
+                     android:onClick="onRadioButtonClicked" 
+                     android:padding="15dp" 
+                     android:text="No" 
+                     android:textSize="@dimen/hint_hin_size" /> 
+  
+                 <View 
+                     android:layout_width="match_parent" 
+                     android:layout_height="1dp" 
+                     android:background="@android:color/darker_gray" /> 
+  </RadioGroup> 
+ 			            
+</LinearLayout>
+<LinearLayout 
+             android:layout_width="match_parent" 
+             android:layout_height="match_parent" 
+             android:orientation="vertical"> 
+ 						<TextView 
+                 android:layout_width="match_parent" 
+                 android:layout_height="wrap_content" 
+                 android:layout_marginBottom="5dp" 
+                 android:layout_marginLeft="@dimen/input_margin_hor" 
+                 android:layout_marginRight="@dimen/input_margin_hor" 
+                 android:layout_marginTop="@dimen/input_margin_hor" 
+                 android:hint="Patient has been given medicine" 
+                 android:textSize="@dimen/hint_hin_size" /> 
+  
+             <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android" 
+                 android:layout_width="fill_parent" 
+                 android:layout_height="wrap_content" 
+                 android:layout_marginLeft="@dimen/input_margin_hor" 
+                 android:layout_marginRight="@dimen/input_margin_hor" 
+                 android:layout_marginTop="5dp" 
+                 android:background="@color/white" 
+                 android:orientation="vertical"> 
+  
+                 <RadioButton 
+                     android:id="@+id/medicineGivenYes" 
+                     android:layout_width="match_parent" 
+                     android:layout_height="wrap_content" 
+                     android:onClick="onRadioButtonClicked" 
+                     android:padding="15dp" 
+                     android:text="Yes" 
+                     android:textSize="@dimen/hint_hin_size" /> 
+  
+                 <View 
+                     android:layout_width="match_parent" 
+                     android:layout_height="1dp" 
+                     android:background="@android:color/darker_gray" /> 
+  
+                 <RadioButton 
+                     android:id="@+id/medicineGivenNo" 
+                     android:layout_width="match_parent" 
+                     android:layout_height="wrap_content" 
+                     android:onClick="onRadioButtonClicked" 
+                     android:padding="15dp" 
+                     android:text="No" 
+                     android:textSize="@dimen/hint_hin_size" /> 
+  
+                 <View 
+                     android:layout_width="match_parent" 
+                     android:layout_height="1dp" 
+                     android:background="@android:color/darker_gray" /> 
+  </RadioGroup> 
+ 			            
+</LinearLayout>

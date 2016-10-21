@@ -1,0 +1,715 @@
+<LinearLayout 
+             android:layout_width="match_parent" 
+             android:layout_height="match_parent" 
+             android:orientation="vertical"> 
+  
+             <TextView 
+                 android:layout_width="match_parent" 
+                 android:layout_height="wrap_content" 
+                 android:layout_marginBottom="5dp" 
+                 android:layout_marginLeft="@dimen/input_margin_hor" 
+                 android:layout_marginRight="@dimen/input_margin_hor" 
+                 android:layout_marginTop="@dimen/input_margin_hor" 
+                 android:hint="Coupon Number" 
+                 android:textSize="@dimen/hint_hin_size" /> 
+  
+             <EditText 
+                 android:id="@+id/couponNumber" 
+                 android:layout_width="match_parent" 
+                 android:layout_height="wrap_content" 
+                 android:layout_marginLeft="@dimen/input_margin_hor" 
+                 android:layout_marginRight="@dimen/input_margin_hor" 
+                 android:layout_marginTop="5dp" 
+                 android:background="@color/white" 
+                 android:inputType="textCapCharacters" 
+                 android:padding="@dimen/input_padding" 
+                 android:textSize="@dimen/hint_hin_size" /> 
+  
+             <View 
+                 android:layout_width="match_parent" 
+                 android:layout_height="3dp" 
+                 android:layout_marginLeft="@dimen/input_margin_hor" 
+                 android:layout_marginRight="@dimen/input_margin_hor" 
+                 android:background="@color/colorPrimary" />                
+</LinearLayout>
+<LinearLayout 
+             android:layout_width="match_parent" 
+             android:layout_height="match_parent" 
+             android:layout_marginLeft="@dimen/input_margin_hor" 
+             android:layout_marginRight="@dimen/input_margin_hor" 
+             android:layout_marginTop="@dimen/input_margin_hor" 
+             android:orientation="vertical"> 
+                         <TextView 
+                 android:layout_width="match_parent" 
+                 android:layout_height="wrap_content" 
+                 android:layout_marginBottom="5dp" 
+                 android:hint="symptoms" 
+                 android:textSize="@dimen/hint_hin_size" /> 
+  
+  
+                 <CheckBox 
+                     android:id="@+id/abnormalUterineBleeding" 
+                     android:layout_width="match_parent" 
+                     android:layout_height="wrap_content" 
+                     android:background="@color/white" 
+                     android:padding="15dp" 
+                     android:text="Abnormal uterine bleeding" 
+                     android:textSize="@dimen/hint_hin_size" /> 
+  
+                 <View 
+                     android:layout_width="match_parent" 
+                     android:layout_height="1dp" 
+                     android:background="@android:color/darker_gray" /> 
+  
+                 <CheckBox 
+                     android:id="@+id/abnormalVaginalDischarge" 
+                     android:layout_width="match_parent" 
+                     android:layout_height="wrap_content" 
+                     android:background="@color/white" 
+                     android:padding="15dp" 
+                     android:text="Abnormal vaginal discharge" 
+                     android:textSize="@dimen/hint_hin_size" /> 
+  
+                 <View 
+                     android:layout_width="match_parent" 
+                     android:layout_height="1dp" 
+                     android:background="@android:color/darker_gray" /> 
+  
+                 <CheckBox 
+                     android:id="@+id/vaginalBleeding" 
+                     android:layout_width="match_parent" 
+                     android:layout_height="wrap_content" 
+                     android:background="@color/white" 
+                     android:padding="15dp" 
+                     android:text="Vaginal bleeding" 
+                     android:textSize="@dimen/hint_hin_size" /> 
+  
+                 <View 
+                     android:layout_width="match_parent" 
+                     android:layout_height="1dp" 
+                     android:background="@android:color/darker_gray" /> 
+  
+                 <CheckBox 
+                     android:id="@+id/vaginalDischarge" 
+                     android:layout_width="match_parent" 
+                     android:layout_height="wrap_content" 
+                     android:background="@color/white" 
+                     android:padding="15dp" 
+                     android:text="Vaginal discharge" 
+                     android:textSize="@dimen/hint_hin_size" /> 
+  
+                 <View 
+                     android:layout_width="match_parent" 
+                     android:layout_height="1dp" 
+                     android:background="@android:color/darker_gray" /> 
+  
+                 <CheckBox 
+                     android:id="@+id/dyspareunia" 
+                     android:layout_width="match_parent" 
+                     android:layout_height="wrap_content" 
+                     android:background="@color/white" 
+                     android:padding="15dp" 
+                     android:text="Dyspareunia (Painful sexual intercourse)" 
+                     android:textSize="@dimen/hint_hin_size" /> 
+  
+                 <View 
+                     android:layout_width="match_parent" 
+                     android:layout_height="1dp" 
+                     android:background="@android:color/darker_gray" /> 
+  
+                 <CheckBox 
+                     android:id="@+id/bleedingAfterIntercourse" 
+                     android:layout_width="match_parent" 
+                     android:layout_height="wrap_content" 
+                     android:background="@color/white" 
+                     android:padding="15dp" 
+                     android:text="Bleeding after intercourse" 
+                     android:textSize="@dimen/hint_hin_size" /> 
+  
+                 <View 
+                     android:layout_width="match_parent" 
+                     android:layout_height="1dp" 
+                     android:background="@android:color/darker_gray" /> 
+  
+                 <CheckBox 
+                     android:id="@+id/urinaryIncontinenceSym" 
+                     android:layout_width="match_parent" 
+                     android:layout_height="wrap_content" 
+                     android:background="@color/white" 
+                     android:padding="15dp" 
+                     android:text="Urinary Incontinence" 
+                     android:textSize="@dimen/hint_hin_size" /> 
+  
+                 <View 
+                     android:layout_width="match_parent" 
+                     android:layout_height="1dp" 
+                     android:background="@android:color/darker_gray" /> 
+  
+                 <CheckBox 
+                     android:id="@+id/infertility" 
+                     android:layout_width="match_parent" 
+                     android:layout_height="wrap_content" 
+                     android:background="@color/white" 
+                     android:padding="15dp" 
+                     android:text="Infertility" 
+                     android:textSize="@dimen/hint_hin_size" /> 
+  
+                 <View 
+                     android:layout_width="match_parent" 
+                     android:layout_height="1dp" 
+                     android:background="@android:color/darker_gray" /> 
+  
+                 <CheckBox 
+                     android:id="@+id/pelpicPain" 
+                     android:layout_width="match_parent" 
+                     android:layout_height="wrap_content" 
+                     android:background="@color/white" 
+                     android:padding="15dp" 
+                     android:text="Pelvic pain" 
+                     android:textSize="@dimen/hint_hin_size" /> 
+  
+                 <View 
+                     android:layout_width="match_parent" 
+                     android:layout_height="1dp" 
+                     android:background="@android:color/darker_gray" /> 
+  
+                 <CheckBox 
+                     android:id="@+id/vaginalPain" 
+                     android:layout_width="match_parent" 
+                     android:layout_height="wrap_content" 
+                     android:background="@color/white" 
+                     android:padding="15dp" 
+                     android:text="Vaginal pain" 
+                     android:textSize="@dimen/hint_hin_size" /> 
+  
+                 <View 
+                     android:layout_width="match_parent" 
+                     android:layout_height="1dp" 
+                     android:background="@android:color/darker_gray" /> 
+  
+                 <CheckBox 
+                     android:id="@+id/missedPeriods" 
+                     android:layout_width="match_parent" 
+                     android:layout_height="wrap_content" 
+                     android:background="@color/white" 
+                     android:padding="15dp" 
+                     android:text="Missed periods" 
+                     android:textSize="@dimen/hint_hin_size" /> 
+  
+                 <View 
+                     android:layout_width="match_parent" 
+                     android:layout_height="1dp" 
+                     android:background="@android:color/darker_gray" /> 
+  
+                 <CheckBox 
+                     android:id="@+id/morningSickness" 
+                     android:layout_width="match_parent" 
+                     android:layout_height="wrap_content" 
+                     android:background="@color/white" 
+                     android:padding="15dp" 
+                     android:text="Morning Sickness" 
+                     android:textSize="@dimen/hint_hin_size" /> 
+  
+                 <View 
+                     android:layout_width="match_parent" 
+                     android:layout_height="1dp" 
+                     android:background="@android:color/darker_gray" /> 
+  
+                 <CheckBox 
+                     android:id="@+id/itching" 
+                     android:layout_width="match_parent" 
+                     android:layout_height="wrap_content" 
+                     android:background="@color/white" 
+                     android:padding="15dp" 
+                     android:text="Itching / Burning sensation in vaginal region" 
+                     android:textSize="@dimen/hint_hin_size" /> 
+  
+                 <View 
+                     android:layout_width="match_parent" 
+                     android:layout_height="1dp" 
+                     android:background="@android:color/darker_gray" /> 
+  
+                 <CheckBox 
+                     android:id="@+id/lowerAbdominalPain" 
+                     android:layout_width="match_parent" 
+                     android:layout_height="wrap_content" 
+                     android:background="@color/white" 
+                     android:padding="15dp" 
+                     android:text="Lower abdominal pain" 
+                     android:textSize="@dimen/hint_hin_size" /> 
+  
+                 <View 
+                     android:layout_width="match_parent" 
+                     android:layout_height="1dp" 
+                     android:background="@android:color/darker_gray" /> 
+  
+                 <CheckBox 
+                     android:id="@+id/BurningMicturition" 
+                     android:layout_width="match_parent" 
+                     android:layout_height="wrap_content" 
+                     android:background="@color/white" 
+                     android:padding="15dp" 
+                     android:text="Burning sensation during micturition" 
+                     android:textSize="@dimen/hint_hin_size" /> 
+  
+                 <View 
+                     android:layout_width="match_parent" 
+                     android:layout_height="1dp" 
+                     android:background="@android:color/darker_gray" /> 
+  
+</LinearLayout>
+
+<LinearLayout 
+             android:layout_width="match_parent" 
+             android:layout_height="match_parent" 
+             android:layout_marginLeft="@dimen/input_margin_hor" 
+             android:layout_marginRight="@dimen/input_margin_hor" 
+             android:layout_marginTop="@dimen/input_margin_hor" 
+             android:orientation="vertical"> 
+                         <TextView 
+                 android:layout_width="match_parent" 
+                 android:layout_height="wrap_content" 
+                 android:layout_marginBottom="5dp" 
+                 android:hint="Common / Provisional Diagnosis" 
+                 android:textSize="@dimen/hint_hin_size" /> 
+  
+  
+                 <CheckBox 
+                     android:id="@+id/pregnancy" 
+                     android:layout_width="match_parent" 
+                     android:layout_height="wrap_content" 
+                     android:background="@color/white" 
+                     android:padding="15dp" 
+                     android:text="Pregnancy" 
+                     android:textSize="@dimen/hint_hin_size" /> 
+  
+                 <View 
+                     android:layout_width="match_parent" 
+                     android:layout_height="1dp" 
+                     android:background="@android:color/darker_gray" /> 
+  
+                 <CheckBox 
+                     android:id="@+id/pregnancyTermination" 
+                     android:layout_width="match_parent" 
+                     android:layout_height="wrap_content" 
+                     android:background="@color/white" 
+                     android:padding="15dp" 
+                     android:text="Medical Termination of Pregnancy" 
+                     android:textSize="@dimen/hint_hin_size" /> 
+  
+                 <View 
+                     android:layout_width="match_parent" 
+                     android:layout_height="1dp" 
+                     android:background="@android:color/darker_gray" /> 
+  
+                 <CheckBox 
+                     android:id="@+id/syphilis" 
+                     android:layout_width="match_parent" 
+                     android:layout_height="wrap_content" 
+                     android:background="@color/white" 
+                     android:padding="15dp" 
+                     android:text="Syphilis" 
+                     android:textSize="@dimen/hint_hin_size" /> 
+  
+                 <View 
+                     android:layout_width="match_parent" 
+                     android:layout_height="1dp" 
+                     android:background="@android:color/darker_gray" /> 
+  
+                 <CheckBox 
+                     android:id="@+id/gonorrhea" 
+                     android:layout_width="match_parent" 
+                     android:layout_height="wrap_content" 
+                     android:background="@color/white" 
+                     android:padding="15dp" 
+                     android:text="Gonorrhea" 
+                     android:textSize="@dimen/hint_hin_size" /> 
+  
+                 <View 
+                     android:layout_width="match_parent" 
+                     android:layout_height="1dp" 
+                     android:background="@android:color/darker_gray" /> 
+  
+                 <CheckBox 
+                     android:id="@+id/hivAIDS" 
+                     android:layout_width="match_parent" 
+                     android:layout_height="wrap_content" 
+                     android:background="@color/white" 
+                     android:padding="15dp" 
+                     android:text="HIV / AIDS" 
+                     android:textSize="@dimen/hint_hin_size" /> 
+  
+                 <View 
+                     android:layout_width="match_parent" 
+                     android:layout_height="1dp" 
+                     android:background="@android:color/darker_gray" /> 
+  
+                 <CheckBox 
+                     android:id="@+id/chlamydia" 
+                     android:layout_width="match_parent" 
+                     android:layout_height="wrap_content" 
+                     android:background="@color/white" 
+                     android:padding="15dp" 
+                     android:text="Chlamydia" 
+                     android:textSize="@dimen/hint_hin_size" /> 
+  
+                 <View 
+                     android:layout_width="match_parent" 
+                     android:layout_height="1dp" 
+                     android:background="@android:color/darker_gray" /> 
+  
+                 <CheckBox 
+                     android:id="@+id/herpes" 
+                     android:layout_width="match_parent" 
+                     android:layout_height="wrap_content" 
+                     android:background="@color/white" 
+                     android:padding="15dp" 
+                     android:text="Herpes" 
+                     android:textSize="@dimen/hint_hin_size" /> 
+  
+                 <View 
+                     android:layout_width="match_parent" 
+                     android:layout_height="1dp" 
+                     android:background="@android:color/darker_gray" /> 
+  
+                 <CheckBox 
+                     android:id="@+id/urinaryTractInfections" 
+                     android:layout_width="match_parent" 
+                     android:layout_height="wrap_content" 
+                     android:background="@color/white" 
+                     android:padding="15dp" 
+                     android:text="Urinary Tract Infections" 
+                     android:textSize="@dimen/hint_hin_size" /> 
+  
+                 <View 
+                     android:layout_width="match_parent" 
+                     android:layout_height="1dp" 
+                     android:background="@android:color/darker_gray" /> 
+  
+                 <CheckBox 
+                     android:id="@+id/uterineFibroids" 
+                     android:layout_width="match_parent" 
+                     android:layout_height="wrap_content" 
+                     android:background="@color/white" 
+                     android:padding="15dp" 
+                     android:text="Uterine Fibroids" 
+                     android:textSize="@dimen/hint_hin_size" /> 
+  
+                 <View 
+                     android:layout_width="match_parent" 
+                     android:layout_height="1dp" 
+                     android:background="@android:color/darker_gray" /> 
+  
+                 <CheckBox 
+                     android:id="@+id/ectopicPregnancy" 
+                     android:layout_width="match_parent" 
+                     android:layout_height="wrap_content" 
+                     android:background="@color/white" 
+                     android:padding="15dp" 
+                     android:text="Ectopic Pregnancy" 
+                     android:textSize="@dimen/hint_hin_size" /> 
+  
+                 <View 
+                     android:layout_width="match_parent" 
+                     android:layout_height="1dp" 
+                     android:background="@android:color/darker_gray" /> 
+  
+                 <CheckBox 
+                     android:id="@+id/urinaryIncontinence" 
+                     android:layout_width="match_parent" 
+                     android:layout_height="wrap_content" 
+                     android:background="@color/white" 
+                     android:padding="15dp" 
+                     android:text="Urinary incontinence" 
+                     android:textSize="@dimen/hint_hin_size" /> 
+  
+                 <View 
+                     android:layout_width="match_parent" 
+                     android:layout_height="1dp" 
+                     android:background="@android:color/darker_gray" /> 
+  
+                 <CheckBox 
+                     android:id="@+id/pcod" 
+                     android:layout_width="match_parent" 
+                     android:layout_height="wrap_content" 
+                     android:background="@color/white" 
+                     android:padding="15dp" 
+                     android:text="PCOD" 
+                     android:textSize="@dimen/hint_hin_size" /> 
+  
+                 <View 
+                     android:layout_width="match_parent" 
+                     android:layout_height="1dp" 
+                     android:background="@android:color/darker_gray" /> 
+  
+                 <CheckBox 
+                     android:id="@+id/endometriosis" 
+                     android:layout_width="match_parent" 
+                     android:layout_height="wrap_content" 
+                     android:background="@color/white" 
+                     android:padding="15dp" 
+                     android:text="Endometriosis" 
+                     android:textSize="@dimen/hint_hin_size" /> 
+  
+                 <View 
+                     android:layout_width="match_parent" 
+                     android:layout_height="1dp" 
+                     android:background="@android:color/darker_gray" /> 
+  
+                 <CheckBox 
+                     android:id="@+id/ovarianCyst" 
+                     android:layout_width="match_parent" 
+                     android:layout_height="wrap_content" 
+                     android:background="@color/white" 
+                     android:padding="15dp" 
+                     android:text="Ovarian Cyst" 
+                     android:textSize="@dimen/hint_hin_size" /> 
+  
+                 <View 
+                     android:layout_width="match_parent" 
+                     android:layout_height="1dp" 
+                     android:background="@android:color/darker_gray" /> 
+  
+                 <CheckBox 
+                     android:id="@+id/vaginitis" 
+                     android:layout_width="match_parent" 
+                     android:layout_height="wrap_content" 
+                     android:background="@color/white" 
+                     android:padding="15dp" 
+                     android:text="Vaginitis" 
+                     android:textSize="@dimen/hint_hin_size" /> 
+  
+                 <View 
+                     android:layout_width="match_parent" 
+                     android:layout_height="1dp" 
+                     android:background="@android:color/darker_gray" /> 
+  
+                 <CheckBox 
+                     android:id="@+id/pid" 
+                     android:layout_width="match_parent" 
+                     android:layout_height="wrap_content" 
+                     android:background="@color/white" 
+                     android:padding="15dp" 
+                     android:text="PID (Pelvic Inflammatory Disease)" 
+                     android:textSize="@dimen/hint_hin_size" /> 
+  
+                 <View 
+                     android:layout_width="match_parent" 
+                     android:layout_height="1dp" 
+                     android:background="@android:color/darker_gray" /> 
+  
+                 <CheckBox 
+                     android:id="@+id/ovarianCancer" 
+                     android:layout_width="match_parent" 
+                     android:layout_height="wrap_content" 
+                     android:background="@color/white" 
+                     android:padding="15dp" 
+                     android:text="Ovarian Cancer" 
+                     android:textSize="@dimen/hint_hin_size" /> 
+  
+                 <View 
+                     android:layout_width="match_parent" 
+                     android:layout_height="1dp" 
+                     android:background="@android:color/darker_gray" /> 
+  
+                 <CheckBox 
+                     android:id="@+id/endometrialCancer" 
+                     android:layout_width="match_parent" 
+                     android:layout_height="wrap_content" 
+                     android:background="@color/white" 
+                     android:padding="15dp" 
+                     android:text="Endometrial Cancer" 
+                     android:textSize="@dimen/hint_hin_size" /> 
+  
+                 <View 
+                     android:layout_width="match_parent" 
+                     android:layout_height="1dp" 
+                     android:background="@android:color/darker_gray" /> 
+  
+                 <CheckBox 
+                     android:id="@+id/endocrinalAbnormality" 
+                     android:layout_width="match_parent" 
+                     android:layout_height="wrap_content" 
+                     android:background="@color/white" 
+                     android:padding="15dp" 
+                     android:text="Endocrinal Abnormality" 
+                     android:textSize="@dimen/hint_hin_size" /> 
+  
+                 <View 
+                     android:layout_width="match_parent" 
+                     android:layout_height="1dp" 
+                     android:background="@android:color/darker_gray" /> 
+  
+</LinearLayout>
+
+<LinearLayout 
+             android:layout_width="match_parent" 
+             android:layout_height="match_parent" 
+             android:orientation="vertical"> 
+ 						<TextView 
+                 android:layout_width="match_parent" 
+                 android:layout_height="wrap_content" 
+                 android:layout_marginBottom="5dp" 
+                 android:layout_marginLeft="@dimen/input_margin_hor" 
+                 android:layout_marginRight="@dimen/input_margin_hor" 
+                 android:layout_marginTop="@dimen/input_margin_hor" 
+                 android:hint="Referred to Hospital/Maternity Home / further consultation" 
+                 android:textSize="@dimen/hint_hin_size" /> 
+  
+             <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android" 
+                 android:layout_width="fill_parent" 
+                 android:layout_height="wrap_content" 
+                 android:layout_marginLeft="@dimen/input_margin_hor" 
+                 android:layout_marginRight="@dimen/input_margin_hor" 
+                 android:layout_marginTop="5dp" 
+                 android:background="@color/white" 
+                 android:orientation="vertical"> 
+  
+                 <RadioButton 
+                     android:id="@+id/referredYes" 
+                     android:layout_width="match_parent" 
+                     android:layout_height="wrap_content" 
+                     android:onClick="onRadioButtonClicked" 
+                     android:padding="15dp" 
+                     android:text="Yes" 
+                     android:textSize="@dimen/hint_hin_size" /> 
+  
+                 <View 
+                     android:layout_width="match_parent" 
+                     android:layout_height="1dp" 
+                     android:background="@android:color/darker_gray" /> 
+  
+                 <RadioButton 
+                     android:id="@+id/referredNo" 
+                     android:layout_width="match_parent" 
+                     android:layout_height="wrap_content" 
+                     android:onClick="onRadioButtonClicked" 
+                     android:padding="15dp" 
+                     android:text="No" 
+                     android:textSize="@dimen/hint_hin_size" /> 
+  
+                 <View 
+                     android:layout_width="match_parent" 
+                     android:layout_height="1dp" 
+                     android:background="@android:color/darker_gray" /> 
+  </RadioGroup> 
+ 			            
+</LinearLayout>
+<LinearLayout 
+             android:layout_width="match_parent" 
+             android:layout_height="match_parent" 
+             android:orientation="vertical"> 
+ 						<TextView 
+                 android:layout_width="match_parent" 
+                 android:layout_height="wrap_content" 
+                 android:layout_marginBottom="5dp" 
+                 android:layout_marginLeft="@dimen/input_margin_hor" 
+                 android:layout_marginRight="@dimen/input_margin_hor" 
+                 android:layout_marginTop="@dimen/input_margin_hor" 
+                 android:hint="Patient has been prescribed medicine/lab investigations" 
+                 android:textSize="@dimen/hint_hin_size" /> 
+  
+             <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android" 
+                 android:layout_width="fill_parent" 
+                 android:layout_height="wrap_content" 
+                 android:layout_marginLeft="@dimen/input_margin_hor" 
+                 android:layout_marginRight="@dimen/input_margin_hor" 
+                 android:layout_marginTop="5dp" 
+                 android:background="@color/white" 
+                 android:orientation="vertical"> 
+  
+                 <RadioButton 
+                     android:id="@+id/prescribedYes" 
+                     android:layout_width="match_parent" 
+                     android:layout_height="wrap_content" 
+                     android:onClick="onRadioButtonClicked" 
+                     android:padding="15dp" 
+                     android:text="Yes" 
+                     android:textSize="@dimen/hint_hin_size" /> 
+  
+                 <View 
+                     android:layout_width="match_parent" 
+                     android:layout_height="1dp" 
+                     android:background="@android:color/darker_gray" /> 
+  
+                 <RadioButton 
+                     android:id="@+id/prescribedNo" 
+                     android:layout_width="match_parent" 
+                     android:layout_height="wrap_content" 
+                     android:onClick="onRadioButtonClicked" 
+                     android:padding="15dp" 
+                     android:text="No" 
+                     android:textSize="@dimen/hint_hin_size" /> 
+  
+                 <View 
+                     android:layout_width="match_parent" 
+                     android:layout_height="1dp" 
+                     android:background="@android:color/darker_gray" /> 
+  </RadioGroup> 
+ 			            
+</LinearLayout>
+<LinearLayout 
+             android:layout_width="match_parent" 
+             android:layout_height="match_parent" 
+             android:orientation="vertical"> 
+ 						<TextView 
+                 android:layout_width="match_parent" 
+                 android:layout_height="wrap_content" 
+                 android:layout_marginBottom="5dp" 
+                 android:layout_marginLeft="@dimen/input_margin_hor" 
+                 android:layout_marginRight="@dimen/input_margin_hor" 
+                 android:layout_marginTop="@dimen/input_margin_hor" 
+                 android:hint="Patient has been given medicine" 
+                 android:textSize="@dimen/hint_hin_size" /> 
+  
+             <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android" 
+                 android:layout_width="fill_parent" 
+                 android:layout_height="wrap_content" 
+                 android:layout_marginLeft="@dimen/input_margin_hor" 
+                 android:layout_marginRight="@dimen/input_margin_hor" 
+                 android:layout_marginTop="5dp" 
+                 android:background="@color/white" 
+                 android:orientation="vertical"> 
+  
+                 <RadioButton 
+                     android:id="@+id/givenMedicineYes" 
+                     android:layout_width="match_parent" 
+                     android:layout_height="wrap_content" 
+                     android:onClick="onRadioButtonClicked" 
+                     android:padding="15dp" 
+                     android:text="Yes" 
+                     android:textSize="@dimen/hint_hin_size" /> 
+  
+                 <View 
+                     android:layout_width="match_parent" 
+                     android:layout_height="1dp" 
+                     android:background="@android:color/darker_gray" /> 
+  
+                 <RadioButton 
+                     android:id="@+id/givenMedicineNo" 
+                     android:layout_width="match_parent" 
+                     android:layout_height="wrap_content" 
+                     android:onClick="onRadioButtonClicked" 
+                     android:padding="15dp" 
+                     android:text="No" 
+                     android:textSize="@dimen/hint_hin_size" /> 
+  
+                 <View 
+                     android:layout_width="match_parent" 
+                     android:layout_height="1dp" 
+                     android:background="@android:color/darker_gray" /> 
+  </RadioGroup> 
+ 			            
+</LinearLayout>
+<Button 
+             android:id="@+id/submitbtn" 
+             android:layout_width="match_parent" 
+             android:layout_height="wrap_content"
+             android:layout_marginBottom="20dp"
+             android:layout_marginLeft="20dp"
+             android:layout_marginRight="20dp"
+             android:layout_marginTop="30dp"
+             android:background="@color/colorAccent"
+             android:onClick="onSubmit"
+             android:text="Save"
+             android:textColor="@color/white" />

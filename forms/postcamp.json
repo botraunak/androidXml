@@ -1,0 +1,124 @@
+{
+	"fields":[
+		{
+            "key": "howCamp",
+            "type": "radio",
+            "hint": "How was the overall Camp?",
+            "options": [
+                {
+                    "key": "excellent",
+                    "text": "Excellent"
+                },
+                {
+                    "key": "good",
+                    "text": "Good"
+                },
+                {
+                    "key": "satisfactory",
+                    "text": "Satisfactory"
+                },
+                {
+                    "key": "nonSatis",
+                    "text": "Non Satisfactory"
+                }
+            ]
+        },
+        {
+            "key": "campStart",
+            "type": "radio",
+            "hint": "Did camp start on time",
+            "options": [
+                {
+                    "key": "campStartYes",
+                    "text": "Yes"
+                },
+                {
+                    "key": "campStartNo",
+                    "text": "No"
+                }
+            ]
+        },
+        {
+            "key": "docHappy",
+            "type": "radio",
+            "hint": "Were the doctors and team members happy with the overall arrangement and outcome",
+            "options": [
+                {
+                    "key": "docHappyYes",
+                    "text": "Yes"
+                },
+                {
+                    "key": "docHappyNo",
+                    "text": "No"
+                }
+            ]
+        },
+        {
+            "key": "peopleSatisfied",
+            "type": "radio",
+            "hint": "Were the people satisfied with the camp",
+            "options": [
+                {
+                    "key": "peopleSatisfiedYes",
+                    "text": "Yes"
+                },
+                {
+                    "key": "peopleSatisfiedNo",
+                    "text": "No"
+                }
+            ]
+        },
+        {
+        	"key":"howMany",
+        	"type":"edit_text",
+        	"hint":"How many people attended the camp",
+        	"input_type":"number"
+        },
+        {
+        	"key": "managementIssues",
+        	"type": "radio",
+        	"hint": "Were there any management issues at the camp?",
+        	"options": [
+        		{
+        			"key": "managementIssuesYes",
+        			"text": "Yes"
+        		},
+        		{
+        			"key": "managementIssuesNo",
+        			"text": "No"
+        		}
+        	]
+        },
+        {
+        	"key": "properProcedure",
+        	"type": "radio",
+        	"hint": "Was proper camp procedure followed by the team?",
+        	"options": [
+        		{
+        			"key": "properProcedureYes",
+        			"text": "Yes"
+        		},
+        		{
+        			"key": "properProcedureNo",
+        			"text": "No"
+        		}
+        	]
+        },
+        {
+        	"key": "anyFight",
+        	"type": "radio",
+        	"hint": "Any Fight or arugemnt reported on the camp?",
+        	"options": [
+        		{
+        			"key": "anyFightYes",
+        			"text": "Yes"
+        		},
+        		{
+        			"key": "anyFightNo",
+        			"text": "No"
+        		}
+        	]
+        }
+
+    ]
+}

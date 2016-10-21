@@ -1,0 +1,78 @@
+@Bind(R.id.discharge) 
+protected CheckBox discharge; 
+ 
+@Bind(R.id.erythema) 
+protected CheckBox erythema; 
+ 
+@Bind(R.id.infection) 
+protected CheckBox infection; 
+ 
+@Bind(R.id.sinus) 
+protected CheckBox sinus; 
+ 
+@Bind(R.id.dischargeNp) 
+protected CheckBox dischargeNp; 
+ 
+@Bind(R.id.cold) 
+protected CheckBox cold; 
+ 
+@Bind(R.id.cough) 
+protected CheckBox cough; 
+ 
+@Bind(R.id.goiter) 
+protected CheckBox goiter; 
+ 
+@Bind(R.id.fistula) 
+protected CheckBox fistula; 
+ 
+@Bind(R.id.infectionTP) 
+protected CheckBox infectionTP; 
+ 
+@Bind(R.id.cancer) 
+protected CheckBox cancer; 
+ 
+@Bind(R.id.pain) 
+protected CheckBox pain; 
+ 
+
+public void get_earProblems() { 
+	 	 ArrayList<String> checkedboxes = new ArrayList<>(); 
+	 	if (discharge.isChecked()) 
+	 	checkedboxes.add("Discharge");
+	 	if (erythema.isChecked()) 
+	 	checkedboxes.add("Erythema");
+	 	if (infection.isChecked()) 
+	 	checkedboxes.add("Infection");
+	 	 model.setEarProblems(checkedboxes.toString()); 
+}public void get_noseProb() { 
+	 	 ArrayList<String> checkedboxes = new ArrayList<>(); 
+	 	if (sinus.isChecked()) 
+	 	checkedboxes.add("Sinus");
+	 	if (dischargeNp.isChecked()) 
+	 	checkedboxes.add("Discharge");
+	 	if (cold.isChecked()) 
+	 	checkedboxes.add("Cold");
+	 	if (cough.isChecked()) 
+	 	checkedboxes.add("Cough");
+	 	 model.setNoseProb(checkedboxes.toString()); 
+}public void get_throatProb() { 
+	 	 ArrayList<String> checkedboxes = new ArrayList<>(); 
+	 	if (goiter.isChecked()) 
+	 	checkedboxes.add("Goiter");
+	 	if (fistula.isChecked()) 
+	 	checkedboxes.add("Fistula");
+	 	if (infectionTP.isChecked()) 
+	 	checkedboxes.add("Infection");
+	 	if (cancer.isChecked()) 
+	 	checkedboxes.add("Cancer");
+	 	if (pain.isChecked()) 
+	 	checkedboxes.add("Pain");
+	 	 model.setThroatProb(checkedboxes.toString()); 
+}
+
+
+
+get_earProblems(); 
+get_noseProb(); 
+get_throatProb(); 
+

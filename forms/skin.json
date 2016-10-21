@@ -1,0 +1,147 @@
+{
+	"fields": [{
+		"key": "coupon",
+		"type": "edit_text",
+		"hint": "Coupon Number",
+		"input_type": "textCapCharacters"
+	}, {
+		"key": "symptoms",
+		"hint": "symptoms",
+		"type": "checkbox",
+		"options": [{
+			"key": "rashes",
+			"text": "Rashes"
+		}, {
+			"key": "lumps",
+			"text": "Lumps"
+		}, {
+			"key": "bumps",
+			"text": "Bumps"
+		},{
+			"key": "drySkin",
+			"text": "Dry skin"
+		},{
+			"key": "itchySkin",
+			"text": "Itchy Skin"
+		},{
+			"key": "blisters",
+			"text": "Blisters"
+		},{
+			"key": "sunBurn",
+			"text": "Sun burn"
+		},{
+			"key": "excessiveSweating",
+			"text": "Excessive sweating"
+		},{
+			"key": "swollenLips",
+			"text": "Swollen Lips"
+		},{
+			"key": "peelingSkin",
+			"text": "Peeling Skin"
+		},{
+			"key": "rednessonFace",
+			"text": "Redness on Face"
+		},{
+			"key": "birthmarks",
+			"text": "Birthmarks"
+		}]
+	}, {
+		"key": "commonProvisionalDiagnosis",
+		"type": "checkbox",
+		"hint": "Common Diagnosis / Provisional Diagnosis:",
+		"options": [{
+			"key": "acneVulgaris",
+			"text": "Acne Vulgaris"
+		}, {
+			"key": "rosacea",
+			"text": "Rosacea"
+		}, {
+			"key": "atopicDermatitis",
+			"text": "Atopic Dermatitis"
+		}, {
+			"key": "allergicContactDermatitis",
+			"text": "Allergic Contact Dermatitis"
+		}, {
+			"key": "eczema",
+			"text": "Eczema"
+		}, {
+			"key": "psoriasis",
+			"text": "Psoriasis"
+		}, {
+			"key": "vitiligo",
+			"text": "Vitiligo"
+		}, {
+			"key": "actinicKeratosis",
+			"text": "Actinic Keratosis"
+		}, {
+			"key": "carbuncle",
+			"text": "Carbuncle"
+		}, {
+			"key": "cellulitis",
+			"text": "Cellulitis"
+		}, {
+			"key": "impetigo",
+			"text": "Impetigo"
+		}, {
+			"key": "cornAndCalluses",
+			"text": "Corn and Calluses"
+		}, {
+			"key": "folliculitis",
+			"text": "Folliculitis"
+		}, {
+			"key": "seborrheicKeratosis",
+			"text": "Seborrheic Keratosis"
+		}, {
+			"key": "candidiasis",
+			"text": "Candidiasis"
+		}, {
+			"key": "scabies",
+			"text": "Scabies"
+		}, {
+			"key": "insectBite",
+			"text": "Insect Bite"
+		}, {
+			"key": "urticaria",
+			"text": "Urticaria"
+		}, {
+			"key": "basalSquamousCell",
+			"text": "Basal Cell / Squamous Cell Carcinoma"
+		}, {
+			"key": "warts",
+			"text": "Warts"
+		}]
+	}, {
+		"key": "referred",
+		"type": "radio",
+		"hint": "Referred to Hospital for further consultation?",
+		"options": [{
+			"key": "referredYes",
+			"text": "Yes"
+		}, {
+			"key": "referredNo",
+			"text": "No"
+		}]
+	}, {
+		"key": "prescribedMedicine",
+		"type": "radio",
+		"hint": "Patient has been prescribed medicine/lab investigations?",
+		"options": [{
+			"key": "prescribedYes",
+			"text": "Yes"
+		}, {
+			"key": "prescribedNo",
+			"text": "No"
+		}]
+	}, {
+		"key": "givenMedicine",
+		"type": "radio",
+		"hint": "Patient has been given medicine?",
+		"options": [{
+			"key": "givenMedicineYes",
+			"text": "Yes"
+		}, {
+			"key": "givenMedicineNo",
+			"text": "No"
+		}]
+	}]
+}

@@ -1,0 +1,304 @@
+{
+    "fields": [
+
+        {
+            "key": "nameCOE",
+            "type": "edit_text",
+            "hint": "name of the Cleaning Operations Executive",
+            "input_type": "text"
+        }, {
+            "key": "nameSainik",
+            "type": "edit_text",
+            "hint": "Name of the Safai Sainik ",
+            "input_type": "text"
+        }, {
+            "key": "date",
+            "type": "edit_text",
+            "hint": "Date ",
+            "input_type": "text"
+        }, {
+            "key": "time",
+            "type": "edit_text",
+            "hint": "Time ",
+            "input_type": "text"
+        }, {
+            "key": "location",
+            "type": "edit_text",
+            "hint": "Location ",
+            "input_type": "text"
+        }, {
+            "key": "sainikWearingUniform",
+            "type": "radio",
+            "hint": "Is Safai Sainik wearing Samagra uniform",
+            "options": [{
+                "key": "sainikWearingUniform_yes",
+                "text": "Yes"
+            }, {
+                "key": "sainikWearingUniform_no",
+                "text": "No"
+            }]
+        }, {
+            "key": "sainikWearingHandgloves",
+            "type": "radio",
+            "hint": "Is Safai Sainik wearing Hand Gloves",
+            "options": [{
+                "key": "sainikWearingHandgloves_yes",
+                "text": "Yes"
+            }, {
+                "key": "sainikWearingHandgloves_no",
+                "text": "No"
+            }]
+        }, {
+            "key": "sainikWearingMask",
+            "type": "radio",
+            "hint": "Is Safai Sainik wearing the Mask",
+            "options": [{
+                "key": "sainikWearingMask_yes",
+                "text": "Yes"
+            }, {
+                "key": "sainikWearingMask_no",
+                "text": "No"
+            }]
+        }, {
+            "key": "sainikWearingGumboots",
+            "type": "radio",
+            "hint": "Is Safai Sainik wearing the Gum boots",
+            "options": [{
+                "key": "sainikWearingGumboots_yes",
+                "text": "Yes"
+            }, {
+                "key": "sainikWearingGumboots_no",
+                "text": "No"
+            }]
+        }, {
+            "key": "sainikUniformSafetyRemarks",
+            "type": "edit_text",
+            "hint": "Remarks on Uniform & Use of Safety Equipment",
+            "input_type": "text"
+        },
+
+
+
+        {
+            "key": "outdoorPlatform",
+            "type": "radio",
+            "hint": "Is platform neat & clean",
+            "options": [{
+                "key": "outdoorPlatform_yes",
+                "text": "Yes"
+            }, {
+                "key": "outdoorPlatform_no",
+                "text": "No"
+            }]
+        }, {
+            "key": "outdoorStaircase",
+            "type": "radio",
+            "hint": "Are staircase neat & clean",
+            "options": [{
+                "key": "outdoorStaircase_yes",
+                "text": "Yes"
+            }, {
+                "key": "soutdoorStaircase_no",
+                "text": "No"
+            }]
+        }, {
+            "key": "outdoorWalls",
+            "type": "radio",
+            "hint": "Are walls cleaned properly",
+            "options": [{
+                "key": "outdoorWalls_yes",
+                "text": "Yes"
+            }, {
+                "key": "soutdoorWalls_no",
+                "text": "No"
+            }]
+        }, {
+            "key": "outdoorAllSides",
+            "type": "radio",
+            "hint": "Is outside cleaning (All Sides) done properly",
+            "options": [{
+                "key": "outdoorAllSides_yes",
+                "text": "Yes"
+            }, {
+                "key": "outdoorAllSides_no",
+                "text": "No"
+            }]
+        }, {
+            "key": "outdoorTerrace",
+            "type": "radio",
+            "hint": "Is terrace neat & clean",
+            "options": [{
+                "key": "outdoorTerrace_yes",
+                "text": "Yes"
+            }, {
+                "key": "outdoorTerrace_no",
+                "text": "No"
+            }]
+        }, {
+            "key": "outdoorRemarks",
+            "type": "edit_text",
+            "hint": "Remarks on Outdoor Cleaning",
+            "input_type": "text"
+        },
+
+
+        {
+            "key": "indoorDustbin",
+            "type": "radio",
+            "hint": "Are dustbins neat & clean",
+            "options": [{
+                "key": "indoorDustbin_yes",
+                "text": "Yes"
+            }, {
+                "key": "indoorDustbin_no",
+                "text": "No"
+            }]
+        }, {
+            "key": "indoorFloor",
+            "type": "radio",
+            "hint": "Is floor well cleaned",
+            "options": [{
+                "key": "indoorFloor_yes",
+                "text": "Yes"
+            }, {
+                "key": "indoorFloor_no",
+                "text": "No"
+            }]
+        }, {
+            "key": "indoorToilet",
+            "type": "radio",
+            "hint": "Is toilet pan & toilet floor well cleaned",
+            "options": [{
+                "key": "indoorToilet_yes",
+                "text": "Yes"
+            }, {
+                "key": "indoorToilet_no",
+                "text": "No"
+            }]
+        }, {
+            "key": "indoorCorners",
+            "type": "radio",
+            "hint": "Are corners cleaned properly",
+            "options": [{
+                "key": "indoorCorners_yes",
+                "text": "Yes"
+            }, {
+                "key": "indoorCorners_no",
+                "text": "No"
+            }]
+        }, {
+            "key": "indoorDoors",
+            "type": "radio",
+            "hint": "Are all doors cleaned properly from behind",
+            "options": [{
+                "key": "indoorDoors_yes",
+                "text": "Yes"
+            }, {
+                "key": "indoorDoors_no",
+                "text": "No"
+            }]
+        }, {
+            "key": "indoorTiles",
+            "type": "radio",
+            "hint": "Are tiles neat & clean",
+            "options": [{
+                "key": "indoorTiles_yes",
+                "text": "Yes"
+            }, {
+                "key": "indoorTiles_no",
+                "text": "No"
+            }]
+        }, {
+            "key": "indoorSpider",
+            "type": "radio",
+            "hint": "Is spider web removed from toilet block",
+            "options": [{
+                "key": "indoorSpider_yes",
+                "text": "Yes"
+            }, {
+                "key": "indoorSpider_no",
+                "text": "No"
+            }]
+        }, {
+            "key": "indoorRemarks",
+            "type": "edit_text",
+            "hint": "Remarks on Indoor Cleaning",
+            "input_type": "text"
+        },
+
+        {
+            "key": "chokeUpIssue",
+            "type": "checkbox",
+            "hint": "Choke Up Issue",
+            "options": [
+                {
+                    "key": "chokeUpM1",
+                    "text": "M1 - M20"
+                },
+                {
+                    "key": "chokeUpF1",
+                    "text": "F1 - F20"
+                }
+            ]
+        },
+        {
+            "key": "doorIssue",
+            "type": "checkbox",
+            "hint": "Door Issue",
+            "options": [
+                {
+                    "key": "doorM1",
+                    "text": "M1 - M20"
+                },
+                {
+                    "key": "doorF1",
+                    "text": "F1 - F20"
+                }
+            ]
+        },
+        {
+            "key": "elecIssue",
+            "type": "checkbox",
+            "hint": "Electricity / Light Issue",
+            "options": [
+                {
+                    "key": "elecM1",
+                    "text": "M1 - M20"
+                },
+                {
+                    "key": "elecF1",
+                    "text": "F1 - F20"
+                }
+            ]
+        },
+        {
+            "key": "leakage",
+            "type": "checkbox",
+            "hint": "Leakage in Pipe / Tap",
+            "options": [
+                {
+                    "key": "leakM1",
+                    "text": "M1 - M20"
+                },
+                {
+                    "key": "leakF1",
+                    "text": "F1 - F20"
+                }
+            ]
+        }
+
+
+        {
+            "key": "toiletBlockCleaning",
+            "type": "edit_text",
+            "hint": "Remarks on Toilet Block Cleaning",
+            "input_type": "text"
+        }, {
+            "key": "rating",
+            "type": "edit_text",
+            "hint": "All over Rating for Toilet Block on Cleaning Aspect",
+            "input_type": "number"
+        }
+
+    ]
+}

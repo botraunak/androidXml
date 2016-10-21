@@ -1,0 +1,10 @@
+String coupon = "" ;
+String earProblems = "" ;
+String noseProb = "" ;
+String throatProb = "" ;
+String referredtoHospital = "" ;
+String prescribeMedcine = "" ;
+String givenMedicine = "" ;
+String prescribedHearingAid = "" ;
+String givenHearingAid = "" ;
+

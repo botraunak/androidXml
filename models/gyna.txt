@@ -1,0 +1,7 @@
+String couponNumber = "" ;
+String symptoms = "" ;
+String commonProvisionalDiagnosis = "" ;
+String referred = "" ;
+String prescribedMedicine = "" ;
+String givenMedicine = "" ;
+

@@ -1,0 +1,19 @@
+case R.id.referredtoHospitalYes:
+	 model.setReferredtoHospital("Yes"); 
+	 break; 
+case R.id.referredtoHospitalNo:
+	 model.setReferredtoHospital("No"); 
+	 break; 
+case R.id.prescribeMedcineYes:
+	 model.setPrescribeMedcine("Yes"); 
+	 break; 
+case R.id.prescribeMedcineNo:
+	 model.setPrescribeMedcine("No"); 
+	 break; 
+case R.id.givenMedicineYes:
+	 model.setGivenMedicine("Yes"); 
+	 break; 
+case R.id.givenMedicineNo:
+	 model.setGivenMedicine("No"); 
+	 break; 
+

@@ -1,0 +1,9 @@
+String coupon = "" ;
+String dentalProblems = "" ;
+String bothToothExtracted = "" ;
+String toothFilling = "" ;
+String toothCleaning = "" ;
+String referredHospital = "" ;
+String medicinePrescribed = "" ;
+String medicineGiven = "" ;
+

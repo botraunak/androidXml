@@ -1,0 +1,11 @@
+String SupervisorName = "" ;
+String bachatSakhiName = "" ;
+String loc = "" ;
+String noOfDaysInKiosk = "" ;
+String noOfDaysInUniform = "" ;
+String noOfPlannedTrainingsAtten = "" ;
+String noOfKeyIniatives = "" ;
+String pointsSecuredInPTT = "" ;
+String noOfTimesNominated = "" ;
+String noOfTimesLeaveInformed = "" ;
+

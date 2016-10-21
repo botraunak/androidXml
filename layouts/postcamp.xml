@@ -1,0 +1,433 @@
+<LinearLayout 
+             android:layout_width="match_parent" 
+             android:layout_height="match_parent" 
+             android:orientation="vertical"> 
+ 						<TextView 
+                 android:layout_width="match_parent" 
+                 android:layout_height="wrap_content" 
+                 android:layout_marginBottom="5dp" 
+                 android:layout_marginLeft="@dimen/input_margin_hor" 
+                 android:layout_marginRight="@dimen/input_margin_hor" 
+                 android:layout_marginTop="@dimen/input_margin_hor" 
+                 android:hint="How was the overall Camp?" 
+                 android:textSize="@dimen/hint_hin_size" /> 
+  
+             <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android" 
+                 android:layout_width="fill_parent" 
+                 android:layout_height="wrap_content" 
+                 android:layout_marginLeft="@dimen/input_margin_hor" 
+                 android:layout_marginRight="@dimen/input_margin_hor" 
+                 android:layout_marginTop="5dp" 
+                 android:background="@color/white" 
+                 android:orientation="vertical"> 
+  
+                 <RadioButton 
+                     android:id="@+id/excellent" 
+                     android:layout_width="match_parent" 
+                     android:layout_height="wrap_content" 
+                     android:onClick="onRadioButtonClicked" 
+                     android:padding="15dp" 
+                     android:text="Excellent" 
+                     android:textSize="@dimen/hint_hin_size" /> 
+  
+                 <View 
+                     android:layout_width="match_parent" 
+                     android:layout_height="1dp" 
+                     android:background="@android:color/darker_gray" /> 
+  
+                 <RadioButton 
+                     android:id="@+id/good" 
+                     android:layout_width="match_parent" 
+                     android:layout_height="wrap_content" 
+                     android:onClick="onRadioButtonClicked" 
+                     android:padding="15dp" 
+                     android:text="Good" 
+                     android:textSize="@dimen/hint_hin_size" /> 
+  
+                 <View 
+                     android:layout_width="match_parent" 
+                     android:layout_height="1dp" 
+                     android:background="@android:color/darker_gray" /> 
+  
+                 <RadioButton 
+                     android:id="@+id/satisfactory" 
+                     android:layout_width="match_parent" 
+                     android:layout_height="wrap_content" 
+                     android:onClick="onRadioButtonClicked" 
+                     android:padding="15dp" 
+                     android:text="Satisfactory" 
+                     android:textSize="@dimen/hint_hin_size" /> 
+  
+                 <View 
+                     android:layout_width="match_parent" 
+                     android:layout_height="1dp" 
+                     android:background="@android:color/darker_gray" /> 
+  
+                 <RadioButton 
+                     android:id="@+id/nonSatis" 
+                     android:layout_width="match_parent" 
+                     android:layout_height="wrap_content" 
+                     android:onClick="onRadioButtonClicked" 
+                     android:padding="15dp" 
+                     android:text="Non Satisfactory" 
+                     android:textSize="@dimen/hint_hin_size" /> 
+  
+                 <View 
+                     android:layout_width="match_parent" 
+                     android:layout_height="1dp" 
+                     android:background="@android:color/darker_gray" /> 
+  </RadioGroup> 
+ 			            
+</LinearLayout>
+<LinearLayout 
+             android:layout_width="match_parent" 
+             android:layout_height="match_parent" 
+             android:orientation="vertical"> 
+ 						<TextView 
+                 android:layout_width="match_parent" 
+                 android:layout_height="wrap_content" 
+                 android:layout_marginBottom="5dp" 
+                 android:layout_marginLeft="@dimen/input_margin_hor" 
+                 android:layout_marginRight="@dimen/input_margin_hor" 
+                 android:layout_marginTop="@dimen/input_margin_hor" 
+                 android:hint="Did camp start on time" 
+                 android:textSize="@dimen/hint_hin_size" /> 
+  
+             <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android" 
+                 android:layout_width="fill_parent" 
+                 android:layout_height="wrap_content" 
+                 android:layout_marginLeft="@dimen/input_margin_hor" 
+                 android:layout_marginRight="@dimen/input_margin_hor" 
+                 android:layout_marginTop="5dp" 
+                 android:background="@color/white" 
+                 android:orientation="vertical"> 
+  
+                 <RadioButton 
+                     android:id="@+id/campStartYes" 
+                     android:layout_width="match_parent" 
+                     android:layout_height="wrap_content" 
+                     android:onClick="onRadioButtonClicked" 
+                     android:padding="15dp" 
+                     android:text="Yes" 
+                     android:textSize="@dimen/hint_hin_size" /> 
+  
+                 <View 
+                     android:layout_width="match_parent" 
+                     android:layout_height="1dp" 
+                     android:background="@android:color/darker_gray" /> 
+  
+                 <RadioButton 
+                     android:id="@+id/campStartNo" 
+                     android:layout_width="match_parent" 
+                     android:layout_height="wrap_content" 
+                     android:onClick="onRadioButtonClicked" 
+                     android:padding="15dp" 
+                     android:text="No" 
+                     android:textSize="@dimen/hint_hin_size" /> 
+  
+                 <View 
+                     android:layout_width="match_parent" 
+                     android:layout_height="1dp" 
+                     android:background="@android:color/darker_gray" /> 
+  </RadioGroup> 
+ 			            
+</LinearLayout>
+<LinearLayout 
+             android:layout_width="match_parent" 
+             android:layout_height="match_parent" 
+             android:orientation="vertical"> 
+ 						<TextView 
+                 android:layout_width="match_parent" 
+                 android:layout_height="wrap_content" 
+                 android:layout_marginBottom="5dp" 
+                 android:layout_marginLeft="@dimen/input_margin_hor" 
+                 android:layout_marginRight="@dimen/input_margin_hor" 
+                 android:layout_marginTop="@dimen/input_margin_hor" 
+                 android:hint="Were the doctors and team members happy with the overall arrangement and outcome" 
+                 android:textSize="@dimen/hint_hin_size" /> 
+  
+             <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android" 
+                 android:layout_width="fill_parent" 
+                 android:layout_height="wrap_content" 
+                 android:layout_marginLeft="@dimen/input_margin_hor" 
+                 android:layout_marginRight="@dimen/input_margin_hor" 
+                 android:layout_marginTop="5dp" 
+                 android:background="@color/white" 
+                 android:orientation="vertical"> 
+  
+                 <RadioButton 
+                     android:id="@+id/docHappyYes" 
+                     android:layout_width="match_parent" 
+                     android:layout_height="wrap_content" 
+                     android:onClick="onRadioButtonClicked" 
+                     android:padding="15dp" 
+                     android:text="Yes" 
+                     android:textSize="@dimen/hint_hin_size" /> 
+  
+                 <View 
+                     android:layout_width="match_parent" 
+                     android:layout_height="1dp" 
+                     android:background="@android:color/darker_gray" /> 
+  
+                 <RadioButton 
+                     android:id="@+id/docHappyNo" 
+                     android:layout_width="match_parent" 
+                     android:layout_height="wrap_content" 
+                     android:onClick="onRadioButtonClicked" 
+                     android:padding="15dp" 
+                     android:text="No" 
+                     android:textSize="@dimen/hint_hin_size" /> 
+  
+                 <View 
+                     android:layout_width="match_parent" 
+                     android:layout_height="1dp" 
+                     android:background="@android:color/darker_gray" /> 
+  </RadioGroup> 
+ 			            
+</LinearLayout>
+<LinearLayout 
+             android:layout_width="match_parent" 
+             android:layout_height="match_parent" 
+             android:orientation="vertical"> 
+ 						<TextView 
+                 android:layout_width="match_parent" 
+                 android:layout_height="wrap_content" 
+                 android:layout_marginBottom="5dp" 
+                 android:layout_marginLeft="@dimen/input_margin_hor" 
+                 android:layout_marginRight="@dimen/input_margin_hor" 
+                 android:layout_marginTop="@dimen/input_margin_hor" 
+                 android:hint="Were the people satisfied with the camp" 
+                 android:textSize="@dimen/hint_hin_size" /> 
+  
+             <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android" 
+                 android:layout_width="fill_parent" 
+                 android:layout_height="wrap_content" 
+                 android:layout_marginLeft="@dimen/input_margin_hor" 
+                 android:layout_marginRight="@dimen/input_margin_hor" 
+                 android:layout_marginTop="5dp" 
+                 android:background="@color/white" 
+                 android:orientation="vertical"> 
+  
+                 <RadioButton 
+                     android:id="@+id/peopleSatisfiedYes" 
+                     android:layout_width="match_parent" 
+                     android:layout_height="wrap_content" 
+                     android:onClick="onRadioButtonClicked" 
+                     android:padding="15dp" 
+                     android:text="Yes" 
+                     android:textSize="@dimen/hint_hin_size" /> 
+  
+                 <View 
+                     android:layout_width="match_parent" 
+                     android:layout_height="1dp" 
+                     android:background="@android:color/darker_gray" /> 
+  
+                 <RadioButton 
+                     android:id="@+id/peopleSatisfiedNo" 
+                     android:layout_width="match_parent" 
+                     android:layout_height="wrap_content" 
+                     android:onClick="onRadioButtonClicked" 
+                     android:padding="15dp" 
+                     android:text="No" 
+                     android:textSize="@dimen/hint_hin_size" /> 
+  
+                 <View 
+                     android:layout_width="match_parent" 
+                     android:layout_height="1dp" 
+                     android:background="@android:color/darker_gray" /> 
+  </RadioGroup> 
+ 			            
+</LinearLayout>
+<LinearLayout 
+             android:layout_width="match_parent" 
+             android:layout_height="match_parent" 
+             android:orientation="vertical"> 
+  
+             <TextView 
+                 android:layout_width="match_parent" 
+                 android:layout_height="wrap_content" 
+                 android:layout_marginBottom="5dp" 
+                 android:layout_marginLeft="@dimen/input_margin_hor" 
+                 android:layout_marginRight="@dimen/input_margin_hor" 
+                 android:layout_marginTop="@dimen/input_margin_hor" 
+                 android:hint="How many people attended the camp" 
+                 android:textSize="@dimen/hint_hin_size" /> 
+  
+             <EditText 
+                 android:id="@+id/howMany" 
+                 android:layout_width="match_parent" 
+                 android:layout_height="wrap_content" 
+                 android:layout_marginLeft="@dimen/input_margin_hor" 
+                 android:layout_marginRight="@dimen/input_margin_hor" 
+                 android:layout_marginTop="5dp" 
+                 android:background="@color/white" 
+                 android:inputType="number" 
+                 android:padding="@dimen/input_padding" 
+                 android:textSize="@dimen/hint_hin_size" /> 
+  
+             <View 
+                 android:layout_width="match_parent" 
+                 android:layout_height="3dp" 
+                 android:layout_marginLeft="@dimen/input_margin_hor" 
+                 android:layout_marginRight="@dimen/input_margin_hor" 
+                 android:background="@color/colorPrimary" />                
+</LinearLayout>
+<LinearLayout 
+             android:layout_width="match_parent" 
+             android:layout_height="match_parent" 
+             android:orientation="vertical"> 
+ 						<TextView 
+                 android:layout_width="match_parent" 
+                 android:layout_height="wrap_content" 
+                 android:layout_marginBottom="5dp" 
+                 android:layout_marginLeft="@dimen/input_margin_hor" 
+                 android:layout_marginRight="@dimen/input_margin_hor" 
+                 android:layout_marginTop="@dimen/input_margin_hor" 
+                 android:hint="Were there any management issues at the camp?" 
+                 android:textSize="@dimen/hint_hin_size" /> 
+  
+             <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android" 
+                 android:layout_width="fill_parent" 
+                 android:layout_height="wrap_content" 
+                 android:layout_marginLeft="@dimen/input_margin_hor" 
+                 android:layout_marginRight="@dimen/input_margin_hor" 
+                 android:layout_marginTop="5dp" 
+                 android:background="@color/white" 
+                 android:orientation="vertical"> 
+  
+                 <RadioButton 
+                     android:id="@+id/managementIssuesYes" 
+                     android:layout_width="match_parent" 
+                     android:layout_height="wrap_content" 
+                     android:onClick="onRadioButtonClicked" 
+                     android:padding="15dp" 
+                     android:text="Yes" 
+                     android:textSize="@dimen/hint_hin_size" /> 
+  
+                 <View 
+                     android:layout_width="match_parent" 
+                     android:layout_height="1dp" 
+                     android:background="@android:color/darker_gray" /> 
+  
+                 <RadioButton 
+                     android:id="@+id/managementIssuesNo" 
+                     android:layout_width="match_parent" 
+                     android:layout_height="wrap_content" 
+                     android:onClick="onRadioButtonClicked" 
+                     android:padding="15dp" 
+                     android:text="No" 
+                     android:textSize="@dimen/hint_hin_size" /> 
+  
+                 <View 
+                     android:layout_width="match_parent" 
+                     android:layout_height="1dp" 
+                     android:background="@android:color/darker_gray" /> 
+  </RadioGroup> 
+ 			            
+</LinearLayout>
+<LinearLayout 
+             android:layout_width="match_parent" 
+             android:layout_height="match_parent" 
+             android:orientation="vertical"> 
+ 						<TextView 
+                 android:layout_width="match_parent" 
+                 android:layout_height="wrap_content" 
+                 android:layout_marginBottom="5dp" 
+                 android:layout_marginLeft="@dimen/input_margin_hor" 
+                 android:layout_marginRight="@dimen/input_margin_hor" 
+                 android:layout_marginTop="@dimen/input_margin_hor" 
+                 android:hint="Was proper camp procedure followed by the team?" 
+                 android:textSize="@dimen/hint_hin_size" /> 
+  
+             <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android" 
+                 android:layout_width="fill_parent" 
+                 android:layout_height="wrap_content" 
+                 android:layout_marginLeft="@dimen/input_margin_hor" 
+                 android:layout_marginRight="@dimen/input_margin_hor" 
+                 android:layout_marginTop="5dp" 
+                 android:background="@color/white" 
+                 android:orientation="vertical"> 
+  
+                 <RadioButton 
+                     android:id="@+id/properProcedureYes" 
+                     android:layout_width="match_parent" 
+                     android:layout_height="wrap_content" 
+                     android:onClick="onRadioButtonClicked" 
+                     android:padding="15dp" 
+                     android:text="Yes" 
+                     android:textSize="@dimen/hint_hin_size" /> 
+  
+                 <View 
+                     android:layout_width="match_parent" 
+                     android:layout_height="1dp" 
+                     android:background="@android:color/darker_gray" /> 
+  
+                 <RadioButton 
+                     android:id="@+id/properProcedureNo" 
+                     android:layout_width="match_parent" 
+                     android:layout_height="wrap_content" 
+                     android:onClick="onRadioButtonClicked" 
+                     android:padding="15dp" 
+                     android:text="No" 
+                     android:textSize="@dimen/hint_hin_size" /> 
+  
+                 <View 
+                     android:layout_width="match_parent" 
+                     android:layout_height="1dp" 
+                     android:background="@android:color/darker_gray" /> 
+  </RadioGroup> 
+ 			            
+</LinearLayout>
+<LinearLayout 
+             android:layout_width="match_parent" 
+             android:layout_height="match_parent" 
+             android:orientation="vertical"> 
+ 						<TextView 
+                 android:layout_width="match_parent" 
+                 android:layout_height="wrap_content" 
+                 android:layout_marginBottom="5dp" 
+                 android:layout_marginLeft="@dimen/input_margin_hor" 
+                 android:layout_marginRight="@dimen/input_margin_hor" 
+                 android:layout_marginTop="@dimen/input_margin_hor" 
+                 android:hint="Any Fight or arugemnt reported on the camp?" 
+                 android:textSize="@dimen/hint_hin_size" /> 
+  
+             <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android" 
+                 android:layout_width="fill_parent" 
+                 android:layout_height="wrap_content" 
+                 android:layout_marginLeft="@dimen/input_margin_hor" 
+                 android:layout_marginRight="@dimen/input_margin_hor" 
+                 android:layout_marginTop="5dp" 
+                 android:background="@color/white" 
+                 android:orientation="vertical"> 
+  
+                 <RadioButton 
+                     android:id="@+id/anyFightYes" 
+                     android:layout_width="match_parent" 
+                     android:layout_height="wrap_content" 
+                     android:onClick="onRadioButtonClicked" 
+                     android:padding="15dp" 
+                     android:text="Yes" 
+                     android:textSize="@dimen/hint_hin_size" /> 
+  
+                 <View 
+                     android:layout_width="match_parent" 
+                     android:layout_height="1dp" 
+                     android:background="@android:color/darker_gray" /> 
+  
+                 <RadioButton 
+                     android:id="@+id/anyFightNo" 
+                     android:layout_width="match_parent" 
+                     android:layout_height="wrap_content" 
+                     android:onClick="onRadioButtonClicked" 
+                     android:padding="15dp" 
+                     android:text="No" 
+                     android:textSize="@dimen/hint_hin_size" /> 
+  
+                 <View 
+                     android:layout_width="match_parent" 
+                     android:layout_height="1dp" 
+                     android:background="@android:color/darker_gray" /> 
+  </RadioGroup> 
+ 			            
+</LinearLayout>

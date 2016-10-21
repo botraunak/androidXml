@@ -1,0 +1,170 @@
+{
+    "fields": [
+        {
+            "key": "area",
+            "type": "edit_text",
+            "hint": "Area",
+            "input_type": "text"
+        },
+        {
+            "key": "loc",
+            "type": "edit_text",
+            "hint": "Location",
+            "input_type": "text"
+        },
+
+        {
+            "key": "phenyl",
+            "type": "edit_text",
+            "hint": "Amount of phenyl present",
+            "input_type": "number"
+        }, {
+            "key": "liquid",
+            "type": "edit_text",
+            "hint": "Amount of liquid present",
+            "input_type": "number"
+        }, {
+            "key": "sharoclean",
+            "type": "edit_text",
+            "hint": "Amount of sharoclean present",
+            "input_type": "number"
+        }, {
+            "key": "acid",
+            "type": "edit_text",
+            "hint": "Amount of acid present",
+            "input_type": "number"
+        }, {
+            "key": "brooms",
+            "type": "edit_text",
+            "hint": "Amount of brooms present",
+            "input_type": "number"
+        }, {
+            "key": "bambooBrooms",
+            "type": "edit_text",
+            "hint": "Amount of bamboo brooms present",
+            "input_type": "number"
+        }, {
+            "key": "scruber",
+            "type": "edit_text",
+            "hint": "Amount of scruber present",
+            "input_type": "number"
+        }, {
+            "key": "toiletBrush",
+            "type": "edit_text",
+            "hint": "Amount of toilet brush present",
+            "input_type": "number"
+        }, {
+            "key": "spiderWebRemover",
+            "type": "edit_text",
+            "hint": "Amount of spider web remover present",
+            "input_type": "number"
+        }, {
+            "key": "wiper",
+            "type": "edit_text",
+            "hint": "Amount of wiper present",
+            "input_type": "number"
+        }, {
+            "key": "wiperRefil",
+            "type": "edit_text",
+            "hint": "Amount of wiper refil present",
+            "input_type": "number"
+        }, {
+            "key": "acidMop",
+            "type": "edit_text",
+            "hint": "Amount of acid mop present",
+            "input_type": "number"
+        }, {
+            "key": "acidMopRefil",
+            "type": "edit_text",
+            "hint": "Amount of acid mop refil present",
+            "input_type": "number"
+        }, {
+            "key": "khurpi",
+            "type": "edit_text",
+            "hint": "Amount of khurpi present",
+            "input_type": "number"
+        }, {
+            "key": "chokeupPump",
+            "type": "edit_text",
+            "hint": "Amount of chokeup pump present",
+            "input_type": "number"
+        }, {
+            "key": "chokeupRod",
+            "type": "edit_text",
+            "hint": "Amount of chokeup rod present",
+            "input_type": "number"
+        }, {
+            "key": "dustPan",
+            "type": "edit_text",
+            "hint": "Amount of dust pan present",
+            "input_type": "number"
+        }, {
+            "key": "garbageBagBig",
+            "type": "edit_text",
+            "hint": "Amount of garbage bag big  present",
+            "input_type": "number"
+        }, {
+            "key": "garbageBagSmall",
+            "type": "edit_text",
+            "hint": "Amount of garbage bag small present",
+            "input_type": "number"
+        }, {
+            "key": "sprayer",
+            "type": "edit_text",
+            "hint": "Amount of sprayer present",
+            "input_type": "number"
+        }, {
+            "key": "mug",
+            "type": "edit_text",
+            "hint": "Amount of mug present",
+            "input_type": "number"
+        }, {
+            "key": "measuringMug",
+            "type": "edit_text",
+            "hint": "Amount of measuring mug present",
+            "input_type": "number"
+        }, {
+            "key": "waterPipeCleaning",
+            "type": "edit_text",
+            "hint": "Amount of water pipe cleaning pipe present",
+            "input_type": "number"
+        }, {
+            "key": "jointer",
+            "type": "edit_text",
+            "hint": "Amount of jointer present",
+            "input_type": "number"
+        }, {
+            "key": "stopper",
+            "type": "edit_text",
+            "hint": "Amount of stopper present",
+            "input_type": "number"
+        }, {
+            "key": "kurpiScrapper",
+            "type": "edit_text",
+            "hint": "Amount of kurpi scrapper present",
+            "input_type": "number"
+        }, {
+            "key": "mask",
+            "type": "edit_text",
+            "hint": "Amount of mask present",
+            "input_type": "number"
+        }, {
+            "key": "gumboot",
+            "type": "edit_text",
+            "hint": "Amount of gumboot present",
+            "input_type": "number"
+        }, {
+            "key": "bucket",
+            "type": "edit_text",
+            "hint": "Amount of bucket present",
+            "input_type": "number"
+        }, {
+            "key": "handGlove",
+            "type": "edit_text",
+            "hint": "Amount of hand gloves present",
+            "input_type": "number"
+        }
+
+
+    ]
+}

@@ -1,0 +1,55 @@
+@Bind(R.id.cavities) 
+protected CheckBox cavities; 
+ 
+@Bind(R.id.gums) 
+protected CheckBox gums; 
+ 
+@Bind(R.id.smell) 
+protected CheckBox smell; 
+ 
+@Bind(R.id.mucositis) 
+protected CheckBox mucositis; 
+ 
+@Bind(R.id.dry) 
+protected CheckBox dry; 
+ 
+@Bind(R.id.pain) 
+protected CheckBox pain; 
+ 
+@Bind(R.id.rootStump) 
+protected CheckBox rootStump; 
+ 
+@Bind(R.id.stain) 
+protected CheckBox stain; 
+ 
+@Bind(R.id.calculus) 
+protected CheckBox calculus; 
+ 
+
+public void get_dentalProblems() { 
+	 	 ArrayList<String> checkedboxes = new ArrayList<>(); 
+	 	if (cavities.isChecked()) 
+	 	checkedboxes.add("Cavities");
+	 	if (gums.isChecked()) 
+	 	checkedboxes.add("Gums");
+	 	if (smell.isChecked()) 
+	 	checkedboxes.add("Smell");
+	 	if (mucositis.isChecked()) 
+	 	checkedboxes.add("Mucositis");
+	 	if (dry.isChecked()) 
+	 	checkedboxes.add("Dry");
+	 	if (pain.isChecked()) 
+	 	checkedboxes.add("Pain");
+	 	if (rootStump.isChecked()) 
+	 	checkedboxes.add("Root Stump");
+	 	if (stain.isChecked()) 
+	 	checkedboxes.add("Stain");
+	 	if (calculus.isChecked()) 
+	 	checkedboxes.add("Calculus");
+	 	 model.setDentalProblems(checkedboxes.toString()); 
+}
+
+
+
+get_dentalProblems(); 
+

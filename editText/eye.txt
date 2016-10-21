@@ -1,0 +1,14 @@
+@Bind(R.id.coupon) 
+protected EditText coupon; 
+ 
+@Bind(R.id.sugar) 
+protected EditText sugar; 
+ 
+@Bind(R.id.bp) 
+protected EditText bp; 
+ 
+
+model.setCoupon(coupon.getText().toString()); 
+model.setSugar(sugar.getText().toString()); 
+model.setBp(bp.getText().toString()); 
+

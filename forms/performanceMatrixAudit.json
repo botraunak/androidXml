@@ -1,0 +1,64 @@
+{
+	"fields": [
+		{
+			"key": "supervisorName",
+			"type": "edit_text",
+			"hint": "Supervisor Name",
+			"input_type": "text"
+		},
+		{
+			"key": "bachatSakhiName",
+			"type": "edit_text",
+			"hint": "Bachat Sakhi Name",
+			"input_type": "text"
+		},
+		{
+			"key": "loc",
+			"type": "edit_text",
+			"hint": "Location",
+			"input_type": "text"
+		},
+		{
+			"key": "noOfDaysInKiosk",
+			"type": "edit_text",
+			"hint": "No. of days Bachat Sakhi reported on time in Kiosk",
+			"input_type": "number"
+		},
+		{
+			"key": "noOfDaysInUniform",
+			"type": "edit_text",
+			"hint": "No. of days Bachat Sakhi are in unforms and ID cards",
+			"input_type": "number"
+		},
+		{
+			"key": "noOfPlannedTrainingsAtten",
+			"type": "edit_text",
+			"hint": "No. of planned trainings Bachat Sakhi attended",
+			"input_type": "number"
+		},
+		{
+			"key": "noOfKeyIniatives",
+			"type": "edit_text",
+			"hint": "No. of key initiatives taken by Bachat Sakhi",
+			"input_type": "number"
+		},
+		{
+			"key": "pointsSecuredInPTT",
+			"type": "edit_text",
+			"hint": "Points Secured by Bachat Sakhis in post training tests",
+			"input_type": "number"
+		},
+		{
+			"key": "noOfTimesNominated",
+			"type": "edit_text",
+			"hint": "No. of times the Bachat Sakhi was nominated by her other team mates for helping them",
+			"input_type": "number"
+		},
+		{
+			"key": "noOfTimesLeaveInformed",
+			"type": "edit_text",
+			"hint": "No. of Times the Bachat Sakhi Informed about leaves on a prior basis",
+			"input_type": "number"
+		}
+	]
+}

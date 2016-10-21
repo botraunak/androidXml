@@ -1,0 +1,146 @@
+{
+	"fields":[
+		{
+			"key": "coupon",
+			"type": "edit_text",
+			"hint": "Coupon Number: ",
+			"input_type": "textCapCharacters"
+		},
+		{
+			"key": "dentalProblems",
+			"type": "checkbox",
+			"hint": "Dental Problems",
+			"options": [
+				{
+					"key": "cavities",
+					"text": "Cavities"
+				},
+				{
+					"key": "gums",
+					"text": "Gums"
+				},
+				{
+					"key": "smell",
+					"text": "Smell"
+				},
+				{
+					"key": "mucositis",
+					"text": "Mucositis"
+				},
+				{
+					"key": "dry",
+					"text": "Dry"
+				},
+				{
+					"key": "pain",
+					"text": "Pain"
+				},
+				{
+					"key": "rootStump",
+					"text": "Root Stump"
+				},
+				{
+					"key": "stain",
+					"text": "Stain"
+				},
+				{
+					"key": "calculus",
+					"text": "Calculus"
+				}
+
+			]
+		},
+		{
+			"key": "bothToothExtracted",
+			"type": "radio",
+			"hint": "Patients both tooth has been extracted",
+			"options": [
+				{
+					"key": "bothToothExtractedYes",
+					"text": "Yes"
+				},
+				{
+					"key": "bothToothExtractedNo",
+					"text": "No"
+				}
+			]
+
+		},
+		{
+			"key": "toothFilling",
+			"type": "radio",
+			"hint": "Patient's tooth filling has been done",
+			"options": [
+				{
+					"key": "toothFillingYes",
+					"text": "Yes"
+				},
+				{
+					"key": "toothFillingNo",
+					"text": "No"
+				}
+			]
+		},
+		{
+			"key": "toothCleaning",
+			"type": "radio",
+			"hint": "Patient's tooth cleaning has been done",
+			"options": [
+				{
+					"key": "toothCleaningYes",
+					"text": "Yes"
+				},
+				{
+					"key": "toothCleaningNo",
+					"text": "No"
+				}
+			]
+		},
+		{
+			"key": "referredHospital",
+			"type": "radio",
+			"hint": "Referred to hospital for further consultation",
+			"options": [
+				{
+					"key": "referredHospitalYes",
+					"text": "Yes"
+				},
+				{
+					"key": "referredHospitalNo",
+					"text": "No"
+				}
+			]
+
+		},
+		{
+			"key": "medicinePrescribed",
+			"type": "radio",
+			"hint": "Patient has been prescribed medicine",
+			"options": [
+				{
+					"key":"medicinePrescribedYes",
+					"text": "Yes"
+				},
+				{
+					"key": "medicinePrescribedNo",
+					"text": "No"
+				}
+			]
+		},
+		{
+			"key": "medicineGiven",
+			"type": "radio",
+			"hint": "Patient has been given medicine",
+			"options": [
+				{
+					"key": "medicineGivenYes",
+					"text": "Yes"
+				},
+				{
+					"key": "medicineGivenNo",
+					"text": "No"
+				}
+			]
+		}
+	]
+}

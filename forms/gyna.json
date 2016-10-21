@@ -1,0 +1,153 @@
+{
+	"fields": [{
+		"key": "couponNumber",
+		"type": "edit_text",
+		"hint": "Coupon Number",
+		"input_type": "textCapCharacters"
+	}, {
+		"key": "symptoms",
+		"hint": "symptoms",
+		"type": "checkbox",
+		"options": [{
+			"key": "abnormalUterineBleeding",
+			"text": "Abnormal uterine bleeding"
+		}, {
+			"key": "abnormalVaginalDischarge",
+			"text": "Abnormal vaginal discharge"
+		}, {
+			"key": "vaginalBleeding",
+			"text": "Vaginal bleeding"
+		},{
+			"key": "vaginalDischarge",
+			"text": "Vaginal discharge"
+		},{
+			"key": "dyspareunia",
+			"text": "Dyspareunia (Painful sexual intercourse)"
+		},{
+			"key": "bleedingAfterIntercourse",
+			"text": "Bleeding after intercourse"
+		},{
+			"key": "urinaryIncontinenceSym",
+			"text": "Urinary Incontinence"
+		},{
+			"key": "infertility",
+			"text": "Infertility"
+		},{
+			"key": "pelpicPain",
+			"text": "Pelvic pain"
+		},{
+			"key": "vaginalPain",
+			"text": "Vaginal pain"
+		},{
+			"key": "missedPeriods",
+			"text": "Missed periods"
+		},{
+			"key": "morningSickness",
+			"text": "Morning Sickness"
+		},{
+			"key": "itching",
+			"text": "Itching / Burning sensation in vaginal region"
+		},{
+			"key": "lowerAbdominalPain",
+			"text": "Lower abdominal pain"
+		},{
+			"key": "BurningMicturition",
+			"text": "Burning sensation during micturition"
+		}]
+	}, {
+		"key": "commonProvisionalDiagnosis",
+		"type": "checkbox",
+		"hint": "Common / Provisional Diagnosis",
+		"options": [{
+			"key": "pregnancy",
+			"text": "Pregnancy"
+		}, {
+			"key": "pregnancyTermination",
+			"text": "Medical Termination of Pregnancy"
+		}, {
+			"key": "syphilis",
+			"text": "Syphilis"
+		}, {
+			"key": "gonorrhea",
+			"text": "Gonorrhea"
+		}, {
+			"key": "hivAIDS",
+			"text": "HIV / AIDS"
+		}, {
+			"key": "chlamydia",
+			"text": "Chlamydia"
+		}, {
+			"key": "herpes",
+			"text": "Herpes"
+		}, {
+			"key": "urinaryTractInfections",
+			"text": "Urinary Tract Infections"
+		}, {
+			"key": "uterineFibroids",
+			"text": "Uterine Fibroids"
+		}, {
+			"key": "ectopicPregnancy",
+			"text": "Ectopic Pregnancy"
+		}, {
+			"key": "urinaryIncontinence",
+			"text": "Urinary incontinence"
+		}, {
+			"key": "pcod",
+			"text": "PCOD"
+		}, {
+			"key": "endometriosis",
+			"text": "Endometriosis"
+		}, {
+			"key": "ovarianCyst",
+			"text": "Ovarian Cyst"
+		}, {
+			"key": "vaginitis",
+			"text": "Vaginitis"
+		}, {
+			"key": "pid",
+			"text": "PID (Pelvic Inflammatory Disease)"
+		}, {
+			"key": "ovarianCancer",
+			"text": "Ovarian Cancer"
+		}, {
+			"key": "endometrialCancer",
+			"text": "Endometrial Cancer"
+		}, {
+			"key": "endocrinalAbnormality",
+			"text": "Endocrinal Abnormality"
+		}]
+	}, {
+		"key": "referred",
+		"type": "radio",
+		"hint": "Referred to Hospital/Maternity Home / further consultation",
+		"options": [{
+			"key": "referredYes",
+			"text": "Yes"
+		}, {
+			"key": "referredNo",
+			"text": "No"
+		}]
+	}, {
+		"key": "prescribedMedicine",
+		"type": "radio",
+		"hint": "Patient has been prescribed medicine/lab investigations",
+		"options": [{
+			"key": "prescribedYes",
+			"text": "Yes"
+		}, {
+			"key": "prescribedNo",
+			"text": "No"
+		}]
+	}, {
+		"key": "givenMedicine",
+		"type": "radio",
+		"hint": "Patient has been given medicine",
+		"options": [{
+			"key": "givenMedicineYes",
+			"text": "Yes"
+		}, {
+			"key": "givenMedicineNo",
+			"text": "No"
+		}]
+	}]
+}

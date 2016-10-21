@@ -1,0 +1,188 @@
+{
+	"fields":[
+		{
+			"key": "coupon",
+			"type": "edit_text",
+			"hint": "Coupon Number",
+			"input_type": "textCapCharacters"
+		},
+		{
+			"key": "commonSymptoms",
+			"type": "checkbox",
+			"hint": "Common Symtomps",
+			"options": [
+				
+				{
+					"key": "musclePain",
+					"text": "Muscle Pain"
+				},
+				{
+					"key": "bonePain",
+					"text": "Bone Pain"
+				},
+				{
+					"key": "backPain",
+					"text": "Back Pain"
+				},
+				{
+					"key": "paucity",
+					"text": "Paucity of movement"
+				},
+				{
+					"key": "painOnMovement",
+					"text": "Pain On Movement"
+				},
+				{
+					"key": "jointPain",
+					"text": "Joint Pain"
+				},
+				{
+					"key": "jointSwelling",
+					"text": "Joint Swelling"
+				},
+				{
+					"key": "jointInflam",
+					"text": "Joint Inflammation"
+				},
+				{
+					"key": "poorMobility",
+					"text": "Poor Mobility"
+				},
+				{
+					"key": "jointDeformity",
+					"text": "Joint Deformity"
+				},
+				{
+					"key": "jointDysfunction",
+					"text": "Joint Dysfunction"
+				},
+				{
+					"key": "curvedSpine",
+					"text": "Curved Spine"
+				},
+				{
+					"key": "diffWalking",
+					"text": "Difficulty in Walking"
+				}
+			]
+		},
+		{
+			"key": "commonDiagnosis",
+			"type": "checkbox",
+			"hint": "Common Diagnosis",
+			"options": [
+				{
+					"key": "arthritis",
+					"text": "Rheumatoid Arthritis"
+				},
+				{
+					"key": "osteoarthritis",
+					"text": "Osteoarthritis"
+				},
+				{
+					"key": "openFracture",
+					"text": "Open Fracture"
+				},
+				{
+					"key": "closedFracture",
+					"text": "Closed Fracture"
+				},
+				{
+					"key": "greenStickFracture",
+					"text": "Green Stick Fracture"
+				},
+				{
+					"key": "kyphosis",
+					"text": "Kyphosis / Scoliosis"
+				},
+				{
+					"key": "vertebralCompression",
+					"text": "Vertebral Compression / Degeneration"
+				},
+				{
+					"key": "boneCancer",
+					"text": "Bone Cancer"
+				},
+				{
+					"key": "bursitis",
+					"text": "Bursitis"
+				},
+				{
+					"key": "cts",
+					"text": "Carpal Tunnel Syndrome"
+				},
+				{
+					"key": "lateralEpicondylitis",
+					"text": "Lateral Epicondylitis (Tennis Elbow)"
+				},
+				{
+					"key": "osteoporosis",
+					"text": "Osteoporosis"
+				},
+				{
+					"key": "sti",
+					"text": "Soft Tissue Injuries"
+				},
+				{
+					"key": "tendonitis",
+					"text": "Tendonitis"
+				},
+				{
+					"key": "ligamentTear",
+					"text": "Ligament tear / Cartilage tear"
+				},
+				{
+					"key": "rct",
+					"text": "Rotator Cuff Tear"
+				},
+				{
+					"key": "frozenShoulder",
+					"text": "Adhesive Capsulitis (Frozen Shoulder)"
+				},
+				{
+					"key": "pdotb",
+					"text": "Paget’s Disease of the Bone"
+				},
+				{
+					"key": "dislocation",
+					"text": "Dislocation"
+				}
+			]
+		},
+		{
+		"key": "referredtoHospital",
+		"type": "radio",
+		"hint": "Reffered to Hospital",
+		"options": [{
+			"key": "referredtoHospitalYes",
+			"text": "Yes"
+		}, {
+			"key": "referredtoHospitalNo",
+			"text": "No"
+		}]
+	},
+		{
+		"key": "prescribeMedcine",
+		"type": "radio",
+		"hint": "Patient has been prescribe medicine",
+		"options": [{
+			"key": "prescribeMedcineYes",
+			"text": "Yes"
+		}, {
+			"key": "prescribeMedcineNo",
+			"text": "No"
+		}]
+	}, {
+		"key": "givenMedicine",
+		"type": "radio",
+		"hint": "Patient has been given Medicine",
+		"options": [{
+			"key": "givenMedicineYes",
+			"text": "Yes"
+		}, {
+			"key": "givenMedicineNo",
+			"text": "No"
+		}]
+	}
+	]
+}

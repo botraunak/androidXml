@@ -1,0 +1,126 @@
+@Bind(R.id.loc) 
+protected EditText loc; 
+ 
+@Bind(R.id.phenyl) 
+protected EditText phenyl; 
+ 
+@Bind(R.id.liquid) 
+protected EditText liquid; 
+ 
+@Bind(R.id.sharoclean) 
+protected EditText sharoclean; 
+ 
+@Bind(R.id.acid) 
+protected EditText acid; 
+ 
+@Bind(R.id.brooms) 
+protected EditText brooms; 
+ 
+@Bind(R.id.bambooBrooms) 
+protected EditText bambooBrooms; 
+ 
+@Bind(R.id.scruber) 
+protected EditText scruber; 
+ 
+@Bind(R.id.toiletBrush) 
+protected EditText toiletBrush; 
+ 
+@Bind(R.id.spiderWebRemover) 
+protected EditText spiderWebRemover; 
+ 
+@Bind(R.id.wiper) 
+protected EditText wiper; 
+ 
+@Bind(R.id.wiperRefil) 
+protected EditText wiperRefil; 
+ 
+@Bind(R.id.acidMop) 
+protected EditText acidMop; 
+ 
+@Bind(R.id.acidMopRefil) 
+protected EditText acidMopRefil; 
+ 
+@Bind(R.id.khurpi) 
+protected EditText khurpi; 
+ 
+@Bind(R.id.chokeupPump) 
+protected EditText chokeupPump; 
+ 
+@Bind(R.id.chokeupRod) 
+protected EditText chokeupRod; 
+ 
+@Bind(R.id.dustPan) 
+protected EditText dustPan; 
+ 
+@Bind(R.id.garbageBagBig) 
+protected EditText garbageBagBig; 
+ 
+@Bind(R.id.garbageBagSmall) 
+protected EditText garbageBagSmall; 
+ 
+@Bind(R.id.sprayer) 
+protected EditText sprayer; 
+ 
+@Bind(R.id.mug) 
+protected EditText mug; 
+ 
+@Bind(R.id.measuringMug) 
+protected EditText measuringMug; 
+ 
+@Bind(R.id.waterPipeCleaning) 
+protected EditText waterPipeCleaning; 
+ 
+@Bind(R.id.jointer) 
+protected EditText jointer; 
+ 
+@Bind(R.id.stopper) 
+protected EditText stopper; 
+ 
+@Bind(R.id.kurpiScrapper) 
+protected EditText kurpiScrapper; 
+ 
+@Bind(R.id.mask) 
+protected EditText mask; 
+ 
+@Bind(R.id.gumboot) 
+protected EditText gumboot; 
+ 
+@Bind(R.id.bucket) 
+protected EditText bucket; 
+ 
+@Bind(R.id.handGlove) 
+protected EditText handGlove; 
+ 
+
+model.setLoc(loc.getText().toString()); 
+model.setPhenyl(phenyl.getText().toString()); 
+model.setLiquid(liquid.getText().toString()); 
+model.setSharoclean(sharoclean.getText().toString()); 
+model.setAcid(acid.getText().toString()); 
+model.setBrooms(brooms.getText().toString()); 
+model.setBambooBrooms(bambooBrooms.getText().toString()); 
+model.setScruber(scruber.getText().toString()); 
+model.setToiletBrush(toiletBrush.getText().toString()); 
+model.setSpiderWebRemover(spiderWebRemover.getText().toString()); 
+model.setWiper(wiper.getText().toString()); 
+model.setWiperRefil(wiperRefil.getText().toString()); 
+model.setAcidMop(acidMop.getText().toString()); 
+model.setAcidMopRefil(acidMopRefil.getText().toString()); 
+model.setKhurpi(khurpi.getText().toString()); 
+model.setChokeupPump(chokeupPump.getText().toString()); 
+model.setChokeupRod(chokeupRod.getText().toString()); 
+model.setDustPan(dustPan.getText().toString()); 
+model.setGarbageBagBig(garbageBagBig.getText().toString()); 
+model.setGarbageBagSmall(garbageBagSmall.getText().toString()); 
+model.setSprayer(sprayer.getText().toString()); 
+model.setMug(mug.getText().toString()); 
+model.setMeasuringMug(measuringMug.getText().toString()); 
+model.setWaterPipeCleaning(waterPipeCleaning.getText().toString()); 
+model.setJointer(jointer.getText().toString()); 
+model.setStopper(stopper.getText().toString()); 
+model.setKurpiScrapper(kurpiScrapper.getText().toString()); 
+model.setMask(mask.getText().toString()); 
+model.setGumboot(gumboot.getText().toString()); 
+model.setBucket(bucket.getText().toString()); 
+model.setHandGlove(handGlove.getText().toString()); 
+

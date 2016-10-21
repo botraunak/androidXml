@@ -1,0 +1,184 @@
+@Bind(R.id.abnormalUterineBleeding) 
+protected CheckBox abnormalUterineBleeding; 
+ 
+@Bind(R.id.abnormalVaginalDischarge) 
+protected CheckBox abnormalVaginalDischarge; 
+ 
+@Bind(R.id.vaginalBleeding) 
+protected CheckBox vaginalBleeding; 
+ 
+@Bind(R.id.vaginalDischarge) 
+protected CheckBox vaginalDischarge; 
+ 
+@Bind(R.id.dyspareunia) 
+protected CheckBox dyspareunia; 
+ 
+@Bind(R.id.bleedingAfterIntercourse) 
+protected CheckBox bleedingAfterIntercourse; 
+ 
+@Bind(R.id.urinaryIncontinenceSym) 
+protected CheckBox urinaryIncontinenceSym; 
+ 
+@Bind(R.id.infertility) 
+protected CheckBox infertility; 
+ 
+@Bind(R.id.pelpicPain) 
+protected CheckBox pelpicPain; 
+ 
+@Bind(R.id.vaginalPain) 
+protected CheckBox vaginalPain; 
+ 
+@Bind(R.id.missedPeriods) 
+protected CheckBox missedPeriods; 
+ 
+@Bind(R.id.morningSickness) 
+protected CheckBox morningSickness; 
+ 
+@Bind(R.id.itching) 
+protected CheckBox itching; 
+ 
+@Bind(R.id.lowerAbdominalPain) 
+protected CheckBox lowerAbdominalPain; 
+ 
+@Bind(R.id.BurningMicturition) 
+protected CheckBox BurningMicturition; 
+ 
+@Bind(R.id.pregnancy) 
+protected CheckBox pregnancy; 
+ 
+@Bind(R.id.pregnancyTermination) 
+protected CheckBox pregnancyTermination; 
+ 
+@Bind(R.id.syphilis) 
+protected CheckBox syphilis; 
+ 
+@Bind(R.id.gonorrhea) 
+protected CheckBox gonorrhea; 
+ 
+@Bind(R.id.hivAIDS) 
+protected CheckBox hivAIDS; 
+ 
+@Bind(R.id.chlamydia) 
+protected CheckBox chlamydia; 
+ 
+@Bind(R.id.herpes) 
+protected CheckBox herpes; 
+ 
+@Bind(R.id.urinaryTractInfections) 
+protected CheckBox urinaryTractInfections; 
+ 
+@Bind(R.id.uterineFibroids) 
+protected CheckBox uterineFibroids; 
+ 
+@Bind(R.id.ectopicPregnancy) 
+protected CheckBox ectopicPregnancy; 
+ 
+@Bind(R.id.urinaryIncontinence) 
+protected CheckBox urinaryIncontinence; 
+ 
+@Bind(R.id.pcod) 
+protected CheckBox pcod; 
+ 
+@Bind(R.id.endometriosis) 
+protected CheckBox endometriosis; 
+ 
+@Bind(R.id.ovarianCyst) 
+protected CheckBox ovarianCyst; 
+ 
+@Bind(R.id.vaginitis) 
+protected CheckBox vaginitis; 
+ 
+@Bind(R.id.pid) 
+protected CheckBox pid; 
+ 
+@Bind(R.id.ovarianCancer) 
+protected CheckBox ovarianCancer; 
+ 
+@Bind(R.id.endometrialCancer) 
+protected CheckBox endometrialCancer; 
+ 
+@Bind(R.id.endocrinalAbnormality) 
+protected CheckBox endocrinalAbnormality; 
+ 
+
+public void get_symptoms() { 
+	 	 ArrayList<String> checkedboxes = new ArrayList<>(); 
+	 	if (abnormalUterineBleeding.isChecked()) 
+	 	checkedboxes.add("Abnormal uterine bleeding");
+	 	if (abnormalVaginalDischarge.isChecked()) 
+	 	checkedboxes.add("Abnormal vaginal discharge");
+	 	if (vaginalBleeding.isChecked()) 
+	 	checkedboxes.add("Vaginal bleeding");
+	 	if (vaginalDischarge.isChecked()) 
+	 	checkedboxes.add("Vaginal discharge");
+	 	if (dyspareunia.isChecked()) 
+	 	checkedboxes.add("Dyspareunia (Painful sexual intercourse)");
+	 	if (bleedingAfterIntercourse.isChecked()) 
+	 	checkedboxes.add("Bleeding after intercourse");
+	 	if (urinaryIncontinenceSym.isChecked()) 
+	 	checkedboxes.add("Urinary Incontinence");
+	 	if (infertility.isChecked()) 
+	 	checkedboxes.add("Infertility");
+	 	if (pelpicPain.isChecked()) 
+	 	checkedboxes.add("Pelvic pain");
+	 	if (vaginalPain.isChecked()) 
+	 	checkedboxes.add("Vaginal pain");
+	 	if (missedPeriods.isChecked()) 
+	 	checkedboxes.add("Missed periods");
+	 	if (morningSickness.isChecked()) 
+	 	checkedboxes.add("Morning Sickness");
+	 	if (itching.isChecked()) 
+	 	checkedboxes.add("Itching / Burning sensation in vaginal region");
+	 	if (lowerAbdominalPain.isChecked()) 
+	 	checkedboxes.add("Lower abdominal pain");
+	 	if (BurningMicturition.isChecked()) 
+	 	checkedboxes.add("Burning sensation during micturition");
+	 	 model.setSymptoms(checkedboxes.toString()); 
+}public void get_commonProvisionalDiagnosis() { 
+	 	 ArrayList<String> checkedboxes = new ArrayList<>(); 
+	 	if (pregnancy.isChecked()) 
+	 	checkedboxes.add("Pregnancy");
+	 	if (pregnancyTermination.isChecked()) 
+	 	checkedboxes.add("Medical Termination of Pregnancy");
+	 	if (syphilis.isChecked()) 
+	 	checkedboxes.add("Syphilis");
+	 	if (gonorrhea.isChecked()) 
+	 	checkedboxes.add("Gonorrhea");
+	 	if (hivAIDS.isChecked()) 
+	 	checkedboxes.add("HIV / AIDS");
+	 	if (chlamydia.isChecked()) 
+	 	checkedboxes.add("Chlamydia");
+	 	if (herpes.isChecked()) 
+	 	checkedboxes.add("Herpes");
+	 	if (urinaryTractInfections.isChecked()) 
+	 	checkedboxes.add("Urinary Tract Infections");
+	 	if (uterineFibroids.isChecked()) 
+	 	checkedboxes.add("Uterine Fibroids");
+	 	if (ectopicPregnancy.isChecked()) 
+	 	checkedboxes.add("Ectopic Pregnancy");
+	 	if (urinaryIncontinence.isChecked()) 
+	 	checkedboxes.add("Urinary incontinence");
+	 	if (pcod.isChecked()) 
+	 	checkedboxes.add("PCOD");
+	 	if (endometriosis.isChecked()) 
+	 	checkedboxes.add("Endometriosis");
+	 	if (ovarianCyst.isChecked()) 
+	 	checkedboxes.add("Ovarian Cyst");
+	 	if (vaginitis.isChecked()) 
+	 	checkedboxes.add("Vaginitis");
+	 	if (pid.isChecked()) 
+	 	checkedboxes.add("PID (Pelvic Inflammatory Disease)");
+	 	if (ovarianCancer.isChecked()) 
+	 	checkedboxes.add("Ovarian Cancer");
+	 	if (endometrialCancer.isChecked()) 
+	 	checkedboxes.add("Endometrial Cancer");
+	 	if (endocrinalAbnormality.isChecked()) 
+	 	checkedboxes.add("Endocrinal Abnormality");
+	 	 model.setCommonProvisionalDiagnosis(checkedboxes.toString()); 
+}
+
+
+
+get_symptoms(); 
+get_commonProvisionalDiagnosis(); 
+
