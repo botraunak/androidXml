@@ -5,7 +5,7 @@ var form = require('./forms/skin.json');
 var createEditText = function(field_obj){
 var editText = '<LinearLayout \n \
             android:layout_width="match_parent" \n \
-            android:layout_height="match_parent" \n \
+            android:layout_height="wrap_content" \n \
             android:orientation="vertical"> \n \
  \n \
             <TextView \n \
@@ -44,7 +44,7 @@ return editText;
 var createRadioButton = function(field_obj){
 	var radioBtn = '<LinearLayout \n \
             android:layout_width="match_parent" \n \
-            android:layout_height="match_parent" \n \
+            android:layout_height="wrap_content" \n \
             android:orientation="vertical"> \n \
 			\
 			<TextView \n \
@@ -100,7 +100,7 @@ var createRadioButton = function(field_obj){
 var createCheckbox = function(field_obj){
     var checkBox = '<LinearLayout \n \
             android:layout_width="match_parent" \n \
-            android:layout_height="match_parent" \n \
+            android:layout_height="wrap_content" \n \
             android:layout_marginLeft="@dimen/input_margin_hor" \n \
             android:layout_marginRight="@dimen/input_margin_hor" \n \
             android:layout_marginTop="@dimen/input_margin_hor" \n \
